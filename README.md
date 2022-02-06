@@ -1,9 +1,3 @@
-## Welcome to GitHub Pages
+Since fall 2021, I have been doing graduate studies in agricultural economics, causal inference and machine learning at Arizona State University. 
 
-You can use the [editor on GitHub](https://github.com/ujjwolpaudel/ujjwolpaudel.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-I am a first year PhD student at Arizona State University. My interests are on agricultural economics, causal inference and machine learning. 
+Previously, I finished my masters and bachelor in pure mathematics from ETH Zurich and Jacobs University Bremen, respectively. I wrote master thesis on representation homology under the guidance of Prof. Giovanni Felder, and bachelor thesis in algebraic geometry under the guidance of Prof. Alan Huckleberry. 
