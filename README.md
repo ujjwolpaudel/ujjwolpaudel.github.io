@@ -1,4 +1,4 @@
-Since fall 2021, I have been doing graduate studies at [Arizona State University](https://wpcarey.asu.edu). My interests are on agricultural economics, causal inference and machine learning
+Since fall 2021, I have been doing graduate studies at [Arizona State University](https://wpcarey.asu.edu). My interests are on agricultural economics, causal inference and machine learning. 
 
 Previously, I finished my masters and bachelor in pure mathematics from [ETH Zürich](https://math.ethz.ch) and [Jacobs University Bremen](https://www.jacobs-university.de/study/undergraduate/programs/mathematics), respectively. 
 
