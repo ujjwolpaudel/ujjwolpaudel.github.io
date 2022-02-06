@@ -1,9 +1,8 @@
 # Site settings
-title: Ujjwol Paudel | Homepage
+title: Home
 author:
   name: Ujjwol Paudel
-  email: upaudel1@asu.edu
-description: "Great site about Jekyll on GH-Pages."
+description: "Powered by Jekyll."
 
 # Build settings
 remote_theme: jekyll/minima
