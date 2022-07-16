@@ -1,6 +1,6 @@
 # Ujjwol Paudel
 
-First year PhD student at [Arizona State University](https://wpcarey.asu.edu). Interested to solve problems in food supply chain optimization using tools from microeconomics, econometrics, and machine learning. 
+Second year PhD student at [Arizona State University](https://wpcarey.asu.edu). Interested to solve problems in food supply chain using tools from microeconomics, econometrics, and machine learning. 
 
 ## Previous education
 
