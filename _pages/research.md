@@ -21,4 +21,4 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 ** Imperfect Competition in Labor Markets
 
-** Cost Shocks and Price Passthrough (w/ Timothy Richards)
+** Cost Shocks and Price Passthrough (with Timothy Richards)
