@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a third year PhD student at [Arizona State University](https://wpcarey.asu.edu).
+Welcome! I am a third year PhD student at [Arizona State University](https://wpcarey.asu.edu).
 
 My primary research interests are in empirical industrial organization and labor economics, with a focus on US food and retail industries. I work with Timothy Richards.
 
