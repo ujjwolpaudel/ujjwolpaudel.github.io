@@ -10,7 +10,7 @@ redirect_from:
 
 I am a third year PhD student at [Arizona State University](https://wpcarey.asu.edu).
 
-My primary research interests are in empirical industrial organization and labor economics, with a focus on US food and retail industries. I work with Timothy Richards.
+My primary research interests are in empirical industrial organization and labor economics. I work with Timothy Richards.
 
 Prior to joining ASU, I studied mathematics at [ETH Zürich](https://math.ethz.ch) and [Jacobs University Bremen](http://math.jacobs-university.de), where I completed my MS and BS, respectively. 
 
