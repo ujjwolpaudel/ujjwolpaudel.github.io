@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Research"
+title: 
 permalink: /research/
 author_profile: true
 ---
@@ -14,11 +14,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 # <center> Ongoing Research </center>
 - - -
 
-** Cross-Platform Merger Effects
+### Cross-Platform Merger Effects
 * Presented at AAEA Annual Meeting, Washington DC, July 2023
 * Presented at INFORMS Marketing Science Conference, Miami FL, June 2023
 
 
-** Imperfect Competition in Labor Markets
+### Imperfect Competition in Labor Markets
 
-** Cost Shocks and Price Passthrough (with Timothy Richards)
+### Cost Shocks and Price Passthrough (with Timothy Richards)
