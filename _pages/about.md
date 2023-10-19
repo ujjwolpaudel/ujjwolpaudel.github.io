@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a third year PhD student at [Arizona State University](https://wpcarey.asu.edu).
+I am a third year PhD student at [Arizona State University](https://wpcarey.asu.edu). I work with Timothy Richards.
 
-My research interests are in empirical industrial organization and labor economics. I work with Timothy Richards.
+My research interests are in empirical industrial organization and labor economics. 
 
 #### Recent activities: 
 
