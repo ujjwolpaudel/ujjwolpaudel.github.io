@@ -12,7 +12,7 @@ I am a third year PhD student at [Arizona State University](https://wpcarey.asu.
 
 My research interests are in empirical industrial organization and labor economics. 
 
-#### Recent activities: 
+### Recent activities: 
 
 * Presented at AAEA Annual Meeting, Washington DC, July 2023
 
