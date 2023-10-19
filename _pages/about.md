@@ -6,7 +6,7 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
-- - -
+---
 
 I am a third year PhD student at [Arizona State University](https://wpcarey.asu.edu). I work with Timothy Richards.
 
