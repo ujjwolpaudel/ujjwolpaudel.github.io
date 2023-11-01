@@ -20,8 +20,6 @@ My research interests are in empirical industrial organization and labor economi
 
 * Presented at INFORMS Marketing Science Conference, Miami FL, June 2023. I was also an invited Doctoral Fellow at the Doctoral Consortium in the conference.
 
-* Participated at Experimental Economics Summer School, Michigan State University, May 2022. 
-
 - - -
 
 Prior to joining ASU, I studied mathematics at [ETH Zürich](https://math.ethz.ch) and [Jacobs University Bremen](http://math.jacobs-university.de), where I completed my MS and BS, respectively. 
