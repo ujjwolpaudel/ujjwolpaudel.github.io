@@ -16,5 +16,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 ### Python Replication of Rust (1987), [Jupyter Notebook](https://github.com/ujjwolpaudel/ASU-IO-Lectures/blob/main/A2/Assignment2.ipynb)
 
+I replicate some parameters of a single agent dynamic game in [Rust (1987)](https://www.jstor.org/stable/1911259). 
+
 
 
