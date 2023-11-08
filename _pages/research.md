@@ -25,7 +25,7 @@ I study sources and consequences of imperfect competitition in the US labor mark
 
 ### Cost Shocks and Price Passthrough (with Timothy Richards)
 We study the pass-through rate of state-level cost shocks to retail prices using reduced-form and structural methods. 
-* [A poster](https://issr.asu.edu/Fall_2023_Winners) won the first prize in ASU Social Science Poster Contest in November 2023. 
+* [A poster](https://issr.asu.edu/Fall_2023_Winners) won the first place at ASU Social Science Poster Contest in November 2023. 
 
 ### Retail Concentration and Wages (with Timothy Richards)
 
