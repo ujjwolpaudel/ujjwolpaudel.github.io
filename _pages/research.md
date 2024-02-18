@@ -21,12 +21,12 @@ I study the price effects of a merger between online retailer and a physical gro
 
 
 ### Imperfect Competition in Labor Markets
-I study sources and consequences of imperfect competitition in the US food retail and agricultural labor markets using approaches from IO and labor economics literature. In one project, I am using (1) recently developed heterogeneity-robust DiD and event-study estimators to understand effects of retail mergers and acquitions on labor market outcomes in the US food retail industry, and (2) production function estimation approach (in the spirit of [De Loecker and Warzynski (2012)](https://www.aeaweb.org/articles?id=10.1257/aer.102.6.2437) and [Ackerberg, Caves, and Frazer (2015)](https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA13408)) to estimate and characterize the labor markdowns. In another project, I am using a search, match, and bargaining model in [Diamond-Mortensen-Pissarides tradition](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1468-0262.2006.00693.x) to quantify markdowns in the US agriculture. 
+I study sources and consequences of imperfect competitition in the US food retail and agricultural labor markets using approaches from IO and labor economics literature. In one project, I am using (1) recently developed heterogeneity-robust DiD and event-study estimators to understand effects of retail mergers and acquitions on labor market outcomes in the US food retail industry, and (2) production function estimation approach to estimate and characterize the labor markdowns. In another project, I am using a search, match, and bargaining model in Diamond-Mortensen-Pissarides tradition to quantify markdowns in the US agriculture. 
 
-### Cost Shocks and Price Pass-through (with Timothy Richards)
+### Cost Shocks and Price Pass-through (with Tim Richards)
 We study the pass-through rate of state-level minimum wage changes to retail prices using reduced-form and structural methods. We develop a framework to analyze the importance of demand curvature and retail competition in explaining the cost-price pass-through during high and low inflation regimes.
 * [A poster](https://issr.asu.edu/Fall_2023_Winners) won the first place at ASU Social Science Poster Contest in November 2023. 
 
-### Retail Concentration and Wages (with Timothy Richards)
+### Retail Concentration and Wages (with Tim Richards)
 We study the relationship between retail concentration and labor markets outcomes using instrumental variables approach and a structural model of search, match, and bargaining. 
 
