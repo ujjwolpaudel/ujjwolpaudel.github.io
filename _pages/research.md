@@ -27,6 +27,6 @@ I study sources and consequences of imperfect competitition in the US food retai
 We study the pass-through rate of state-level minimum wage changes to retail prices using reduced-form and structural methods. We develop a framework to analyze the importance of demand curvature and retail competition in explaining the cost-price pass-through during high and low inflation regimes.
 * [A poster](https://issr.asu.edu/Fall_2023_Winners) won the first place at ASU Social Science Poster Contest in November 2023. 
 
-### Retail Concentration and Wages (with Tim Richards)
+### Retail Concentration and Wages (with Tim Richards and Keenan Marchesi)
 We study the relationship between retail concentration and labor markets outcomes using instrumental variables approach and a structural model of search, match, and bargaining. 
 
