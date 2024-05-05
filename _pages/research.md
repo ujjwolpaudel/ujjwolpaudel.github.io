@@ -26,7 +26,19 @@ to address this problem, and we find an evidence of a decrease in price levels i
 </small><br><br/></div>
 [platforms_mergers-main]:{{ site.baseurl }}{% link assets/Cross_Platforms_Merger_Effects_UP.pdf %}
   
-- - -
+**Retail Concentration and Wages**. 2024. Submitted.<br/>
+<small>[ <a href="#/" onclick="visib('concen_wages')">Abstract</a> | [Draft][concen_wages-main] ] </small>
+
+<div id="concen_wages" style="display: none; text-align: justify; line-height: 1.2" ><small>
+
+ Mergers and acquisitions tend to affect the prices and varieties offered by the merging firms. However, most of the existing research considers mergers between firms that interact on the same platform, such as between two online firms, or two firms on the same physical platform. To our knowledge, there is no empirical research on the price effects of integration across different platforms. Such cross-platform mergers likely have substantially different impacts on prices because indirect network effects are much weaker for physical firms than those that interact in low-cost environments having long-tail effects due to lower search costs and fewer constraints on physical inventory. We investigate this problem by analyzing the effects of an acquisition of a national grocery chain by a large online retailer in the United States. Our study differs from prior studies on mergers and acquisitions as the incentives to merge involve not
+only the usual market power and efficiency arguments, but accessing stronger, indirect network externalities as well. Because the decision to merge is endogenous, identifying merger effects is empirically difficult. We use a doubly-robust causal inference method
+to address this problem, and we find an evidence of a decrease in price levels in 8 out of 10 treated markets.
+
+</small><br><br/></div>
+[concen_wages-main]:{{ site.baseurl }}{% link assets/Concentration_Wages.pdf %}
+
+
 
 #### Retail Concentration and Wages (with [Tim Richards](https://scholar.google.com/citations?user=XOAzQkEAAAAJ&hl=en) and [Keenan Marchesi](https://scholar.google.com/citations?user=l-VQifIAAAAJ&hl=en)), [Working Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4815715), Submitted
 ###### Antitrust policy in the U.S. now explicitly includes labor-market outcomes as measures of interest when considering the potential anticompetitive effects of mergers or acquisitions. Concentration in the food retailing industry is of particular concern due to several recent high-profile mergers, and a troubling increase in concentration at the national and local levels. We study this problem using both causal reduced-form models and a structural model of search, match, and bargaining. Our reduced-form models show no relationship between concentration and wages, but our structural model finds that concentration is associated with substantial wage suppression.
@@ -48,3 +60,16 @@ to address this problem, and we find an evidence of a decrease in price levels i
 - - -
 
 
+[//]: This java script is the button to show abstract
+<script>
+ function visib(id) {
+  var x = document.getElementById(id);
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+[//]:&emsp;<button onclick="visib('polariz')" class="btn btn--inverse btn--small">Abstract</button>
