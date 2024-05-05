@@ -18,6 +18,7 @@ My research interests are in empirical industrial organization and labor economi
 * EARIE Conference, Amsterdam, August 2024
 * AAEA Annual Meeting, New Orleans, July 2024
 * INFORMS Marketing Science Conference, Miami, June 2023
+  
 - - -
 
 Prior to joining ASU, I studied mathematics at [ETH Zürich](https://math.ethz.ch) and [Jacobs University Bremen](http://math.jacobs-university.de), where I completed my MS and BS, respectively. 
