@@ -28,7 +28,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 #### Cost Shocks and Price Pass-through (with [Tim Richards](https://scholar.google.com/citations?user=XOAzQkEAAAAJ&hl=en))
 ###### We study the pass-through rate of state-level minimum wage changes to retail prices using reduced-form and structural methods. We develop a framework to analyze the importance of demand curvature and retail competition in explaining the cost-price pass-through during high and low inflation regimes.
 * ###### [A poster](https://issr.asu.edu/Fall_2023_Winners) won the first place at ASU Social Science Poster Contest in November 2023.
-* **##### Conferences:** EARIE, Amsterdam, 2024; AAEA, New Orleans, 2024.
+* **Conferences:** _EARIE, Amsterdam, 2024; AAEA, New Orleans, 2024._
 * ###### **Accepted (not presented):** IIOC, Boston, 2024; INFORMS Marketing Science, Sydney, 2024.
   
 - - -
