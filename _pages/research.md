@@ -27,6 +27,7 @@ to address this problem, and we find an evidence of a decrease in price levels i
 [platforms_mergers-main]:{{ site.baseurl }}{% link assets/Cross_Platforms_Merger_Effects_UP.pdf %}
 
 * **Conferences:** AAEA, Washington DC, 2023; INFORMS Marketing Science, Miami, 2023.
+* **Grants:** USD 950 from ASU Graduate & Professional Student Association.
   
 **Retail Concentration and Wages** (with Tim Richards and Kenan Marchesi). 2024. Submitted.<br/>
 <small>[ <a href="#/" onclick="visib('concen_wages')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4815715) | [Draft][concen_wages-main] ] </small>
@@ -48,23 +49,32 @@ to address this problem, and we find an evidence of a decrease in price levels i
 </small><br><br/></div>
 
 * **Conferences:** EARIE, Amsterdam, 2024; AAEA, New Orleans, 2024. 
-* **Accepted and not-attended):** IIOC, Boston, 2024; INFORMS Marketing Science, Sydney, 2024.
+* **Accepted and not-attended conferences:** IIOC, Boston, 2024; INFORMS Marketing Science, Sydney, 2024.
 * **[A poster](https://issr.asu.edu/Fall_2023_Winners) won the first place at ASU Social Science Poster Contest in November 2023.**
 
-#### Cost Shocks and Price Pass-through (with [Tim Richards](https://scholar.google.com/citations?user=XOAzQkEAAAAJ&hl=en))
-###### We study the pass-through rate of state-level minimum wage changes to retail prices using reduced-form and structural methods. We develop a framework to analyze the importance of demand curvature and retail competition in explaining the cost-price pass-through during high and low inflation regimes.
-* ###### [A poster](https://issr.asu.edu/Fall_2023_Winners) won the first place at ASU Social Science Poster Contest in November 2023.
-* **Conferences:** EARIE, Amsterdam, 2024; AAEA, New Orleans, 2024.
-* **Accepted (not presented):** IIOC, Boston, 2024; INFORMS Marketing Science, Sydney, 2024.
-  
-- - -
+**Labor Monopsony in the US Food Retailing Industry**. 2024.<br/>
+<small>[ <a href="#/" onclick="visib('monop_retail')">Abstract</a> | Draft coming soon] </small>
 
-#### Imperfect Competition in Labor Markets
-###### I study sources and consequences of imperfect competitition in the US food retail and agricultural labor markets using approaches from IO and labor economics literature. In one project, I am using (1) recently developed heterogeneity-robust DiD and event-study estimators to understand effects of retail mergers and acquitions on labor market outcomes in the US food retail industry, and (2) production function estimation approach to estimate and characterize the labor markdowns. In another project, I am using a search, match, and bargaining model in Diamond-Mortensen-Pissarides tradition to quantify markdowns in the US agriculture. 
-* **Conferences:** EARIE Summer School, Amsterdam, 2024; AAEA, New Orleans, 2024.
-  
-- - -
+<div id="monop_retail" style="display: none; text-align: justify; line-height: 1.2" ><small>
 
+ I study the extent and evolution of labor market power in the US food retailing sector by estimating the wedge between marginal productivity and wage. Using data on a near universe of American food retailers and market-level worker information for the period 2004-2022, I first examine the effects of rise in concentration from mergers on labor market outcomes. To understand the mechanisms behind the effects, I build a structural model based on the production function approach and estimate labor markdowns as a function of concentration. I then examine how these markdown estimates vary across years and along worker, firm, and market characteristics. 
+
+</small><br><br/></div>
+
+* **Conferences:** EARIE Summer School, Amsterdam, 2024; AAEA, New Orleans, 2024. 
+* **Accepted and not-attended conferences:** Canadian Agricultural Economics Society, Winnipeg, 2024.
+
+**Monopsony in US Agricultural Labor Markets**. 2024.<br/>
+<small>[ <a href="#/" onclick="visib('monop_ag')">Abstract</a> | Draft coming soon] </small>
+
+<div id="monop_ag" style="display: none; text-align: justify; line-height: 1.2" ><small>
+
+ I examine labor monopsony power in the US agriculture using 30 years of nationally-representative survey data on crop workers. First, I study relationship between minimum wages and employment of agricultrual workers. In the perfectly competitive market structure, any binding minimum wages result in under-employment. Theoretical literature on labor economics suggests that as firms gain monopsony power, they can make adjustments when there is a binding minimum wage, so employment can still increase. As the first model-free test of monopsony power, I examine whether minimum wage results in higher employment, and if it does, I conclude that agricultural workers are subject to employer market power. In the next step, I build and estimate a model of search, match, and bargaining to explain these reduced-form results. I examine whether there is a monopsony wedge in coherence with the model's predictions, that is whether and how much wages differ from marginal productivity in the competitive benchmark.
+
+</small><br><br/></div>
+
+* **Conferences:** AAEA, New Orleans, 2024. 
+* **Accepted and not-attended conferences:** Canadian Agricultural Economics Society, Winnipeg, 2024.
 
 [//]: This java script is the button to show abstract
 <script>
