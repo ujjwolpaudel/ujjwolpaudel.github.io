@@ -14,12 +14,10 @@ My research interests are in empirical industrial organization and labor economi
 
 - - -
 
-### Recent activities: 
-
-* Presented at AAEA Annual Meeting, Washington DC, July 2023
-
-* Presented at INFORMS Marketing Science Conference, Miami FL, June 2023. I was also an invited Doctoral Fellow at the Doctoral Consortium in the conference.
-
+### Recent/upcoming talks: 
+* EARIE Conference, Amsterdam, August 2024
+* AAEA Annual Meeting, New Orleans, July 2024
+* INFORMS Marketing Science Conference, Miami, June 2023
 - - -
 
 Prior to joining ASU, I studied mathematics at [ETH Zürich](https://math.ethz.ch) and [Jacobs University Bremen](http://math.jacobs-university.de), where I completed my MS and BS, respectively. 
