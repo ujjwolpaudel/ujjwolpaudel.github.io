@@ -15,16 +15,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 - - -
 
 **Cross-Platform Merger Effects**. 2023. <br/>
-<small>[ <a href="#/" onclick="visib('testingmechs')">Abstract</a> | [Draft][testingmechs-main] ] </small>
+<small>[ <a href="#/" onclick="visib('platforms_mergers')">Abstract</a> | [Draft][platforms_mergers-main] ] </small>
 
-<div id="testingmechs" style="display: none; text-align: justify; line-height: 1.2" ><small>
+<div id="platforms_mergers" style="display: none; text-align: justify; line-height: 1.2" ><small>
 
  Mergers and acquisitions tend to affect the prices and varieties offered by the merging firms. However, most of the existing research considers mergers between firms that interact on the same platform, such as between two online firms, or two firms on the same physical platform. To our knowledge, there is no empirical research on the price effects of integration across different platforms. Such cross-platform mergers likely have substantially different impacts on prices because indirect network effects are much weaker for physical firms than those that interact in low-cost environments having long-tail effects due to lower search costs and fewer constraints on physical inventory. We investigate this problem by analyzing the effects of an acquisition of a national grocery chain by a large online retailer in the United States. Our study differs from prior studies on mergers and acquisitions as the incentives to merge involve not
 only the usual market power and efficiency arguments, but accessing stronger, indirect network externalities as well. Because the decision to merge is endogenous, identifying merger effects is empirically difficult. We use a doubly-robust causal inference method
 to address this problem, and we find an evidence of a decrease in price levels in 8 out of 10 treated markets.
 
 </small><br><br/></div>
-[testingmechs-main]:{{ site.baseurl }}{% link assets/Cross_Platforms_Merger_Effects_UP.pdf %}
+[platforms_mergers-main]:{{ site.baseurl }}{% link assets/Cross_Platforms_Merger_Effects_UP.pdf %}
   
 - - -
 
