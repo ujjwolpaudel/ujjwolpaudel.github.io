@@ -16,7 +16,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 #### Cross-Platform Merger Effects, [Draft](https://www.dropbox.com/scl/fi/uqzjcrk5b3hmvkxadktew/Cross_Platforms_Merger_Effects_UP.pdf?rlkey=4wcsohtefba49x4j1scqjnnio&dl=0)
 ###### I study the price effects of a merger between online retailer and a physical grocery chain in the US. Using a double robust causal inference method, I find price levels fall in the 8 of the 10 merger-affected markets. 
-* ###### Presented at AAEA 2023; INFORMS Marketing Science Conference 2023.
+* ###### **Conferences** AAEA 2023; INFORMS Marketing Science Conference 2023.
   
 - - -
 
