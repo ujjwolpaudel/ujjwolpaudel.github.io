@@ -26,8 +26,8 @@ to address this problem, and we find an evidence of a decrease in price levels i
 </small><br><br/></div>
 [platforms_mergers-main]:{{ site.baseurl }}{% link assets/Cross_Platforms_Merger_Effects_UP.pdf %}
 
-* **Conferences:** AAEA, Washington DC, 2023; INFORMS Marketing Science, Miami, 2023.
-* **Grants:** USD 950 from ASU Graduate & Professional Student Association.
+* <small> **Conferences:** AAEA, Washington DC, 2023; INFORMS Marketing Science, Miami, 2023. </small>
+* <small> **Grants:** USD 950 from ASU Graduate & Professional Student Association. </small>
   
 **Retail Concentration and Wages** (with Tim Richards and Kenan Marchesi). 2024. Submitted.<br/>
 <small>[ <a href="#/" onclick="visib('concen_wages')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4815715) | [Draft][concen_wages-main] ] </small>
