@@ -11,7 +11,7 @@ permalink: /research/
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-# <center> Ongoing Research / Working Papers </center>
+# <center> Ongoing Research </center>
 - - -
 
 **Cross-Platform Merger Effects**. 2023. <br/>
@@ -25,8 +25,6 @@ to address this problem, and we find an evidence of a decrease in price levels i
 
 </small><br><br/></div>
 [testingmechs-main]:{{ site.baseurl }}{% link assets/Cross_Platforms_Merger_Effects_UP.pdf %}
-
-***Conferences:*** AAEA, Washington DC, 2023; INFORMS Marketing Science, Miami, 2023.
   
 - - -
 
