@@ -26,7 +26,7 @@ to address this problem, and we find an evidence of a decrease in price levels i
 </small><br><br/></div>
 [platforms_mergers-main]:{{ site.baseurl }}{% link assets/Cross_Platforms_Merger_Effects_UP.pdf %}
 
-***Conferences:*** AAEA, Washington DC, 2023; INFORMS Marketing Science, Miami, 2023.
+* **Conferences:** AAEA, Washington DC, 2023; INFORMS Marketing Science, Miami, 2023.
   
 **Retail Concentration and Wages** (with Tim Richards and Kenan Marchesi). 2024. Submitted.<br/>
 <small>[ <a href="#/" onclick="visib('concen_wages')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4815715) | [Draft][concen_wages-main] ] </small>
@@ -47,6 +47,9 @@ to address this problem, and we find an evidence of a decrease in price levels i
 
 </small><br><br/></div>
 
+* **Conferences:** EARIE, Amsterdam, 2024; AAEA, New Orleans, 2024. 
+* **Accepted and not-attended):** IIOC, Boston, 2024; INFORMS Marketing Science, Sydney, 2024.
+* **[A poster](https://issr.asu.edu/Fall_2023_Winners) won the first place at ASU Social Science Poster Contest in November 2023.**
 
 #### Cost Shocks and Price Pass-through (with [Tim Richards](https://scholar.google.com/citations?user=XOAzQkEAAAAJ&hl=en))
 ###### We study the pass-through rate of state-level minimum wage changes to retail prices using reduced-form and structural methods. We develop a framework to analyze the importance of demand curvature and retail competition in explaining the cost-price pass-through during high and low inflation regimes.
