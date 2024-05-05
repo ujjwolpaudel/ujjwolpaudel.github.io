@@ -11,17 +11,19 @@ author_profile: true
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-# <center> Ongoing Research </center>
+# <center> Research </center>
 - - -
 
-[Cross-Platform Merger Effects](https://www.dropbox.com/scl/fi/uqzjcrk5b3hmvkxadktew/Cross_Platforms_Merger_Effects_UP.pdf?rlkey=4wcsohtefba49x4j1scqjnnio&dl=0). 2023
-[Abstract | [Draft](https://www.dropbox.com/scl/fi/uqzjcrk5b3hmvkxadktew/Cross_Platforms_Merger_Effects_UP.pdf?rlkey=4wcsohtefba49x4j1scqjnnio&dl=0)]
+**Cross-Platform Merger Effects**. 2023. <br/>
+<small>[ <a href="#/" onclick="visib('testingmechs')">Abstract</a> | [Draft](https://www.dropbox.com/scl/fi/uqzjcrk5b3hmvkxadktew/Cross_Platforms_Merger_Effects_UP.pdf?rlkey=4wcsohtefba49x4j1scqjnnio&dl=0)] </small>
+
+<div id="testingmechs" style="display: none; text-align: justify; line-height: 1.2" ><small>
 
 Mergers and acquisitions tend to affect the prices and varieties offered by the merging firms. However, most of the existing research considers mergers between firms that interact on the same platform, such as between two online firms, or two firms on the same physical platform. To our knowledge, there is no empirical research on the price effects of integration across different platforms. Such cross-platform mergers likely have substantially different impacts on prices because indirect network effects are much weaker for physical firms than those that interact in low-cost environments having long-tail effects due to lower search costs and fewer constraints on physical inventory. We investigate this problem by analyzing the effects of an acquisition of a national grocery chain by a large online retailer in the United States. Our study differs from prior studies on mergers and acquisitions as the incentives to merge involve not
 only the usual market power and efficiency arguments, but accessing stronger, indirect network externalities as well. Because the decision to merge is endogenous, identifying merger effects is empirically difficult. We use a doubly-robust causal inference method
 to address this problem, and we find an evidence of a decrease in price levels in 8 out of 10 treated markets.
 
-* **Conferences:** AAEA, Washington DC, 2023; INFORMS Marketing Science, Miami, 2023.
+***Conferences:*** AAEA, Washington DC, 2023; INFORMS Marketing Science, Miami, 2023.
   
 - - -
 
