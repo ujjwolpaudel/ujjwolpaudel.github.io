@@ -35,7 +35,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 #### Imperfect Competition in Labor Markets
 ###### I study sources and consequences of imperfect competitition in the US food retail and agricultural labor markets using approaches from IO and labor economics literature. In one project, I am using (1) recently developed heterogeneity-robust DiD and event-study estimators to understand effects of retail mergers and acquitions on labor market outcomes in the US food retail industry, and (2) production function estimation approach to estimate and characterize the labor markdowns. In another project, I am using a search, match, and bargaining model in Diamond-Mortensen-Pissarides tradition to quantify markdowns in the US agriculture. 
-* ###### Presented at EARIE Summer School 2024; AAEA 2024. 
+* ###### Presented at EARIE Summer School 2024; AAEA 2024.
+  
 - - -
 
 
