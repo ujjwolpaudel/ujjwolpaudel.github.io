@@ -14,7 +14,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 # <center> Ongoing Research </center>
 - - -
   
-**Retail Concentration and Wages** (with Tim Richards and Kenan Marchesi). 2024. **Submitted.** <br/>
+**Retail Concentration and Wages** (with Tim Richards and Kenan Marchesi). 2024. **Submitted**. <br/>
 <small>[ <a href="#/" onclick="visib('concen_wages')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4815715) | [Draft][concen_wages-main] ] </small>
 
 <div id="concen_wages" style="display: none; text-align: justify; line-height: 1.2" ><small>
