@@ -48,9 +48,9 @@ to address this problem, and we find an evidence of a decrease in price levels i
 
 </small><br><br/></div>
 
-* **Conferences:** EARIE, Amsterdam, 2024; AAEA, New Orleans, 2024. 
-* **Accepted and not-attended conferences:** IIOC, Boston, 2024; INFORMS Marketing Science, Sydney, 2024.
-* **[A poster](https://issr.asu.edu/Fall_2023_Winners) won the first place at ASU Social Science Poster Contest in November 2023.**
+* <small> **Conferences:** EARIE, Amsterdam, 2024; AAEA, New Orleans, 2024. </small>
+* <small> **Accepted and not-attended conferences:** IIOC, Boston, 2024; INFORMS Marketing Science, Sydney, 2024. </small>
+* <small> [A poster](https://issr.asu.edu/Fall_2023_Winners) won the first place at ASU Social Science Poster Contest in November 2023.</small>
 
 **Labor Monopsony in the US Food Retailing Industry**. 2024.<br/>
 <small>[ <a href="#/" onclick="visib('monop_retail')">Abstract</a> | Draft coming soon] </small>
@@ -61,8 +61,8 @@ to address this problem, and we find an evidence of a decrease in price levels i
 
 </small><br><br/></div>
 
-* **Conferences:** EARIE Summer School, Amsterdam, 2024; AAEA, New Orleans, 2024. 
-* **Accepted and not-attended conferences:** Canadian Agricultural Economics Society, Winnipeg, 2024.
+* <small> **Conferences:** EARIE Summer School, Amsterdam, 2024; AAEA, New Orleans, 2024. </small>
+* <small> **Accepted and not-attended conferences:** Canadian Agricultural Economics Society, Winnipeg, 2024. </small>
 
 **Monopsony in US Agricultural Labor Markets**. 2024.<br/>
 <small>[ <a href="#/" onclick="visib('monop_ag')">Abstract</a> | Draft coming soon] </small>
@@ -73,8 +73,8 @@ to address this problem, and we find an evidence of a decrease in price levels i
 
 </small><br><br/></div>
 
-* **Conferences:** AAEA, New Orleans, 2024. 
-* **Accepted and not-attended conferences:** Canadian Agricultural Economics Society, Winnipeg, 2024.
+* <small> **Conferences:** AAEA, New Orleans, 2024. </small>
+* <small> **Accepted and not-attended conferences:** Canadian Agricultural Economics Society, Winnipeg, 2024. </small>
 
 [//]: This java script is the button to show abstract
 <script>
