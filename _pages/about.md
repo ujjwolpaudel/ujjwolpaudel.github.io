@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an independent researcher in economics, and currently looking for MS or PhD opportunities in economics-related disciplines. 
+I am an independent researcher in economics, and currently looking for MS or PhD opportunities in United States.
 
 My research interests are in development and natural resource economics. 
 
