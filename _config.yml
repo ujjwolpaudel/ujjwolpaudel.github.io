@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Ujjwol Paudel"
+title                    : "Jyotsna Prasai"
 title_separator          : "-"
-name                     : &name "Ujjwol Paudel"
-description              : &description "PhD Student at ASU"
-url                      : https://ujjwolpaudel.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Jyotsna Prasai"
+description              : &description "Indepedent Researcher in Economics"
+url                      : https://jyotsnaprasai.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "ujjwolpaudel/ujjwolpaudel.github.io"
+repository               : "jyotsnaprasai/jyotsnaprasai.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -82,14 +82,14 @@ google_analytics: G-ZFQTC414RT
 
 # Site Author
 author:
-  name             : "Ujjwol Paudel"
+  name             : "Jyotsna Prasai"
   avatar           : "profile.jpeg"
   bio              : 
   location         : 
   employer         :
   pubmed           : 
-  googlescholar    : https://scholar.google.com/citations?user=rFlNKNoAAAAJ&hl=en
-  email            : "upaudel1@asu.edu"
+  #googlescholar    : https://scholar.google.com/citations?user=rFlNKNoAAAAJ&hl=en
+  email            : "pjyotsna2014@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -98,20 +98,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "ujjwolpaudel"
+  github           : "jyotsnaprasai"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "ujjwol-paudel-62589b12b"
+  linkedin         : "jyotsna-prasai-9a2472235/"
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "specfunctor"
+ # twitter          : "specfunctor"
   vine             :
   weibo            :
   xing             :
