@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Ujjwol Paudel"
+title: "Jyotsna Prasai"
 excerpt: ""
 author_profile: true
 redirect_from: 
@@ -8,19 +8,14 @@ redirect_from:
   - /about.html
 ---
 
-I am a third year PhD student at [Arizona State University](https://wpcarey.asu.edu). I work with [Timothy Richards](https://scholar.google.com/citations?hl=en&user=XOAzQkEAAAAJ&view_op=list_works&sortby=pubdate).
+I am an independent researcher in economics, and currently looking for MS or PhD opportunities in economics-related disciplines. 
 
-My research interests are in empirical industrial organization and labor economics. 
+My research interests are in development and natural resource economics. 
 
-- - -
-
-### Recent/upcoming talks: 
-* EARIE Conference, Amsterdam, August 2024
-* AAEA Annual Meeting, New Orleans, July 2024
-* INFORMS Marketing Science Conference, Miami, June 2023
   
 - - -
 
-Prior to joining ASU, I studied mathematics at [ETH Zürich](https://math.ethz.ch) and [Jacobs University Bremen](http://math.jacobs-university.de), where I completed my MS and BS, respectively. 
+I completed my undergraduate in business administration from Tribhuwan University, Nepal in 2019.
 
-I originally come from a [village](https://en.wikipedia.org/wiki/Budhabare,_Jhapa) in south-eastern Nepal. 
+
+I originally come from a [small town](https://en.wikipedia.org/wiki/Birtamod_Municipality) in south-eastern Nepal. 
