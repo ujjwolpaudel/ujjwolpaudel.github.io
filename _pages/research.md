@@ -15,7 +15,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 - - -
   
 **Retail Concentration and Wages** (with Tim Richards and Keenan Marchesi). 2024. **Submitted**. <br/>
-<small>[ <a href="#/" onclick="visib('concen_wages')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4815715)] </small>
+<small>[ <a href="#/" onclick="visib('concen_wages')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4815715) ] </small>
 
 <div id="concen_wages" style="display: none; text-align: justify; line-height: 1.2" ><small>
 
@@ -25,7 +25,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 #[concen_wages-main]:{{ site.baseurl }}{% link assets/Concentration_Wages.pdf %}
 
 **Minimum Wages and Pass-Through** (with Tim Richards). 2024.<br/>
-<small>[ <a href="#/" onclick="visib('minwage_pt')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4833510)]</small>
+<small>[ <a href="#/" onclick="visib('minwage_pt')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4833510) ]</small>
 
 <div id="concen_wages" style="display: none; text-align: justify; line-height: 1.2" ><small>
   
@@ -47,7 +47,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 </small><br><br/></div>
 
-* <small> **Conferences:**AAEA, New Orleans, 2024. </small>
+* <small> **Conferences:** AAEA, New Orleans, 2024. </small>
 * <small> **Accepted and not-attended conferences:** Canadian Agricultural Economics Society, Winnipeg, 2024. </small>
 
 **Monopsony in US Agricultural Labor Markets**. 2024.<br/>
