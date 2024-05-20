@@ -24,8 +24,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </small><br><br/></div>
 [concen_wages-main]:{{ site.baseurl }}{% link assets/Concentration_Wages.pdf %}
 
-**Cost Shocks and Price Pass-through** (with Tim Richards). 2024.<br/>
-<small>[ <a href="#/" onclick="visib('minwage_pt')">Abstract</a> | Draft coming soon] </small>
+**Minimum Wages and Pass-Through** (with Tim Richards). 2024.<br/>
+<small>[ <a href="#/" onclick="visib('minwage_pt')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4833510) </small>
 
 <div id="minwage_pt" style="display: none; text-align: justify; line-height: 1.2" ><small>
 
@@ -46,7 +46,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 </small><br><br/></div>
 
-* <small> **Conferences:** EARIE Summer School, Amsterdam, 2024; AAEA, New Orleans, 2024. </small>
+* <small> **Conferences:**AAEA, New Orleans, 2024. </small>
 * <small> **Accepted and not-attended conferences:** Canadian Agricultural Economics Society, Winnipeg, 2024. </small>
 
 **Monopsony in US Agricultural Labor Markets**. 2024.<br/>
