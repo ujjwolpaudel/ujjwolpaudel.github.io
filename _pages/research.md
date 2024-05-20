@@ -25,13 +25,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 [concen_wages-main]:{{ site.baseurl }}{% link assets/Concentration_Wages.pdf %}
 
 **Minimum Wages and Pass-Through** (with Tim Richards). 2024.<br/>
-<small>[ <a href="#/" onclick="visib('minwage_pt')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4833510) </small>
+<small>[ <a href="#/" onclick="visib('minwage_pt')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4833510) | [Draft][minwage_pt-main]]</small>
 
 <div id="minwage_pt" style="display: none; text-align: justify; line-height: 1.2" ><small>
 
  Price inflation rose dramatically in late 2021. While there were many potential causes, some point to rising minimum wages, and wage inflation, as perhaps the most important source of food-price inflation. There is a large body of research that studies the aggregate effects of minimum wages, but none consider the precise mechanisms that link higher food prices and minimum wages in an environment of high general price inflation. In this study, we investigate the possibility that general price inflation serves as a facilitating mechanism for localized price inflation. We estimate both reduced-form and structural models of minimum-wage pass-through. Reduced-form models show that general price inflation has a positive effect on minimum wage pass-through to retail food prices. However, reduced-form models cannot account for the effects of demand curvature and imperfect competition. Our structural model shows that, after controlling for the primary determinants of wage pass-through, general price inflation has an important role in accentuating the rate of minimum-wage pass-through. Our findings have important implications for minimum wage policy, and for understanding the role of labor cost in retail price inflation.
 
 </small><br><br/></div>
+[minwage_pt-main]:{{ site.baseurl }}{% link assets/minwage_passthrough.pdf %}
 
 * <small> **Conferences:** EARIE, Amsterdam, 2024; AAEA, New Orleans, 2024. </small>
 * <small> **Accepted and not-attended conferences:** IIOC, Boston, 2024; INFORMS Marketing Science, Sydney, 2024. </small>
