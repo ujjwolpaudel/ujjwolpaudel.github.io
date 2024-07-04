@@ -35,6 +35,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 * <small> **Conferences:** EARIE, Amsterdam, 2024; AAEA, New Orleans, 2024. </small>
 * <small> **Accepted and not-attended conferences:** IIOC, Boston, 2024; INFORMS Marketing Science, Sydney, 2024. </small>
 * <small> [A poster](https://issr.asu.edu/Fall_2023_Winners) won the first place at ASU Social Science Poster Contest in November 2023.</small>
+* <small> **Grants:** USD 950 from ASU Graduate & Professional Student Association to present in EARIE 2024. </small>
 
 **Labor Monopsony in the US Food Retailing Industry**. 2024.<br/>
 <small>[ <a href="#/" onclick="visib('monop_retail')">Abstract</a> | Draft coming soon] </small>
@@ -47,6 +48,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 * <small> **Conferences:** AAEA, New Orleans, 2024. </small>
 * <small> **Accepted and not-attended conferences:** Canadian Agricultural Economics Society, Winnipeg, 2024. </small>
+* <small> **Grants:** USD 500 from AAEA. </small>
+
 
 **Monopsony in US Agricultural Labor Markets**. 2024.<br/>
 <small>[ <a href="#/" onclick="visib('monop_ag')">Abstract</a> | Draft coming soon] </small>
@@ -73,7 +76,7 @@ to address this problem, and we find an evidence of a decrease in price levels i
 [platforms_mergers-main]:{{ site.baseurl }}{% link assets/Cross_Platforms_Merger_Effects_UP.pdf %}
 
 * <small> **Conferences:** AAEA, Washington DC, 2023; INFORMS Marketing Science, Miami, 2023. </small>
-* <small> **Grants:** USD 950 from ASU Graduate & Professional Student Association. </small>
+* <small> **Grants:** USD 950 from ASU Graduate & Professional Student Association to present in ISMS 2023. </small>
 
 [//]: This java script is the button to show abstract
 <script>
