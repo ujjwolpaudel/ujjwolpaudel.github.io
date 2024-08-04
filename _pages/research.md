@@ -56,11 +56,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <div id="monop_ag" style="display: none; text-align: justify; line-height: 1.2" ><small>
 
- We examine labor monopsony power in the US agricultural labor markets using 33 years of nationally-representative survey data on crop workers. Recent monopsony literature suggests significant gaps between workers' wages and their marginal productivity in several industries, but the evidence on agricultural workers is almost non-existent. We respond precisely to this gap by building and estimating a model of search, match, and bargaining which explains how the value from worker's productivity is split between workers and employers. The results show that workers on average receive 24.4\% of their productivity value, and growers keep the remaining share. We document a higher share among foreign-born individuals and those employed through farm labor contractors, whereas a lower share among females, piece-rate earners, older workers, and those with more years of farm experience. 
+ We examine labor monopsony power in the US agricultural labor markets using 33 years of nationally-representative survey data on crop workers. Recent monopsony literature suggests significant gaps between workers' wages and their marginal productivity in several industries, but the evidence on agricultural workers is almost non-existent. We respond precisely to this gap by building and estimating a model of search, match, and bargaining which explains how the value from worker's productivity is split between workers and employers. The results show that workers on average receive 24.4% of their productivity value, and growers keep the remaining share. We document a higher share among foreign-born individuals and those employed through farm labor contractors, whereas a lower share among females, piece-rate earners, older workers, and those with more years of farm experience. 
 
 </small><br><br/></div>
 
-* <small> **Conferences:** AAEA, New Orleans, 2024. </small>
+* <small> **Conferences/Seminars:** AAEA, New Orleans, 2024; ETH Zürich, 2024 </small>
 
 **Minimum Wages and Employment in US Agriculture**. 2024.
 
