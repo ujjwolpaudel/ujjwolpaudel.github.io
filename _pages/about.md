@@ -8,14 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-I am a third year PhD student at [Arizona State University](https://wpcarey.asu.edu). I work with [Timothy Richards](https://scholar.google.com/citations?hl=en&user=XOAzQkEAAAAJ&view_op=list_works&sortby=pubdate).
+I am a fourth year PhD student at [Arizona State University](https://wpcarey.asu.edu). I work with [Timothy Richards](https://scholar.google.com/citations?hl=en&user=XOAzQkEAAAAJ&view_op=list_works&sortby=pubdate).
 
 My research interests are in empirical industrial organization and labor economics. 
 
 - - -
 
 ### Recent/upcoming talks: 
-* EARIE Conference, Amsterdam, August 2024
+* [EARIE Conference](https://earie.org/earie-2024-amsterdam/), Amsterdam, August 2024
+* [FRIES Seminar](https://frieseth.wixsite.com/friesethz), ETH Zürich, August 2024
 * AAEA Annual Meeting, New Orleans, July 2024
 * INFORMS Marketing Science Conference, Miami, June 2023
   
