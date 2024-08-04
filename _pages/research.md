@@ -51,17 +51,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 * <small> **Grants:** USD 500 from AAEA. </small>
 
 
-**Monopsony in US Agricultural Labor Markets**. 2024.<br/>
+**Monopsony in US Agricultural Labor Markets** (with Tim Richards). 2024.<br/>
 <small>[ <a href="#/" onclick="visib('monop_ag')">Abstract</a> | Draft coming soon] </small>
 
 <div id="monop_ag" style="display: none; text-align: justify; line-height: 1.2" ><small>
 
- I examine labor monopsony power in the US agriculture using 30 years of nationally-representative survey data on crop workers. First, I study relationship between minimum wages and employment of agricultrual workers. In the perfectly competitive market structure, any binding minimum wages result in under-employment. Theoretical literature on labor economics suggests that as firms gain monopsony power, they can make adjustments when there is a binding minimum wage, so employment can still increase. As the first model-free test of monopsony power, I examine whether minimum wage results in higher employment, and if it does, I conclude that agricultural workers are subject to employer market power. In the next step, I build and estimate a model of search, match, and bargaining to explain these reduced-form results. I examine whether there is a monopsony wedge in coherence with the model's predictions, that is whether and how much wages differ from marginal productivity in the competitive benchmark.
+ We examine labor monopsony power in the US agricultural labor markets using 33 years of nationally-representative survey data on crop workers. Recent monopsony literature suggests significant gaps between workers' wages and their marginal productivity in several industries, but the evidence on agricultural workers is almost non-existent. We respond precisely to this gap by building and estimating a model of search, match, and bargaining which explains how the value from worker's productivity is split between workers and employers. The results show that workers on average receive 24.4\% of their productivity value, and growers keep the remaining share. We document a higher share among foreign-born individuals and those employed through farm labor contractors, whereas a lower share among females, piece-rate earners, older workers, and those with more years of farm experience. 
 
 </small><br><br/></div>
 
 * <small> **Conferences:** AAEA, New Orleans, 2024. </small>
-* <small> **Accepted and not-attended conferences:** Canadian Agricultural Economics Society, Winnipeg, 2024. </small>
+
+**Minimum Wages and Employment in US Agriculture**. 2024.
 
 **Cross-Platform Merger Effects**. 2023. <br/>
 <small>[ <a href="#/" onclick="visib('platforms_mergers')">Abstract</a> | [Draft][platforms_mergers-main] ] </small>
