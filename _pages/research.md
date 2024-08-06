@@ -62,7 +62,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 * <small> **Conferences/Seminars:** AAEA, New Orleans, 2024; ETH Zürich, 2024 </small>
 
-**Minimum Wages and Employment in US Agriculture**. 2024.
 
 **Cross-Platform Merger Effects**. 2023. <br/>
 <small>[ <a href="#/" onclick="visib('platforms_mergers')">Abstract</a> | [Draft][platforms_mergers-main] ] </small>
