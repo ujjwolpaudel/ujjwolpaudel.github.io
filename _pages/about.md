@@ -17,7 +17,8 @@ My research interests are in empirical industrial organization and labor economi
 ### Recent/upcoming talks: 
 * [EARIE Conference](https://earie.org/earie-2024-amsterdam/), Amsterdam, August 2024
 * [FRIES Seminar](https://frieseth.wixsite.com/friesethz), ETH Zürich, August 2024
-* AAEA Annual Meeting, New Orleans, July 2024  
+* AAEA Annual Meeting, New Orleans, July 2024
+  
 - - -
 
 Prior to joining ASU, I studied mathematics at [ETH Zürich](https://math.ethz.ch) and [Jacobs University Bremen](http://math.jacobs-university.de), where I completed my MS and BS, respectively. 
