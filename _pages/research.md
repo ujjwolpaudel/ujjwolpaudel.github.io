@@ -51,7 +51,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 * <small> **Grants:** USD 500 from AAEA. </small>
 
 
-**Monopsony in US Agricultural Labor Markets** (with Tim Richards). 2024.<br/>
+**Imperfect Competition in US Agricultural Labor Markets** (with Tim Richards). 2024.<br/>
 <small>[ <a href="#/" onclick="visib('monop_ag')">Abstract</a> | Draft coming soon] </small>
 
 <div id="monop_ag" style="display: none; text-align: justify; line-height: 1.2" ><small>
@@ -60,7 +60,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 </small><br><br/></div>
 
-* <small> **Conferences/Seminars:** AAEA, New Orleans, 2024; ETH Zürich, 2024 </small>
+* <small> **Conferences/Seminars:** AAEA, New Orleans, 2024; FRIES Seminar, ETH Zürich, 2024 </small>
 
 
 **Cross-Platform Merger Effects**. 2023. <br/>
