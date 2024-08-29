@@ -54,7 +54,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 **Imperfect Competition in US Agricultural Labor Markets** (with Tim Richards). 2024.<br/>
-<small>[ <a href="#/" onclick="visib('monop_ag')">Abstract</a> | Draft coming soon | [Slides][aglabor_slides-main]] </small>
+<small>[ <a href="#/" onclick="visib('monop_ag')">Abstract</a> | Draft coming soon] </small>
 
 <div id="monop_ag" style="display: none; text-align: justify; line-height: 1.2" ><small>
 
@@ -63,8 +63,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </small><br><br/></div>
 
 * <small> **Conferences/Seminars:** AAEA, New Orleans, 2024; FRIES Seminar, ETH Zürich, 2024 </small>
-
-[aglabor_slides-main]:{{ site.baseurl }}{% link assets/AgLabor_ETHZ_2024.pdf %}
 
 **Cross-Platform Merger Effects**. 2023. <br/>
 <small>[ <a href="#/" onclick="visib('platforms_mergers')">Abstract</a> | [Draft][platforms_mergers-main] ] </small>
