@@ -38,7 +38,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 </small><br><br/></div>
 
-**Imperfect Competition in US Agricultural Labor Markets** (with Tim Richards). 2024. _Under Review._<br/>
+**Farmworker Bargaining in US Agricultural Labor Markets** (with Tim Richards). 2024. _Under Review._<br/>
 <small>[ <a href="#/" onclick="visib('monop_ag')">Abstract</a> | [Draft][Farmworker_Bargaining-main]] </small>
 
 <div id="monop_ag" style="display: none; text-align: justify; line-height: 1.2" ><small>
