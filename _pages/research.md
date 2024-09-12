@@ -55,7 +55,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <div id="monop_retail" style="display: none; text-align: justify; line-height: 1.2" ><small>
 
- I study the extent and evolution of labor market power in the US food retailing sector by estimating the wedge between marginal productivity and wage. Using data on a near universe of American food retailers and market-level worker information for the period 2004-2022, I first examine effects of minimum wages on employment rise in concentration from mergers on labor market outcomes. To understand the mechanisms behind the effects, I build a structural model based on the production function approach and estimate labor markdowns as a function of concentration. I then examine how these markdown estimates vary across years and along worker, firm, and market characteristics. 
+ I study the extent and evolution of labor market power in the US food retailing sector by estimating the wedge between marginal productivity and wage. Using data on a near universe of American food retailers and market-level worker information for the period 2004-2022, I first examine effects of minimum wages on employment in food retailing labor markets. To understand the mechanisms behind the effects, I build a structural model based on the production function approach and estimate labor markdowns. I then examine how these markdown estimates vary across years and along worker, firm, and market characteristics. 
 
 </small><br><br/></div>
 
