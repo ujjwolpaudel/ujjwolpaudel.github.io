@@ -13,17 +13,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 # <center> Ongoing Research </center>
 - - -
-  
-**Retail Concentration and Wages** (with Tim Richards and Keenan Marchesi). 2024. **Submitted**. <br/>
-<small>[ <a href="#/" onclick="visib('concen_wages')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4815715) ] </small>
 
-<div id="concen_wages" style="display: none; text-align: justify; line-height: 1.2" ><small>
-
- Antitrust policy in the U.S. now explicitly includes labor-market outcomes as measures of interest when considering the potential anticompetitive effects of mergers or acquisitions. Concentration in the food retailing industry is of particular concern due to several recent high-profile mergers, and a troubling increase in concentration at the national and local levels. We study this problem using both causal reduced-form models and a structural model of search, match, and bargaining. Our reduced-form models show no relationship between concentration and wages, but our structural model finds that concentration is associated with substantial wage suppression.
-
-</small><br><br/></div>
-
-**Minimum Wages and Pass-Through** (with Tim Richards). 2024. **Submitted**. <br/>
+**Minimum Wages and Pass-Through** (with Tim Richards). 2024. _R&R at American Journal of Agricultural Economics_. <br/>
 <small>[ <a href="#/" onclick="visib('minwage_pt')">Abstract</a> | [SSRN (Older)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4833510) | [Current Draft][minwage_pt-main]]</small>
 
 <div id="minwage_pt" style="display: none; text-align: justify; line-height: 1.2" ><small>
@@ -35,34 +26,42 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 [minwage_pt-main]:{{ site.baseurl }}{% link assets/MW Passthrough 2024.pdf %}
 
 * <small> **Conferences:** EARIE, Amsterdam, 2024; AAEA, New Orleans, 2024. </small>
-* <small> **Accepted and not-attended conferences:** IIOC, Boston, 2024; INFORMS Marketing Science, Sydney, 2024. </small>
 * <small> [A poster](https://issr.asu.edu/Fall_2023_Winners) won the first place at ASU Social Science Poster Contest in November 2023.</small>
 * <small> **Grants:** USD 950 from ASU Graduate & Professional Student Association to present in EARIE 2024. </small>
+  
+**Retail Concentration and Wages** (with Tim Richards and Keenan Marchesi). 2024. _Under Review_. <br/>
+<small>[ <a href="#/" onclick="visib('concen_wages')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4815715) ] </small>
 
-**Labor Monopsony in the US Food Retailing Industry**. 2024.<br/>
+<div id="concen_wages" style="display: none; text-align: justify; line-height: 1.2" ><small>
+
+ Antitrust policy in the U.S. now explicitly includes labor-market outcomes as measures of interest when considering the potential anticompetitive effects of mergers or acquisitions. Concentration in the food retailing industry is of particular concern due to several recent high-profile mergers, and a troubling increase in concentration at the national and local levels. We study this problem using both causal reduced-form models and a structural model of search, match, and bargaining. Our reduced-form models show no relationship between concentration and wages, but our structural model finds that concentration is associated with substantial wage suppression.
+
+</small><br><br/></div>
+
+**Imperfect Competition in US Agricultural Labor Markets** (with Tim Richards). 2024. _Under Review_<br/>
+<small>[ <a href="#/" onclick="visib('monop_ag')">Abstract</a> | [Draft][Farmworker_Bargaining-main]] </small>
+
+<div id="monop_ag" style="display: none; text-align: justify; line-height: 1.2" ><small>
+
+''Superstar firms'' can be large and successful without necessarily exploiting market power over labor markets (Autor et al. 2020). In this paper, we examine this idea in an agricultural labor market setting by studying the empirical relationship between employment surplus, which is essentially the excess of a worker's value marginal product over their wage, and wages. We use a model of search, match, and bargaining that explains how the surplus from worker's productivity is split between workers and employers. Our estimates show that workers' mean productivity is $8.67 per hour, and they receive 24.2% of employment surplus, but both exhibit substantial heterogeneity over workers. Heterogeneity in productivity and bargaining power suggests that workers who are able to generate ''a bigger pie'', may also earn a larger share of it. Consistent with this notion, our analysis shows a robust positive elasticity of surplus with observed wages, implying that agricultural firms gain more (surplus) by paying their workers higher wages and not necessarily through exploitation or ``winner-take-all'' strategy. 
+
+</small><br><br/></div>
+[Farmworker_Bargaining-main]:{{ site.baseurl }}{% link assets/Farmworker_Bargaining.pdf %} 
+
+* <small> **Conferences/Seminars:** AAEA, New Orleans, 2024; FRIES Seminar, ETH Zürich, 2024 </small>
+
+**Labor Monopsony Power in the US Food Retailing Industry**. 2024.<br/>
 <small>[ <a href="#/" onclick="visib('monop_retail')">Abstract</a> | Draft coming soon] </small>
 
 <div id="monop_retail" style="display: none; text-align: justify; line-height: 1.2" ><small>
 
- I study the extent and evolution of labor market power in the US food retailing sector by estimating the wedge between marginal productivity and wage. Using data on a near universe of American food retailers and market-level worker information for the period 2004-2022, I first examine the effects of rise in concentration from mergers on labor market outcomes. To understand the mechanisms behind the effects, I build a structural model based on the production function approach and estimate labor markdowns as a function of concentration. I then examine how these markdown estimates vary across years and along worker, firm, and market characteristics. 
+ I study the extent and evolution of labor market power in the US food retailing sector by estimating the wedge between marginal productivity and wage. Using data on a near universe of American food retailers and market-level worker information for the period 2004-2022, I first examine effects of minimum wages on employment rise in concentration from mergers on labor market outcomes. To understand the mechanisms behind the effects, I build a structural model based on the production function approach and estimate labor markdowns as a function of concentration. I then examine how these markdown estimates vary across years and along worker, firm, and market characteristics. 
 
 </small><br><br/></div>
 
 * <small> **Conferences:** AAEA, New Orleans, 2024. </small>
-* <small> **Accepted and not-attended conferences:** Canadian Agricultural Economics Society, Winnipeg, 2024. </small>
 * <small> **Grants:** USD 500 from AAEA. </small>
 
-
-**Imperfect Competition in US Agricultural Labor Markets** (with Tim Richards). 2024.<br/>
-<small>[ <a href="#/" onclick="visib('monop_ag')">Abstract</a> | Draft coming soon] </small>
-
-<div id="monop_ag" style="display: none; text-align: justify; line-height: 1.2" ><small>
-
- We examine labor monopsony power in the US agricultural labor markets using 33 years of nationally-representative survey data on crop workers. Recent monopsony literature suggests significant gaps between workers' wages and their marginal productivity in several industries, but the evidence on agricultural workers is almost non-existent. We respond precisely to this gap by building and estimating a model of search, match, and bargaining which explains how the value from worker's productivity is split between workers and employers. The results show that workers on average receive 24.4% of their productivity value, and growers keep the remaining share. We document a higher share among foreign-born individuals and those employed through farm labor contractors, whereas a lower share among females, piece-rate earners, older workers, and those with more years of farm experience. 
-
-</small><br><br/></div>
-
-* <small> **Conferences/Seminars:** AAEA, New Orleans, 2024; FRIES Seminar, ETH Zürich, 2024 </small>
 
 **Cross-Platform Merger Effects**. 2023. <br/>
 <small>[ <a href="#/" onclick="visib('platforms_mergers')">Abstract</a> | [Draft][platforms_mergers-main] ] </small>
