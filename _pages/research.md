@@ -14,7 +14,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 # <center> Ongoing Research </center>
 - - -
 
-**Minimum Wages and Pass-Through** (with Tim Richards). 2024. _R&R at American Journal of Agricultural Economics_. <br/>
+**Minimum Wages and Pass-Through** (with Tim Richards). 2024. _<span style="color:blue">R&R at American Journal of Agricultural Economics.</span>_ <br/>
 <small>[ <a href="#/" onclick="visib('minwage_pt')">Abstract</a> | [SSRN (Older)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4833510) | [Current Draft][minwage_pt-main]]</small>
 
 <div id="minwage_pt" style="display: none; text-align: justify; line-height: 1.2" ><small>
@@ -29,7 +29,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 * <small> [A poster](https://issr.asu.edu/Fall_2023_Winners) won the first place at ASU Social Science Poster Contest in November 2023.</small>
 * <small> **Grants:** USD 950 from ASU Graduate & Professional Student Association to present in EARIE 2024. </small>
   
-**Retail Concentration and Wages** (with Tim Richards and Keenan Marchesi). 2024. _Under Review_. <br/>
+**Retail Concentration and Wages** (with Tim Richards and Keenan Marchesi). 2024. _<span style="color:blue">Under Review.</span>_ <br/>
 <small>[ <a href="#/" onclick="visib('concen_wages')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4815715) ] </small>
 
 <div id="concen_wages" style="display: none; text-align: justify; line-height: 1.2" ><small>
@@ -38,7 +38,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 </small><br><br/></div>
 
-**Farmworker Bargaining in US Agricultural Labor Markets** (with Tim Richards). 2024. _Under Review._<br/>
+**Farmworker Bargaining in US Agricultural Labor Markets** (with Tim Richards). 2024. _<span style="color:blue">Submitted.</span>_<br/>
 <small>[ <a href="#/" onclick="visib('monop_ag')">Abstract</a> | [Draft][Farmworker_Bargaining-main]] </small>
 
 <div id="monop_ag" style="display: none; text-align: justify; line-height: 1.2" ><small>
