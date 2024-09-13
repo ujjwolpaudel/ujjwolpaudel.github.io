@@ -39,14 +39,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </small><br><br/></div>
 
 **Farmworker Bargaining in US Agricultural Labor Markets** (with Tim Richards). 2024. _<span style="color:#AA6666">Submitted.</span>_<br/>
-<small>[ <a href="#/" onclick="visib('monop_ag')">Abstract</a> | [Draft][Farmworker_Bargaining-main]] </small>
+<small>[ <a href="#/" onclick="visib('monop_ag')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4954851)] </small>
 
 <div id="monop_ag" style="display: none; text-align: justify; line-height: 1.2" ><small>
 
 ''Superstar firms'' can be large and successful without necessarily exploiting market power over labor markets (Autor et al. 2020). In this paper, we examine this idea in an agricultural labor market setting by studying the empirical relationship between employment surplus, which is essentially the excess of a worker's value marginal product over their wage, and wages. We use a model of search, match, and bargaining that explains how the surplus from worker's productivity is split between workers and employers. Our estimates show that workers' mean productivity is $8.67 per hour, and they receive 24.2% of employment surplus, but both exhibit substantial heterogeneity over workers. Heterogeneity in productivity and bargaining power suggests that workers who are able to generate ''a bigger pie'', may also earn a larger share of it. Consistent with this notion, our analysis shows a robust positive elasticity of surplus with observed wages, implying that agricultural firms gain more (surplus) by paying their workers higher wages and not necessarily through exploitation or ``winner-take-all'' strategy. 
 
 </small><br><br/></div>
-[Farmworker_Bargaining-main]:{{ site.baseurl }}{% link assets/Farmworker_Bargaining.pdf %} 
+
 
 * <small> **Conferences/Seminars:** AAEA, New Orleans, 2024; FRIES Seminar, ETH Zürich, 2024 </small>
 
