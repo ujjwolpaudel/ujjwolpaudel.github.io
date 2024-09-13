@@ -15,7 +15,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 - - -
 
 **Minimum Wages and Pass-Through** (with Tim Richards). 2024. _<span style="color:#AA6666">Revise and Resubmit at American Journal of Agricultural Economics.</span>_ <br/>
-<small>[ <a href="#/" onclick="visib('minwage_pt')">Abstract</a> | [SSRN (Older)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4833510) | [Current Draft][minwage_pt-main]]</small>
+<small>[ <a href="#/" onclick="visib('minwage_pt')">Abstract</a> | [SSRN (Older)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4833510) | [Current Draft][minwage_pt-main] | [Slides][earie-slides]]</small>
 
 <div id="minwage_pt" style="display: none; text-align: justify; line-height: 1.2" ><small>
   
@@ -24,6 +24,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </small><br><br/></div>
 
 [minwage_pt-main]:{{ site.baseurl }}{% link assets/MW Passthrough 2024.pdf %}
+[earie-slides]:{{ site.baseurl }}{% link assets/MinWage_EARIE_2024.pdf %}
 
 * <small> **Conferences:** EARIE, Amsterdam, 2024; AAEA, New Orleans, 2024. </small>
 * <small> [A poster](https://issr.asu.edu/Fall_2023_Winners) won the first place at ASU Social Science Poster Contest in November 2023.</small>
