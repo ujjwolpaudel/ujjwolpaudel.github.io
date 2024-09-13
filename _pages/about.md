@@ -12,6 +12,8 @@ I am a fourth year PhD student at [Arizona State University](https://wpcarey.asu
 
 My research interests are in empirical industrial organization and labor economics. 
 
+<span style="color:#AA6666">I am on the 2024-2025 academic job market.</span>
+
 - - -
 
 ### Recent/upcoming talks: 
