@@ -23,7 +23,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 </small><br><br/></div>
 
-[minwage_pt-main]:{{ site.baseurl }}{% link assets/MW Passthrough 2024.pdf %}
+[minwage_pt-main]:{{ site.baseurl }}{% link MW_PT.pdf %}
 [earie-slides]:{{ site.baseurl }}{% link assets/MinWage_EARIE_2024.pdf %}
 
 * <small> **Conferences:** EARIE, Amsterdam, 2024; AAEA, New Orleans, 2024. </small>
