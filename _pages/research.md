@@ -14,7 +14,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 # <center> Ongoing Research </center>
 - - -
 
-**Minimum Wages and Pass-Through** (with Tim Richards). 2024. _<span style="color:#AA6666">R&R at American Journal of Agricultural Economics.</span>_ <br/>
+**Minimum Wages and Pass-Through** (with Tim Richards). 2024. _<span style="color:#AA6666">Revise and Resubmit at American Journal of Agricultural Economics.</span>_ <br/>
 <small>[ <a href="#/" onclick="visib('minwage_pt')">Abstract</a> | [SSRN (Older)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4833510) | [Current Draft][minwage_pt-main]]</small>
 
 <div id="minwage_pt" style="display: none; text-align: justify; line-height: 1.2" ><small>
@@ -28,15 +28,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 * <small> **Conferences:** EARIE, Amsterdam, 2024; AAEA, New Orleans, 2024. </small>
 * <small> [A poster](https://issr.asu.edu/Fall_2023_Winners) won the first place at ASU Social Science Poster Contest in November 2023.</small>
 * <small> **Grants:** USD 950 from ASU Graduate & Professional Student Association to present in EARIE 2024. </small>
-  
-**Retail Concentration and Wages** (with Tim Richards and Keenan Marchesi). 2024. _<span style="color:#AA6666">Under Review.</span>_ <br/>
-<small>[ <a href="#/" onclick="visib('concen_wages')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4815715) ] </small>
-
-<div id="concen_wages" style="display: none; text-align: justify; line-height: 1.2" ><small>
-
- Antitrust policy in the U.S. now explicitly includes labor-market outcomes as measures of interest when considering the potential anticompetitive effects of mergers or acquisitions. Concentration in the food retailing industry is of particular concern due to several recent high-profile mergers, and a troubling increase in concentration at the national and local levels. We study this problem using both causal reduced-form models and a structural model of search, match, and bargaining. Our reduced-form models show no relationship between concentration and wages, but our structural model finds that concentration is associated with substantial wage suppression.
-
-</small><br><br/></div>
 
 **Farmworker Bargaining in US Agricultural Labor Markets** (with Tim Richards). 2024. _<span style="color:#AA6666">Submitted.</span>_<br/>
 <small>[ <a href="#/" onclick="visib('monop_ag')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4954851)] </small>
@@ -49,6 +40,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 * <small> **Conferences/Seminars:** AAEA, New Orleans, 2024; FRIES Seminar, ETH Zürich, 2024 </small>
+  
+**Retail Concentration and Wages** (with Tim Richards and Keenan Marchesi). 2024. _<span style="color:#AA6666">Under Review.</span>_ <br/>
+<small>[ <a href="#/" onclick="visib('concen_wages')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4815715) ] </small>
+
+<div id="concen_wages" style="display: none; text-align: justify; line-height: 1.2" ><small>
+
+ Antitrust policy in the U.S. now explicitly includes labor-market outcomes as measures of interest when considering the potential anticompetitive effects of mergers or acquisitions. Concentration in the food retailing industry is of particular concern due to several recent high-profile mergers, and a troubling increase in concentration at the national and local levels. We study this problem using both causal reduced-form models and a structural model of search, match, and bargaining. Our reduced-form models show no relationship between concentration and wages, but our structural model finds that concentration is associated with substantial wage suppression.
+
+</small><br><br/></div>
+
 
 **Labor Monopsony Power in the US Food Retailing Industry**. 2024.<br/>
 <small>[ <a href="#/" onclick="visib('monop_retail')">Abstract</a> | Draft coming soon] </small>
