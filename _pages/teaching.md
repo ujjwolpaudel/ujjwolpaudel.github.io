@@ -4,7 +4,7 @@ classes: wide
 permalink: /teaching/
 ---
 
-**Teaching**
+# <center> Teaching </center>
 
 ---
 
