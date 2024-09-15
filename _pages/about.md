@@ -12,7 +12,9 @@ I am a fourth year PhD student at [Arizona State University](https://wpcarey.asu
 
 My research interests are in empirical industrial organization and labor economics. 
 
-I am on the 2024-2025 job market.
+I am on the 2024-2025 job market. My CV is [here][CV]. 
+
+[CV]:{{ site.baseurl }}{% link CV_UPaudel.pdf %}
 
 - - -
 
