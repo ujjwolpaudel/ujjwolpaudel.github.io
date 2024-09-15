@@ -52,7 +52,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </small><br><br/></div>
 
 
-**Labor Monopsony Power in the US Food Retailing Industry**. 2024.<br/>
+**Labor Monopsony Power in the US Food Retailing Industry**. 2024. _<span style="color:#AA6666">Job Market Paper.</span>_<br/>
 <small>[ <a href="#/" onclick="visib('monop_retail')">Abstract</a> | Draft coming soon] </small>
 
 <div id="monop_retail" style="display: none; text-align: justify; line-height: 1.2" ><small>
