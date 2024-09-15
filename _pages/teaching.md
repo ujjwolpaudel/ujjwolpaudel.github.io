@@ -16,7 +16,6 @@ title: ""
 [AGB425-Schedule]: {{ site.baseurl }}{% link _teaching/AGB425_Spr24_Schedule.pdf %}
 [AGB425-Evals]: {{ site.baseurl }}{% link _teaching/AGB425_Spr24_Evals.pdf %}
 
----
 
 * Strategic Pricing in Food Markets (TA for Prof. Tim Richards), *Spring 2024*, ASU
   
