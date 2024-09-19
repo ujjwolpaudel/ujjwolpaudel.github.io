@@ -26,13 +26,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <li>
     <a href="javascript:void(0);" onclick="toggleImage('img1')">INFORMS 2023</a>
     <div id="img1" style="display: none; margin-top: 10px;">
-      <img src="https://www.dropbox.com/scl/fi/yxunvyvq7v2yub3v85pti/IMG_4558.HEIC?rlkey=de14zywubx7a1zv71wwgzn7ou&dl=0" alt="INFORMS Marketing Science Conference, Miami, June 2023" width="600"/>
+      <img src="https://www.dropbox.com/scl/fi/yxunvyvq7v2yub3v85pti/IMG_4558.HEIC?rlkey=de14zywubx7a1zv71wwgzn7ou&raw=1" alt="INFORMS Marketing Science Conference, Miami, June 2023" width="600"/>
     </div>
   </li>
   <li>
     <a href="javascript:void(0);" onclick="toggleImage('img2')">AAEA 2024</a>
     <div id="img2" style="display: none; margin-top: 10px;">
-      <img src="https://www.dropbox.com/scl/fi/xbmhzrnrxetu191nsdh3v/IMG_1667.HEIC?rlkey=gbv110ylz3jmk4iu5fs4ttl3p&dl=0" alt="AAEA Annual Meeting, New Orleans, July 2024" width="600"/>
+      <img src="https://www.dropbox.com/scl/fi/xbmhzrnrxetu191nsdh3v/IMG_1667.HEIC?rlkey=gbv110ylz3jmk4iu5fs4ttl3p&raw=1" alt="AAEA Annual Meeting, New Orleans, July 2024" width="600"/>
     </div>
   </li>
 </ul>
