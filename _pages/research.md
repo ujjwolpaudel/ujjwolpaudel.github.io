@@ -30,7 +30,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 * <small> [A poster](https://issr.asu.edu/Fall_2023_Winners) won the first place at ASU Social Science Poster Contest in November 2023.</small>
 * <small> **Grants:** USD 950 from ASU Graduate & Professional Student Association to present in EARIE 2024. </small>
 
-**Farmworker Bargaining in US Agricultural Labor Markets** (with Tim Richards). 2024. _<span style="color:#AA6666">Submitted.</span>_<br/>
+**Farmworker Bargaining in US Agricultural Labor Markets** (with Tim Richards). 2024. _<span style="color:#AA6666">Under Review.</span>_<br/>
 <small>[ <a href="#/" onclick="visib('monop_ag')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4954851) | [Slides][ETH_AgLabor_Slides]] </small>
 
 <div id="monop_ag" style="display: none; text-align: justify; line-height: 1.2" ><small>
