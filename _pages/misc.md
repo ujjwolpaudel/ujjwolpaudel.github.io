@@ -35,6 +35,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <img src="https://www.dropbox.com/scl/fi/xbmhzrnrxetu191nsdh3v/IMG_1667.HEIC?rlkey=gbv110ylz3jmk4iu5fs4ttl3p&raw=1" alt="AAEA Annual Meeting, New Orleans, July 2024" width="600"/>
     </div>
   </li>
+  <li>
+    <a href="javascript:void(0);" onclick="toggleImage('img3')">Zürich 2024</a>
+    <div id="img3" style="display: none; margin-top: 10px;">
+      <img src="https://www.dropbox.com/scl/fi/w25blv0bbhg9tbmqdmakg/IMG_0976.HEIC?rlkey=bjcfy1c3w6e6w18iqej6ox9ty&raw=1" alt="Zurich 2024" width="600"/>
+    </div>
+  </li>
 </ul>
 
 <script>
