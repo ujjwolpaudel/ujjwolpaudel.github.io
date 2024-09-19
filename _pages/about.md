@@ -10,7 +10,7 @@ redirect_from:
 
 I am a fourth year PhD student at [Arizona State University](https://wpcarey.asu.edu). I work with [Timothy Richards](https://scholar.google.com/citations?hl=en&user=XOAzQkEAAAAJ&view_op=list_works&sortby=pubdate).
 
-My research interests are in empirical industrial organization and labor economics. 
+My research interests are in empirical IO and labor economics in food systems. 
 
 I am on the 2024-2025 job market. My CV is [here][CV]. 
 
