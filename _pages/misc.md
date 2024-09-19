@@ -22,17 +22,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 # <center> Some Pictures </center>
 
-<center>
-<figure>
-  <img src="[URL_of_the_first_image](https://www.dropbox.com/scl/fi/yxunvyvq7v2yub3v85pti/IMG_4558.HEIC?rlkey=de14zywubx7a1zv71wwgzn7ou&dl=0)" alt="INFORMS Marketing Science Conference, Miami, 2023" width="600"/>
-  <figcaption>INFORMS Marketing Science Conference, Miami, June 2023</figcaption>
-</figure>
-</center>
-
-<center>
-<figure>
-  <img src="[URL_of_the_second_image](https://www.dropbox.com/scl/fi/xbmhzrnrxetu191nsdh3v/IMG_1667.HEIC?rlkey=gbv110ylz3jmk4iu5fs4ttl3p&dl=0)" alt="AAEA Annual Meeting, New Orleans, 2024" width="600"/>
-  <figcaption>AAEA Annual Meeting, New Orleans, July 2024</figcaption>
-</figure>
-</center>
-
+<ul style="list-style-type: disc; font-size: 1.2em;">
+  <li>
+    <a href="https://www.dropbox.com/scl/fi/yxunvyvq7v2yub3v85pti/IMG_4558.HEIC?rlkey=de14zywubx7a1zv71wwgzn7ou&dl=0" target="_blank">
+      INFORMS Marketing Science Conference, Miami, June 2023
+    </a>
+  </li>
+  <li>
+    <a href="https://www.dropbox.com/scl/fi/xbmhzrnrxetu191nsdh3v/IMG_1667.HEIC?rlkey=gbv110ylz3jmk4iu5fs4ttl3p&dl=0" target="_blank">
+      AAEA Annual Meeting, New Orleans, July 2024
+    </a>
+  </li>
+</ul>
