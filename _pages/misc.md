@@ -11,7 +11,7 @@ permalink: /misc/
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-# <center> Other Writings </center>
+# <center> <small>Other Writings</small> </center>
 - - -
   
 **Master Thesis** at ETH Zurich. [.pdf](https://www.dropbox.com/scl/fi/dhabpy749ja5v3mg4a0hy/Master_Thesis_2018.pdf?rlkey=8l96211j71mgnvwi3xiwr3t02&e=1&dl=0)
@@ -20,35 +20,35 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 - - -
 
-# <center> Some Pictures </center>
+# <center> <small>Some Pictures</small> </center>
 
 <ul style="list-style-type: disc; font-size: 1.2em;">
   <li>
-    <a href="javascript:void(0);" onclick="toggleImage('img1')">Marketing Science 2023</a>
+    <a href="javascript:void(0);" onclick="toggleImage('img1')"><small>INFORMS 2023</small></a>
     <div id="img1" style="display: none; margin-top: 10px;">
       <img src="https://www.dropbox.com/scl/fi/yxunvyvq7v2yub3v85pti/IMG_4558.HEIC?rlkey=de14zywubx7a1zv71wwgzn7ou&raw=1" alt="INFORMS Marketing Science Conference, Miami, June 2023" width="600"/>
     </div>
   </li>
   <li>
-    <a href="javascript:void(0);" onclick="toggleImage('img2')">AAEA 2024</a>
+    <a href="javascript:void(0);" onclick="toggleImage('img2')"><small>AAEA 2024</small></a>
     <div id="img2" style="display: none; margin-top: 10px;">
       <img src="https://www.dropbox.com/scl/fi/xbmhzrnrxetu191nsdh3v/IMG_1667.HEIC?rlkey=gbv110ylz3jmk4iu5fs4ttl3p&raw=1" alt="AAEA Annual Meeting, New Orleans, July 2024" width="600"/>
     </div>
   </li>
   <li>
-    <a href="javascript:void(0);" onclick="toggleImage('img3')">Zürich 2024</a>
+    <a href="javascript:void(0);" onclick="toggleImage('img3')"><small>Zurich 2024</small></a>
     <div id="img3" style="display: none; margin-top: 10px;">
       <img src="https://www.dropbox.com/scl/fi/w25blv0bbhg9tbmqdmakg/IMG_0976.HEIC?rlkey=bjcfy1c3w6e6w18iqej6ox9ty&raw=1" alt="Zurich 2024" width="600"/>
     </div>
   </li>
   <li>
-    <a href="javascript:void(0);" onclick="toggleImage('img4')">Amsterdam 2024</a>
+    <a href="javascript:void(0);" onclick="toggleImage('img4')"><small>Amsterdam 2024</small></a>
     <div id="img4" style="display: none; margin-top: 10px;">
       <img src="https://www.dropbox.com/scl/fi/4n3mha8fkvbolmg4vpumv/IMG_1192-3.HEIC?rlkey=eam7dl1o8yuvsyxvtdm2rccjw&raw=1" alt="Amsterdam 2024" width="600"/>
     </div>
   </li>
   <li>
-    <a href="javascript:void(0);" onclick="toggleImage('img5')">Nepal 2024</a>
+    <a href="javascript:void(0);" onclick="toggleImage('img5')"><small>Nepal 2024</small></a>
     <div id="img5" style="display: none; margin-top: 10px;">
       <img src="https://www.dropbox.com/scl/fi/efmd3g3byfkiwjfcx23bw/IMG_0672.HEIC?rlkey=kcpz4nugeap80dshnnj3nojcn&raw=1" alt="Nepal 2024" width="600"/>
     </div>
