@@ -24,7 +24,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <ul style="list-style-type: disc; font-size: 1.2em;">
   <li>
-    <a href="javascript:void(0);" onclick="toggleImage('img1')">INFORMS 2023</a>
+    <a href="javascript:void(0);" onclick="toggleImage('img1')">INFORMS Marketing Science 2023</a>
     <div id="img1" style="display: none; margin-top: 10px;">
       <img src="https://www.dropbox.com/scl/fi/yxunvyvq7v2yub3v85pti/IMG_4558.HEIC?rlkey=de14zywubx7a1zv71wwgzn7ou&raw=1" alt="INFORMS Marketing Science Conference, Miami, June 2023" width="600"/>
     </div>
@@ -39,6 +39,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <a href="javascript:void(0);" onclick="toggleImage('img3')">Zürich 2024</a>
     <div id="img3" style="display: none; margin-top: 10px;">
       <img src="https://www.dropbox.com/scl/fi/w25blv0bbhg9tbmqdmakg/IMG_0976.HEIC?rlkey=bjcfy1c3w6e6w18iqej6ox9ty&raw=1" alt="Zurich 2024" width="600"/>
+    </div>
+  </li>
+  <li>
+    <a href="javascript:void(0);" onclick="toggleImage('img4')">Amsterdam 2024</a>
+    <div id="img4" style="display: none; margin-top: 10px;">
+      <img src="https://www.dropbox.com/scl/fi/4n3mha8fkvbolmg4vpumv/IMG_1192-3.HEIC?rlkey=eam7dl1o8yuvsyxvtdm2rccjw&raw=1" alt="Amsterdam 2024" width="600"/>
+    </div>
+  </li>
+  <li>
+    <a href="javascript:void(0);" onclick="toggleImage('img5')">Nepal 2024</a>
+    <div id="img5" style="display: none; margin-top: 10px;">
+      <img src="https://www.dropbox.com/scl/fi/efmd3g3byfkiwjfcx23bw/IMG_0672.HEIC?rlkey=kcpz4nugeap80dshnnj3nojcn&raw=1" alt="Nepal 2024" width="600"/>
     </div>
   </li>
 </ul>
