@@ -23,27 +23,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 # <center> <small>US County-Level Trends (2004-2022)</small> </center>
 
 <div style="text-align: center;">
-  <p style="font-size: 1.2em;">Click on the links below to view full-size animations:</p>
+  <p style="font-size: 1.2em;">Click on the links below to view the animations:</p>
   
-  <div style="display: inline-block; margin: 10px;">
-    <a href="/assets/income_animation.gif" target="_blank">
-      <img src="/assets/income_animation.gif" alt="Income changes over time" style="width: 300px; height: auto;">
-      <p>Income Trends</p>
-    </a>
+  <div style="margin: 20px;">
+    <a href="javascript:void(0);" onclick="toggleGif('income')">Income Trends</a>
+    <div id="income" style="display: none; margin-top: 10px;">
+      <img src="/assets/income_animation.gif" alt="Income changes over time" style="width: 100%; max-width: 800px;">
+    </div>
   </div>
   
-  <div style="display: inline-block; margin: 10px;">
-    <a href="/assets/population_animation.gif" target="_blank">
-      <img src="/assets/population_animation.gif" alt="Population changes over time" style="width: 300px; height: auto;">
-      <p>Population Trends</p>
-    </a>
+  <div style="margin: 20px;">
+    <a href="javascript:void(0);" onclick="toggleGif('population')">Population Trends</a>
+    <div id="population" style="display: none; margin-top: 10px;">
+      <img src="/assets/population_animation.gif" alt="Population changes over time" style="width: 100%; max-width: 800px;">
+    </div>
   </div>
   
-  <div style="display: inline-block; margin: 10px;">
-    <a href="/assets/unemployment_animation.gif" target="_blank">
-      <img src="/assets/unemployment_animation.gif" alt="Unemployment rate changes over time" style="width: 300px; height: auto;">
-      <p>Unemployment Rate Trends</p>
-    </a>
+  <div style="margin: 20px;">
+    <a href="javascript:void(0);" onclick="toggleGif('unemployment')">Unemployment Rate Trends</a>
+    <div id="unemployment" style="display: none; margin-top: 10px;">
+      <img src="/assets/unemployment_animation.gif" alt="Unemployment rate changes over time" style="width: 100%; max-width: 800px;">
+    </div>
   </div>
 </div>
 
@@ -91,6 +91,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       imgDiv.style.display = "block";
     } else {
       imgDiv.style.display = "none";
+    }
+  }
+
+  function toggleGif(gifId) {
+    var gifDiv = document.getElementById(gifId);
+    if (gifDiv.style.display === "none") {
+      gifDiv.style.display = "block";
+    } else {
+      gifDiv.style.display = "none";
     }
   }
 </script>
