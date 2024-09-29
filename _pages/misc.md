@@ -23,20 +23,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 # <center> <small>US County-Level Trends (2004-2022)</small> </center>
 
 <div style="text-align: center;">
-  <figure style="margin: 20px 0;">
-    <img src="/assets/income_animation.gif" alt="Income changes over time" style="width: 100%; max-width: 800px;">
-    <figcaption style="font-size: 1.2em; margin-top: 10px;">Income Trends</figcaption>
-  </figure>
+  <p style="font-size: 1.2em;">Click on the images below to view full-size animations:</p>
   
-  <figure style="margin: 20px 0;">
-    <img src="/assets/population_animation.gif" alt="Population changes over time" style="width: 100%; max-width: 800px;">
-    <figcaption style="font-size: 1.2em; margin-top: 10px;">Population Trends</figcaption>
-  </figure>
+  <div style="display: inline-block; margin: 10px;">
+    <a href="/assets/income_animation.gif" target="_blank">
+      <img src="/assets/income_animation.gif" alt="Income changes over time" style="width: 300px; height: auto;">
+      <p>Income Trends</p>
+    </a>
+  </div>
   
-  <figure style="margin: 20px 0;">
-    <img src="/assets/unemployment_animation.gif" alt="Unemployment rate changes over time" style="width: 100%; max-width: 800px;">
-    <figcaption style="font-size: 1.2em; margin-top: 10px;">Unemployment Rate Trends</figcaption>
-  </figure>
+  <div style="display: inline-block; margin: 10px;">
+    <a href="/assets/population_animation.gif" target="_blank">
+      <img src="/assets/population_animation.gif" alt="Population changes over time" style="width: 300px; height: auto;">
+      <p>Population Trends</p>
+    </a>
+  </div>
+  
+  <div style="display: inline-block; margin: 10px;">
+    <a href="/assets/unemployment_animation.gif" target="_blank">
+      <img src="/assets/unemployment_animation.gif" alt="Unemployment rate changes over time" style="width: 300px; height: auto;">
+      <p>Unemployment Rate Trends</p>
+    </a>
+  </div>
 </div>
 
 - - -
