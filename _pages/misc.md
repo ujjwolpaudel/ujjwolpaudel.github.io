@@ -23,7 +23,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 # <center> <small>US County-Level Trends (2004-2022)</small> </center>
 
 <div style="text-align: center;">
-  <p style="font-size: 1.2em;">Click on the images below to view full-size animations:</p>
+  <p style="font-size: 1.2em;">Click on the links below to view full-size animations:</p>
   
   <div style="display: inline-block; margin: 10px;">
     <a href="/assets/income_animation.gif" target="_blank">
