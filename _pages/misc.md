@@ -27,8 +27,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
   <div style="margin: 20px;">
     <a href="javascript:void(0);" onclick="toggleGif('income')">Income Trends</a>
-    <div id="income" style="display: none; margin-top: 10px;">
-      <img src="/assets/income_animation.gif" alt="Income changes over time" style="width: 100%; max-width: 800px;">
+    <div id="income" style="display: none; margin-top: 100px;">
+      <img src="/assets/income_animation.gif" alt="Income changes over time" style="width: 100%; max-width: 2000px;">
     </div>
   </div>
   
