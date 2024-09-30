@@ -18,34 +18,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 **Bachelor Thesis** at Jacobs University Bremen. [.pdf](https://www.dropbox.com/scl/fi/hgrqcp2ow08t2xmwpcacp/BSc_Thesis___UPaudel.pdf?rlkey=7rl7g8hrzfdvmgjpmz485v88j&e=1&dl=0)
 
-- - -
-
-# <center> <small>US County-Level Trends (2004-2022)</small> </center>
-
-<div style="text-align: center;">
-  <p style="font-size: 1.2em;">Click on the links below to view the animations:</p>
-  
-  <div style="margin: 20px;">
-    <a href="javascript:void(0);" onclick="toggleGif('income')">Income Trends</a>
-    <div id="income" style="display: none; margin-top: 100px;">
-      <img src="/assets/income_animation.gif" alt="Income changes over time" style="width: 100%; max-width: 2000px;">
-    </div>
-  </div>
-  
-  <div style="margin: 20px;">
-    <a href="javascript:void(0);" onclick="toggleGif('population')">Population Trends</a>
-    <div id="population" style="display: none; margin-top: 10px;">
-      <img src="/assets/population_animation.gif" alt="Population changes over time" style="width: 100%; max-width: 800px;">
-    </div>
-  </div>
-  
-  <div style="margin: 20px;">
-    <a href="javascript:void(0);" onclick="toggleGif('unemployment')">Unemployment Rate Trends</a>
-    <div id="unemployment" style="display: none; margin-top: 10px;">
-      <img src="/assets/unemployment_animation.gif" alt="Unemployment rate changes over time" style="width: 100%; max-width: 800px;">
-    </div>
-  </div>
-</div>
 
 - - -
 
