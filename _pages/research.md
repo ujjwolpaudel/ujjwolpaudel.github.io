@@ -82,13 +82,13 @@ to address this problem, and we find an evidence of a decrease in price levels i
 # <center> In Progress </center>
 - - -
 **Supermarket Entry and Labor Markdowns**.
-</small><br><br/></div>
+<br><br/>
 
 **Food Waste in Omnichannel Retailing**.
-</small><br><br/></div>
+<br><br/>
 
 **Advertisements and Market Power in Retailing** (with Qingxiao Li). 
-</small><br><br/></div>
+<br><br/>
 
 
 [//]: This java script is the button to show abstract
