@@ -11,7 +11,7 @@ permalink: /research/
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-# <center> Ongoing Research </center>
+# <center> Working Papers </center>
 - - -
 
 **Minimum Wages and Pass-Through** (with Tim Richards). 2024. _<span style="color:#AA6666">Revise and Resubmit at American Journal of Agricultural Economics.</span>_ <br/>
@@ -77,6 +77,19 @@ to address this problem, and we find an evidence of a decrease in price levels i
 [platforms_mergers-main]:{{ site.baseurl }}{% link assets/Cross_Platforms_Merger_Effects_UP.pdf %}
 
 * <small> **Conferences:** AAEA, Washington DC, 2023; INFORMS Marketing Science, Miami, 2023. </small>
+
+- - -
+# <center> In Progress </center>
+- - -
+**Supermarket Entry and Labor Markdowns**.
+</small><br><br/></div>
+
+**Food Waste in Omnichannel Retailing**.
+</small><br><br/></div>
+
+**Advertisements and Market Power in Retailing** (with Qingxiao Li). 
+</small><br><br/></div>
+
 
 [//]: This java script is the button to show abstract
 <script>
