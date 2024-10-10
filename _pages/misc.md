@@ -30,6 +30,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <img src="https://www.dropbox.com/scl/fi/yxunvyvq7v2yub3v85pti/IMG_4558.HEIC?rlkey=de14zywubx7a1zv71wwgzn7ou&raw=1" alt="INFORMS Marketing Science Conference, Miami, June 2023" width="600"/>
     </div>
   </li>
+   <li>
+    <a href="javascript:void(0);" onclick="toggleImage('img2')"><small>A Subset of the Morrison School 2024</small></a>
+    <div id="img2" style="display: none; margin-top: 10px;">
+      <img src="https://www.dropbox.com/scl/fi/xpv17c5uqbdp2vyh6f8wl/IMG_0729.JPG?rlkey=6vxb5lw7x6riswk5o81d6cfcv&raw=1" alt="A Subset of the Morrison School 2024" width="600"/>
+    </div>
+  </li>
   <li>
     <a href="javascript:void(0);" onclick="toggleImage('img2')"><small>AAEA 2024</small></a>
     <div id="img2" style="display: none; margin-top: 10px;">
