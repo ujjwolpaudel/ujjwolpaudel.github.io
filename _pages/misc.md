@@ -55,8 +55,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </li>
   <li>
-    <a href="javascript:void(0);" onclick="toggleImage('img5')"><small>Nepal 2024</small></a>
-    <div id="img5" style="display: none; margin-top: 10px;">
+    <a href="javascript:void(0);" onclick="toggleImage('img6')"><small>Nepal 2024</small></a>
+    <div id="img6" style="display: none; margin-top: 10px;">
       <img src="https://www.dropbox.com/scl/fi/efmd3g3byfkiwjfcx23bw/IMG_0672.HEIC?rlkey=kcpz4nugeap80dshnnj3nojcn&raw=1" alt="Nepal 2024" width="600"/>
     </div>
   </li>
