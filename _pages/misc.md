@@ -37,20 +37,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </li>
   <li>
-    <a href="javascript:void(0);" onclick="toggleImage('img2')"><small>AAEA 2024</small></a>
-    <div id="img2" style="display: none; margin-top: 10px;">
+    <a href="javascript:void(0);" onclick="toggleImage('img3')"><small>AAEA 2024</small></a>
+    <div id="img3" style="display: none; margin-top: 10px;">
       <img src="https://www.dropbox.com/scl/fi/xbmhzrnrxetu191nsdh3v/IMG_1667.HEIC?rlkey=gbv110ylz3jmk4iu5fs4ttl3p&raw=1" alt="AAEA Annual Meeting, New Orleans, July 2024" width="600"/>
     </div>
   </li>
   <li>
-    <a href="javascript:void(0);" onclick="toggleImage('img3')"><small>Zurich 2024</small></a>
-    <div id="img3" style="display: none; margin-top: 10px;">
+    <a href="javascript:void(0);" onclick="toggleImage('img4')"><small>Zurich 2024</small></a>
+    <div id="img4" style="display: none; margin-top: 10px;">
       <img src="https://www.dropbox.com/scl/fi/w25blv0bbhg9tbmqdmakg/IMG_0976.HEIC?rlkey=bjcfy1c3w6e6w18iqej6ox9ty&raw=1" alt="Zurich 2024" width="600"/>
     </div>
   </li>
   <li>
-    <a href="javascript:void(0);" onclick="toggleImage('img4')"><small>Amsterdam 2024</small></a>
-    <div id="img4" style="display: none; margin-top: 10px;">
+    <a href="javascript:void(0);" onclick="toggleImage('img5')"><small>Amsterdam 2024</small></a>
+    <div id="img5" style="display: none; margin-top: 10px;">
       <img src="https://www.dropbox.com/scl/fi/4n3mha8fkvbolmg4vpumv/IMG_1192-3.HEIC?rlkey=eam7dl1o8yuvsyxvtdm2rccjw&raw=1" alt="Amsterdam 2024" width="600"/>
     </div>
   </li>
