@@ -52,12 +52,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </small><br><br/></div>
 
 
-**Labor Monopsony Power in the US Food Retailing Industry**. 2024. _<span style="color:#AA6666">Job Market Paper.</span>_<br/>
+**Labor Market Power in the US Food Retailing Industry**. 2024. _<span style="color:#AA6666">Job Market Paper.</span>_<br/>
 <small>[ <a href="#/" onclick="visib('monop_retail')">Abstract</a> | Draft coming soon] </small>
 
 <div id="monop_retail" style="display: none; text-align: justify; line-height: 1.2" ><small>
 
- I study the extent and evolution of labor market power in the US food retailing sector by estimating the wedge between marginal productivity and wage. Using data on a near universe of American food retailers and market-level worker information for the period 2004-2022, I first examine effects of minimum wages on employment in food retailing labor markets. To understand the mechanisms behind the effects, I build a structural model based on the production function approach and estimate labor markdowns. I then examine how these markdown estimates vary across years and along worker, firm, and market characteristics. 
+I study the extent and evolution of labor market power in the US food retailing sector by estimating the wedge between marginal productivity and wage. Using data on a near universe of American food retailers and market-level worker information for the period 2004-2022, I first examine effects of minimum wages on employment in food retailing labor markets. To understand the mechanisms behind the effects, I build a structural model based on the production function approach and estimate labor markdowns. I then examine how these markdown estimates vary across years and along worker, firm, and market characteristics. 
 
 </small><br><br/></div>
 
