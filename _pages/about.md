@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a fourth year PhD student at [Arizona State University](https://wpcarey.asu.edu). My advisor is [Timothy Richards](https://scholar.google.com/citations?hl=en&user=XOAzQkEAAAAJ&view_op=list_works&sortby=pubdate).
+I am a fourth year PhD student at [Arizona State University](https://wpcarey.asu.edu). My advisor is [Timothy J. Richards](https://scholar.google.com/citations?hl=en&user=XOAzQkEAAAAJ&view_op=list_works&sortby=pubdate).
 
 My research interests are in empirical IO and labor economics in food systems. 
 
