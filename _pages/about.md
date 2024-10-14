@@ -18,7 +18,7 @@ I am on the 2024-2025 job market. My CV is [here][CV].
 
 - - -
 
-### Recent talks: 
+### Recent Talks: 
 * [EARIE Conference](https://earie.org/earie-2024-amsterdam/), Amsterdam, August 2024
 * [FRIES Seminar](https://frieseth.wixsite.com/friesethz), ETH Zürich, August 2024
 * AAEA Annual Meeting, New Orleans, July 2024
