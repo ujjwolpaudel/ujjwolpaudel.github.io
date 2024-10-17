@@ -65,7 +65,7 @@ I study the extent and evolution of labor market power in the US food retailing 
 
 
 **Cross-Platform Merger Effects**. 2023. <br/>
-<small>[ <a href="#/" onclick="visib('platforms_mergers')">Abstract</a> | [Draft][platforms_mergers-main] ] </small>
+<small>[ <a href="#/" onclick="visib('platforms_mergers')">Abstract</a> | [SSRN][https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4976777] ] </small>
 
 <div id="platforms_mergers" style="display: none; text-align: justify; line-height: 1.2" ><small>
 
@@ -74,7 +74,6 @@ only the usual market power and efficiency arguments, but accessing stronger, in
 to address this problem, and we find an evidence of a decrease in price levels in 8 out of 10 treated markets.
 
 </small><br><br/></div>
-[platforms_mergers-main]:{{ site.baseurl }}{% link assets/Cross_Platforms_Merger_Effects_UP.pdf %}
 
 * <small> **Conferences:** AAEA, Washington DC, 2023; INFORMS Marketing Science, Miami, 2023. </small>
 
