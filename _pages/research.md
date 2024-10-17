@@ -65,7 +65,7 @@ I study the extent and evolution of labor market power in the US food retailing 
 
 
 **Cross-Platform Merger Effects**. 2023. <br/>
-<small>[ <a href="#/" onclick="visib('platforms_mergers')">Abstract</a> | [SSRN][https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4976777] ] </small>
+<small>[ <a href="#/" onclick="visib('platforms_mergers')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4976777) ] </small>
 
 <div id="platforms_mergers" style="display: none; text-align: justify; line-height: 1.2" ><small>
 
