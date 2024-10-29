@@ -23,6 +23,4 @@ title: ""
 
 * Business Risk Management (TA for Prof. Tim Richards), *Fall 2023*, ASU
 
-* International Management and Agribusiness (TA for Prof. Ashok Mishra), *2021-2022*, ASU
-
 * Business Mathematics and Statistics (Instructor), *2018-2021*, King's College Nepal
