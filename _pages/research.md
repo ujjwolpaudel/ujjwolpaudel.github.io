@@ -23,7 +23,7 @@ I study the extent and evolution of labor market power in the US food retailing 
 
 </small><br><br/></div>
 
-* <small> **Conferences/Seminars:** AAEA, LA, 2024; SEA, DC, 2024; Morrison School Seminar, ASU, 2024; PhD-EVS, Virtual, 2024 </small>
+* <small> **Conferences/Seminars:** AAEA, LA, 2024; Morrison School Seminar, ASU, 2024; PhD-EVS, Virtual, 2024 </small>
 
 
 - - -
@@ -43,7 +43,7 @@ I study the extent and evolution of labor market power in the US food retailing 
 [minwage_pt-main]:{{ site.baseurl }}{% link MW_PT.pdf %}
 [earie-slides]:{{ site.baseurl }}{% link assets/MinWage_EARIE_2024.pdf %}
 
-* <small> **Conferences:** EARIE, Amsterdam, 2024; AAEA, New Orleans, 2024. </small>
+* <small> **Conferences:** EARIE, Amsterdam, 2024 </small>
 * <small> [A poster](https://issr.asu.edu/Fall_2023_Winners) won the first place at ASU Social Science Poster Contest in November 2023.</small>
 
 **Farmworker Bargaining in US Agricultural Labor Markets** (with Tim Richards). 2024. _<span style="color:#AA6666">Under Review.</span>_<br/>
