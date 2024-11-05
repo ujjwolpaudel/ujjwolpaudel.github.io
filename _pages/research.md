@@ -90,6 +90,9 @@ to address this problem, and we find an evidence of a decrease in price levels i
 **Food Waste in Omnichannel Retailing**.
 <br><br/>
 
+**Food Intentions and Food Outcomes** (with Justin Bina). 
+<br><br/>
+
 **Advertisements and Market Power in Retailing** (with Qingxiao Li). 
 <br><br/>
 
