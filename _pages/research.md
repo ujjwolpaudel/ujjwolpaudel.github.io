@@ -23,7 +23,7 @@ I study the extent and evolution of labor market power in the US food retailing 
 
 </small><br><br/></div>
 
-* <small> **Conferences/Seminars:** AAEA, LA, 2024; Morrison School Seminar, ASU, 2024; PhD-EVS, Virtual, 2024 </small>
+* <small> **Conferences/Seminars:** AEA-ASSA, CA, 2025; PhD-EVS, Virtual, 2024; Morrison School Seminar, ASU, 2024; AAEA, LA, 2024   </small>
 
 
 - - -
