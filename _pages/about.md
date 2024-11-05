@@ -14,6 +14,8 @@ My research interests are in empirical IO and labor economics in food systems.
 
 I am on the 2024-2025 job market. My CV is [here][CV]. 
 
+I will be presenting my JMP on the [ASSA Meeting](http://leraoffice.org/drupalinclude/program_assa.asp) in Jan, 2025. Please [reach out](upaudel1@asu.edu) if you want to chat. 
+
 [CV]:{{ site.baseurl }}{% link CV_UPaudel.pdf %}
 
 - - -
