@@ -14,7 +14,7 @@ My research interests are in empirical IO and labor economics in food systems.
 
 I am on the 2024-2025 job market. My CV is [here][CV]. 
 
-I am available for interviews at the [ASSA Meeting](https://www.aeaweb.org/conference/2025-assa-spotlight) in January, 2025.
+I am available for interviews at the [ASSA Meeting](https://www.aeaweb.org/conference/2025-assa-spotlight) in January 2025.
 
 [CV]:{{ site.baseurl }}{% link CV_UPaudel.pdf %}
 
