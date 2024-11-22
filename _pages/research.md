@@ -14,7 +14,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 - - -
 # <center> Job Market Paper </center>
 - - -
-**Labor Market Power in the Food Retailing**. 2024. _<span style="color:#AA6666">Job Market Paper.</span>_<br/>
+**Labor Market Power in Food Retailing**. 2024. _<span style="color:#AA6666">Job Market Paper.</span>_<br/>
 <small>[ <a href="#/" onclick="visib('monop_retail')">Abstract</a> | Draft coming soon] </small>
 
 <div id="monop_retail" style="display: none; text-align: justify; line-height: 1.2" ><small>
