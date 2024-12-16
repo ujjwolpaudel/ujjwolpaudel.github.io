@@ -10,7 +10,7 @@ title: ""
 ---
 
 * Food Supply Networks (Instructor), *Spring 2024*, ASU  
-<small>[[Syllabus][AGB425-Syllabus] | [Schedule][AGB425-Schedule] | [Course Evaluations][AGB425-Evals]]</small>
+<small>[[Syllabus][AGB425-Syllabus] | [Schedule][AGB425-Schedule]]</small>
 
 [AGB425-Syllabus]: {{ site.baseurl }}{% link _teaching/AGB425_Spr24_Syllabus.pdf %}
 [AGB425-Schedule]: {{ site.baseurl }}{% link _teaching/AGB425_Spr24_Schedule.pdf %}
