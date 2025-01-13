@@ -14,16 +14,14 @@ My research interests are in empirical IO and labor economics in food systems.
 
 I am on the 2024-2025 job market. My CV is [here][CV]. 
 
-I am available for interviews at the [ASSA Meeting](https://www.aeaweb.org/conference/2025-assa-spotlight) in January 2025.
-
 [CV]:{{ site.baseurl }}{% link CV_UPaudel.pdf %}
 
 - - -
 
 ### Recent Talks: 
+* [ASSA Meeting](https://www.aeaweb.org/conference/2025-assa-spotlight), San Francisco, January 2025
 * [EARIE Conference](https://earie.org/earie-2024-amsterdam/), Amsterdam, August 2024
 * [FRIES Seminar](https://frieseth.wixsite.com/friesethz), ETH Zürich, August 2024
-* AAEA Annual Meeting, New Orleans, July 2024
   
 - - -
 
