@@ -31,7 +31,7 @@ I study the extent and evolution of labor market power in the US food retailing 
 # <center> Working Papers </center>
 - - -
 
-**Minimum Wages and Pass-Through** (with Tim Richards). 2024. _<span style="color:#AA6666">Revised and Resubmitted at American Journal of Agricultural Economics.</span>_ <br/>
+**Minimum Wages and Pass-Through** (with Timothy J. Richards). 2024. _<span style="color:#AA6666">Revised and Resubmitted at American Journal of Agricultural Economics.</span>_ <br/>
 <small>[ <a href="#/" onclick="visib('minwage_pt')">Abstract</a> | [SSRN (Older)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4833510) | [Current Draft][minwage_pt-main] | [Slides][earie-slides]]</small>
 
 <div id="minwage_pt" style="display: none; text-align: justify; line-height: 1.2" ><small>
@@ -46,7 +46,7 @@ I study the extent and evolution of labor market power in the US food retailing 
 * <small> **Conferences:** EARIE 2024 </small>
 * <small> [A poster](https://issr.asu.edu/Fall_2023_Winners) won the first place at ASU Social Science Poster Contest in November 2023.</small>
 
-**Farmworker Bargaining in US Agricultural Labor Markets** (with Tim Richards). 2024. _<span style="color:#AA6666">Revised and Resubmitted at Applied Economic Perspectives and Policy.</span>_<br/>
+**Farmworker Bargaining in US Agricultural Labor Markets** (with Timothy J. Richards). 2024. _<span style="color:#AA6666">Revised and Resubmitted at Applied Economic Perspectives and Policy.</span>_<br/>
 <small>[ <a href="#/" onclick="visib('monop_ag')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4954851) | [Slides][ETH_AgLabor_Slides]] </small>
 
 <div id="monop_ag" style="display: none; text-align: justify; line-height: 1.2" ><small>
@@ -59,7 +59,7 @@ I study the extent and evolution of labor market power in the US food retailing 
 
 * <small> **Conferences/Seminars:** AAEA 2024; ETH Zürich 2024 </small>
   
-**Retail Concentration and Wages** (with Tim Richards and Keenan Marchesi). 2024. _<span style="color:#AA6666">Under Review.</span>_ <br/>
+**Retail Concentration and Wages** (with Timothy J. Richards and Keenan Marchesi). 2024. _<span style="color:#AA6666">Under Review.</span>_ <br/>
 <small>[ <a href="#/" onclick="visib('concen_wages')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4815715) ] </small>
 
 <div id="concen_wages" style="display: none; text-align: justify; line-height: 1.2" ><small>
