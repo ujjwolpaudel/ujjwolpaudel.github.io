@@ -87,9 +87,6 @@ to address this problem, and we find an evidence of a decrease in price levels i
 **Supermarket Entry and Labor Markdowns**.
 <br><br/>
 
-**Food Waste in Omnichannel Retailing**.
-<br><br/>
-
 **Food Intentions and Food Outcomes** (with Justin Bina). 
 <br><br/>
 
