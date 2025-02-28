@@ -32,7 +32,7 @@ I study the extent and evolution of labor market power in the US food retailing 
 - - -
 **Farmworker Bargaining in US Agricultural Labor Markets** (with Timothy J. Richards). 
 
-_<span style="color:#AA6666">Accepted, Applied Economic Perspectives and Policy.</span>_<br/>
+_<span style="color:#AA6666">Conditionally Accepted, Applied Economic Perspectives and Policy.</span>_<br/>
 <small>[ <a href="#/" onclick="visib('monop_ag')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4954851) | [Slides][ETH_AgLabor_Slides]] </small>
 
 <div id="monop_ag" style="display: none; text-align: justify; line-height: 1.2" ><small>
