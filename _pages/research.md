@@ -14,8 +14,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 - - -
 # <center> Job Market Paper </center>
 - - -
-**Labor Market Power in Food Retailing**. 2024. _<span style="color:#AA6666">Job Market Paper.</span>_<br/>
-<small>[Draft coming soon] </small>
+**Labor Market Power in Food Retailing**. _<span style="color:#AA6666">Job Market Paper.</span>_<br/>
+<small>Please [email](paudeluj@gmail.com) for draft. </small>
 
 <!-- <div id="monop_retail" style="display: none; text-align: justify; line-height: 1.2" ><small>
 
@@ -30,8 +30,7 @@ I study the extent and evolution of labor market power in the US food retailing 
 
 # <center> Working Papers </center>
 - - -
-**Farmworker Bargaining in US Agricultural Labor Markets** (with Timothy J. Richards). 
-
+**Farmworker Bargaining in US Agricultural Labor Markets** (with Timothy J. Richards). <br/>
 _<span style="color:#AA6666">Conditionally Accepted, Applied Economic Perspectives and Policy.</span>_<br/>
 <small>[ <a href="#/" onclick="visib('monop_ag')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4954851) | [Slides][ETH_AgLabor_Slides]] </small>
 
@@ -45,8 +44,7 @@ _<span style="color:#AA6666">Conditionally Accepted, Applied Economic Perspectiv
 
 * <small> **Conferences/Seminars:** AAEA 2024; ETH Zürich 2024 </small>
 
-**Minimum Wages and Pass-Through** (with Timothy J. Richards). 
-
+**Minimum Wages and Pass-Through** (with Timothy J. Richards). <br/>
 _<span style="color:#AA6666">Revised and Resubmitted, American Journal of Agricultural Economics.</span>_ <br/>
 <small>[ <a href="#/" onclick="visib('minwage_pt')">Abstract</a> | [SSRN (Older)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4833510) | [Current Draft][minwage_pt-main] | [Slides][earie-slides]]</small>
 
@@ -62,8 +60,7 @@ _<span style="color:#AA6666">Revised and Resubmitted, American Journal of Agricu
 * <small> **Conferences:** EARIE 2024 </small>
 * <small> [A poster](https://issr.asu.edu/Fall_2023_Winners) won the first place at ASU Social Science Poster Contest in November 2023.</small>
   
-**Retail Concentration and Wages** (with Timothy J. Richards and Keenan Marchesi). 
-
+**Retail Concentration and Wages** (with Timothy J. Richards and Keenan Marchesi). <br/>
 _<span style="color:#AA6666">Under Review, Review of Industrial Organization.</span>_ <br/>
 <small>[ <a href="#/" onclick="visib('concen_wages')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4815715) ] </small>
 
