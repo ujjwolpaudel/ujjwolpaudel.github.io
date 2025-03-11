@@ -45,7 +45,7 @@ _<span style="color:#AA6666">Conditionally Accepted, Applied Economic Perspectiv
 * <small> **Conferences/Seminars:** AAEA 2024; ETH Zürich 2024 </small>
 
 **Minimum Wages and Pass-Through** (with Timothy J. Richards). <br/>
-_<span style="color:#AA6666">Revised and Resubmitted, American Journal of Agricultural Economics.</span>_ <br/>
+_<span style="color:#AA6666">Revised and Resubmitted (Second Round), American Journal of Agricultural Economics.</span>_ <br/>
 <small>[ <a href="#/" onclick="visib('minwage_pt')">Abstract</a> | [SSRN (Older)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4833510) | [Current Draft][minwage_pt-main] | [Slides][earie-slides]]</small>
 
 <div id="minwage_pt" style="display: none; text-align: justify; line-height: 1.2" ><small>
