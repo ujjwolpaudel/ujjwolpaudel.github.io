@@ -25,6 +25,11 @@ I am on the 2024-2025 job market. My CV is [here][CV].
   
 - - -
 
-Prior to joining ASU, I studied mathematics at [ETH Zürich](https://math.ethz.ch) and [Jacobs University Bremen](http://math.jacobs-university.de), where I completed my MS and BS, respectively. 
+### Prior Education: 
 
-I originally come from a [village](https://en.wikipedia.org/wiki/Budhabare,_Jhapa) in south-eastern Nepal. 
+* M.S., Mathematics, [ETH Zürich](https://math.ethz.ch)
+* B.S., Mathematics, [Jacobs University Bremen](http://math.jacobs-university.de)
+
+- - - 
+
+I originally come from [south-eastern Nepal](https://en.wikipedia.org/wiki/Budhabare,_Jhapa). 
