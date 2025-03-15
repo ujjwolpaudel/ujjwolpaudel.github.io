@@ -22,5 +22,3 @@ title: ""
 * Food Retailing (TA for Prof. Renee Hughner), *2022-2023*, ASU
 
 * Business Risk Management (TA for Prof. Tim Richards), *Fall 2023*, ASU
-
-* Business Mathematics and Statistics (Instructor), *2018-2021*, King's College Nepal
