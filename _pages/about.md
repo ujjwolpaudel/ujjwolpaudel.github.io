@@ -12,8 +12,6 @@ I am a fourth year PhD Candidate at [Arizona State University](https://wpcarey.a
 
 My research interests are in empirical IO and labor economics in food systems. 
 
-I am on the 2024-2025 job market. 
-
 [CV]:{{ site.baseurl }}{% link CV_UPaudel.pdf %}
 
 - - -
