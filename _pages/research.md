@@ -30,6 +30,25 @@ I study the extent and evolution of labor market power in the US food retailing 
 
 # <center> Papers </center>
 - - -
+
+**Minimum Wages and Pass-Through** (with Timothy J. Richards). <br/>
+_<span style="color:#AA6666">Accepted, American Journal of Agricultural Economics.</span>_ <br/>
+<small>[ <a href="#/" onclick="visib('minwage_pt')">Abstract</a> | [SSRN (Older)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4833510) | [Current Draft][minwage_pt-main] | [Slides][earie-slides]]</small>
+
+<div id="minwage_pt" style="display: none; text-align: justify; line-height: 1.2" ><small>
+  
+Retail food prices rose dramatically in late 2021. Some argue that this “food price inflation” was due to “greedflation” or firms increasing downstream prices simply because they can. In this study, we investigate the sources of “overshifting” store-level cost shocks into downstream prices, or the apparent ability of retailers to pass along price increases that are proportionately larger than increases in cost. We use exogenous changes in minimum wages as our setting, and study how food retailers pass increases
+in labor costs along to consumers in the form of higher food prices. We derive a new theoretical model of retail price pass-through, and show that demand curvature, market power, and consumer search behavior each likely affect observed rates of retail price pass-through. Our structural analysis shows that, after controlling for the primary determinants of wage pass-through, market power and demand curvature explain much of the variation in cost pass-through, although general price inflation has an important
+role in accentuating the rate of minimum-wage pass-through. Our findings have important implications for minimum wage policy, and for understanding the role of cost shocks in food price inflation.
+
+</small><br><br/></div>
+
+[minwage_pt-main]:{{ site.baseurl }}{% link MW_PT.pdf %}
+[earie-slides]:{{ site.baseurl }}{% link assets/MinWage_EARIE_2024.pdf %}
+
+* <small> **Conferences:** EARIE 2024 </small>
+* <small> [A poster](https://issr.asu.edu/Fall_2023_Winners) won the first place at ASU Social Science Poster Contest in November 2023.</small>
+  
 **Farmworker Bargaining in US Agricultural Labor Markets** (with Timothy J. Richards). <br/>
 _<span style="color:#AA6666">Accepted, Applied Economic Perspectives and Policy.</span>_<br/>
 <small>[ <a href="#/" onclick="visib('monop_ag')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4954851) | [Slides][ETH_AgLabor_Slides]] </small>
@@ -44,22 +63,6 @@ _<span style="color:#AA6666">Accepted, Applied Economic Perspectives and Policy.
 
 * <small> **Conferences/Seminars:** AAEA 2024; ETH Zürich 2024 </small>
 
-**Minimum Wages and Pass-Through** (with Timothy J. Richards). <br/>
-_<span style="color:#AA6666">Revised and Resubmitted (Second Round), American Journal of Agricultural Economics.</span>_ <br/>
-<small>[ <a href="#/" onclick="visib('minwage_pt')">Abstract</a> | [SSRN (Older)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4833510) | [Current Draft][minwage_pt-main] | [Slides][earie-slides]]</small>
-
-<div id="minwage_pt" style="display: none; text-align: justify; line-height: 1.2" ><small>
-  
- Price inflation rose dramatically in late 2021. While there were many potential causes, some point to rising minimum wages, and wage inflation, as perhaps the most important source of food-price inflation. There is a large body of research that studies the aggregate effects of minimum wages, but none consider the precise mechanisms that link higher food prices and minimum wages in an environment of high general price inflation. In this study, we investigate the possibility that general price inflation serves as a facilitating mechanism for localized price inflation. We estimate both reducedform and structural models of minimum-wage pass-through. Reduced-form models show that general price inflation has a positive effect on minimum wage pass-through to retail food prices. However, reduced-form models cannot account for the effects of demand curvature and imperfect competition. Our structural model shows that, after controlling for the primary determinants of wage pass-through, general price inflation has an important role in accentuating the rate of minimum-wage pass-through. Our findings have important implications for minimum wage policy, and for understanding the role of labor cost in retail price inflation.
-
-</small><br><br/></div>
-
-[minwage_pt-main]:{{ site.baseurl }}{% link MW_PT.pdf %}
-[earie-slides]:{{ site.baseurl }}{% link assets/MinWage_EARIE_2024.pdf %}
-
-* <small> **Conferences:** EARIE 2024 </small>
-* <small> [A poster](https://issr.asu.edu/Fall_2023_Winners) won the first place at ASU Social Science Poster Contest in November 2023.</small>
-  
 **Retail Concentration and Wages** (with Timothy J. Richards and Keenan Marchesi). <br/>
 _<span style="color:#AA6666">Revise and Resubmit, Review of Industrial Organization.</span>_ <br/>
 <small>[ <a href="#/" onclick="visib('concen_wages')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4815715) ] </small>
