@@ -14,7 +14,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 - - -
 # <center> Job Market Paper </center>
 - - -
-**Labor Market Power in Food Retailing**. _<span style="color:#AA6666">Job Market Paper.</span>_<br/>
+**Labor Market Power in Food Retailing**. <span style="color:#AA6666">Job Market Paper.</span><br/>
 <small>Please [email](paudeluj@gmail.com) for draft. </small>
 
 <!-- <div id="monop_retail" style="display: none; text-align: justify; line-height: 1.2" ><small>
