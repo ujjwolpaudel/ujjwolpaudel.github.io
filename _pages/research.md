@@ -87,7 +87,7 @@ to address this problem, and we find an evidence of a decrease in price levels i
 * <small> **Conferences:** AAEA 2023; INFORMS Marketing Science 2023. </small>
 
 - - -
-# <center> In Progress </center>
+# <center> Papers in Progress </center>
 - - -
 **Supermarket Entry and Labor Markdowns**.
 <br><br/>
