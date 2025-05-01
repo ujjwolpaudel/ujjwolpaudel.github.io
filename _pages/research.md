@@ -48,19 +48,6 @@ role in accentuating the rate of minimum-wage pass-through. Our findings have im
 
 * <small> **Conferences:** EARIE 2024 </small>
 * <small> [A poster](https://issr.asu.edu/Fall_2023_Winners) won the first place at ASU Social Science Poster Contest in November 2023.</small>
-  
-**Farmworker Bargaining in US Agricultural Labor Markets** (with Timothy J. Richards). <br/>
-<span style="color:#AA6666">Applied Economic Perspectives and Policy, April 2025.</span> <br/>
-<small>[ <a href="#/" onclick="visib('monop_ag')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4954851) | [Publisher's Version](https://onlinelibrary.wiley.com/doi/10.1002/aepp.13526) | [Slides][ETH_AgLabor_Slides]] </small>
-
-<div id="monop_ag" style="display: none; text-align: justify; line-height: 1.2" ><small>
-
-''Superstar firms'' can be large and successful without necessarily exploiting market power over labor markets (Autor et al. 2020). In this paper, we examine this idea in an agricultural labor market setting by studying the empirical relationship between employment surplus, which is essentially the excess of a worker's value marginal product over their wage, and wages. We use a model of search, match, and bargaining that explains how the surplus from worker's productivity is split between workers and employers. Our estimates show that workers' mean productivity is $8.67 per hour, and they receive 24.2% of employment surplus, but both exhibit substantial heterogeneity over workers. Heterogeneity in productivity and bargaining power suggests that workers who are able to generate ''a bigger pie'', may also earn a larger share of it. Consistent with this notion, our analysis shows a robust positive elasticity of surplus with observed wages, implying that agricultural firms gain more (surplus) by paying their workers higher wages and not necessarily through exploitation or ``winner-take-all'' strategy. 
-
-</small><br><br/></div>
-[ETH_AgLabor_Slides]:{{ site.baseurl }}{% link assets/AgLabor_ETHZ_2024.pdf %}
-
-* <small> **Conferences/Seminars:** AAEA 2024; ETH Zürich 2024 </small>
 
 <!-- Main Paper Entry -->
 <b>Farmworker Bargaining in US Agricultural Labor Markets</b> (with Timothy J. Richards)<br/>
