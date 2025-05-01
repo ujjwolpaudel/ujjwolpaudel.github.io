@@ -50,8 +50,8 @@ role in accentuating the rate of minimum-wage pass-through. Our findings have im
 * <small> [A poster](https://issr.asu.edu/Fall_2023_Winners) won the first place at ASU Social Science Poster Contest in November 2023.</small>
   
 **Farmworker Bargaining in US Agricultural Labor Markets** (with Timothy J. Richards). <br/>
-<span style="color:#AA6666">Accepted, Applied Economic Perspectives and Policy.</span> <br/>
-<small>[ <a href="#/" onclick="visib('monop_ag')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4954851) | [Slides][ETH_AgLabor_Slides]] </small>
+<span style="color:#AA6666">Applied Economic Perspectives and Policy, April 2025.</span> <br/>
+<small>[ <a href="#/" onclick="visib('monop_ag')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4954851) | [Publisher's Version](https://onlinelibrary.wiley.com/doi/10.1002/aepp.13526) | [Slides][ETH_AgLabor_Slides] | [<a href="#/" onclick="visib('bargaining_bibtex')">Bibtex</a>] </small>
 
 <div id="monop_ag" style="display: none; text-align: justify; line-height: 1.2" ><small>
 
@@ -60,6 +60,17 @@ role in accentuating the rate of minimum-wage pass-through. Our findings have im
 </small><br><br/></div>
 [ETH_AgLabor_Slides]:{{ site.baseurl }}{% link assets/AgLabor_ETHZ_2024.pdf %}
 
+<div id="bargaining_bibtex" style="display: none; text-align: justify; line-height: 1.2" ><small>
+
+@article{PaudelRichardsAEPP2025,
+  title={Farmworker Bargaining in US Agricultural Labor Markets},
+  author={Paudel, Ujjwol and Richards, Timothy J.},
+  journal={Applied Economic Perspectives and Policy},
+  year={2025},
+  pages={1--31},
+  doi={10.1002/aepp.13526},
+  url={https://doi.org/10.1002/aepp.13526}
+}
 
 * <small> **Conferences/Seminars:** AAEA 2024; ETH Zürich 2024 </small>
 
