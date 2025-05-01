@@ -74,6 +74,44 @@ role in accentuating the rate of minimum-wage pass-through. Our findings have im
 
 * <small> **Conferences/Seminars:** AAEA 2024; ETH Zürich 2024 </small>
 
+<!-- Main Paper Entry -->
+<b>Farmworker Bargaining in US Agricultural Labor Markets</b> (with Timothy J. Richards)<br/>
+<span style="color:#AA6666">*Applied Economic Perspectives and Policy*, April 2025.</span><br/>
+<small>
+[ <a href="#/" onclick="visib('monop_ag')">Abstract</a> |
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4954851" target="_blank">SSRN</a> |
+  <a href="https://onlinelibrary.wiley.com/doi/10.1002/aepp.13526" target="_blank">Publisher's Version</a> |
+  <a href="{{ site.baseurl }}{% link assets/AgLabor_ETHZ_2024.pdf %}" target="_blank">Slides</a> |
+  <a href="#/" onclick="visib('bargaining_bibtex')">BibTeX</a>
+]
+</small>
+
+<!-- Abstract -->
+<div id="monop_ag" style="display: none; text-align: justify; line-height: 1.4; margin-top: 10px;">
+  <small>
+    <i>"Superstar firms"</i> can be large and successful without necessarily exploiting labor market power (Autor et al. 2020). This paper examines that idea in the context of U.S. agriculture by studying how wages relate to employment surplus—defined as the gap between a worker’s value marginal product and their wage. We estimate a structural search-match-bargaining model to quantify how productivity and bargaining power determine surplus allocation. Results show average productivity of $8.67/hour, with workers capturing 24.2% of the surplus on average, and significant heterogeneity across individuals. Workers generating higher surplus tend to retain a larger share. Contrary to a "winner-take-all" narrative, our findings suggest that firms may gain more by paying higher wages, rather than extracting surplus through monopsony power.
+  </small>
+</div>
+
+<!-- BibTeX -->
+<div id="bargaining_bibtex" style="display: none; text-align: justify; line-height: 1.4; margin-top: 10px;">
+  <small>
+    <pre style="font-size: 0.8em; white-space: pre-wrap;">
+@article{PaudelRichardsAEPP2025,
+  title   = {Farmworker Bargaining in US Agricultural Labor Markets},
+  author  = {Paudel, Ujjwol and Richards, Timothy J.},
+  journal = {Applied Economic Perspectives and Policy},
+  year    = {2025},
+  pages   = {1--31},
+  doi     = {10.1002/aepp.13526},
+  url     = {https://doi.org/10.1002/aepp.13526}
+}
+    </pre>
+    <b>Conferences/Seminars:</b> AAEA 2024; ETH Zürich 2024
+  </small>
+</div>
+
+
 **Retail Concentration and Wages** (with Timothy J. Richards and Keenan Marchesi). <br/>
 <span style="color:#AA6666">Revise and Resubmit, Review of Industrial Organization.</span> <br/>
 <small>[ <a href="#/" onclick="visib('concen_wages')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4815715) ] </small>
