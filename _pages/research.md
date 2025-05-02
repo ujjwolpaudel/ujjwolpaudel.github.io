@@ -51,7 +51,7 @@ role in accentuating the rate of minimum-wage pass-through. Our findings have im
 
 <!-- Main Paper Entry -->
 <b>Farmworker Bargaining in US Agricultural Labor Markets</b> (with Timothy J. Richards)<br/>
-<span style="color:#AA6666">*Applied Economic Perspectives and Policy*, April 2025.</span><br/>
+<span style="color:#AA6666">Applied Economic Perspectives and Policy, April 2025.</span><br/>
 <small>
 [ <a href="#/" onclick="visib('monop_ag')">Abstract</a> |
   <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4954851" target="_blank">SSRN</a> |
