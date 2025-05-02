@@ -68,8 +68,6 @@ role in accentuating the rate of minimum-wage pass-through. Our findings have im
   </small>
 </div>
 
- * <small> **Conferences:** AAEA 2024; ETH Zürich 2024
-
 <!-- BibTeX -->
 <div id="bargaining_bibtex" style="display: none; text-align: justify; line-height: 1.4; margin-top: 10px;">
   <small>
@@ -86,6 +84,8 @@ role in accentuating the rate of minimum-wage pass-through. Our findings have im
     </pre>
   </small>
 </div>
+
+ * <small> **Conferences:** AAEA 2024; ETH Zürich 2024
 
 
 **Retail Concentration and Wages** (with Timothy J. Richards and Keenan Marchesi). <br/>
