@@ -31,33 +31,15 @@ I study the extent and evolution of labor market power in the US food retailing 
 # <center> Papers </center>
 - - -
 
-**Minimum Wages and Pass-Through** (with Timothy J. Richards). <br/>
-<span style="color:#AA6666">Accepted, American Journal of Agricultural Economics.</span> <br/>
-<small>[ <a href="#/" onclick="visib('minwage_pt')">Abstract</a> | [SSRN (Older)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4833510) | [Current Draft][minwage_pt-main] | [Slides][earie-slides]]</small>
-
-<div id="minwage_pt" style="display: none; text-align: justify; line-height: 1.2" ><small>
-  
-Retail food prices rose dramatically in late 2021. Some argue that this “food price inflation” was due to “greedflation” or firms increasing downstream prices simply because they can. In this study, we investigate the sources of “overshifting” store-level cost shocks into downstream prices, or the apparent ability of retailers to pass along price increases that are proportionately larger than increases in cost. We use exogenous changes in minimum wages as our setting, and study how food retailers pass increases
-in labor costs along to consumers in the form of higher food prices. We derive a new theoretical model of retail price pass-through, and show that demand curvature, market power, and consumer search behavior each likely affect observed rates of retail price pass-through. Our structural analysis shows that, after controlling for the primary determinants of wage pass-through, market power and demand curvature explain much of the variation in cost pass-through, although general price inflation has an important
-role in accentuating the rate of minimum-wage pass-through. Our findings have important implications for minimum wage policy, and for understanding the role of cost shocks in food price inflation.
-
-</small><br><br/></div>
-
-[minwage_pt-main]:{{ site.baseurl }}{% link MW_PT.pdf %}
-[earie-slides]:{{ site.baseurl }}{% link assets/MinWage_EARIE_2024.pdf %}
-
-* <small> **Conferences:** EARIE 2024 </small>
-* <small> [A poster](https://issr.asu.edu/Fall_2023_Winners) won the first place at ASU Social Science Poster Contest in November 2023.</small>
-
 
 <!-- Main Paper Entry -->
 <b>Minimum Wages and Pass-Through</b> (with Timothy J. Richards)<br/>
 <span style="color:#AA6666">Accepted, American Journal of Agricultural Economics.</span><br/>
 <small>
-[<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4833510" target="_blank">SSRN (Older)</a> |
+[<a href="#/" onclick="visib('minwage_pt')">Abstract</a> |
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4833510" target="_blank">SSRN (Older)</a> |
   <a href="{{ site.baseurl }}{% link MW_PT.pdf %}" target="_blank">Current Draft</a> |
   <a href="https://onlinelibrary.wiley.com/doi/10.1111/ajae.12554" target="_blank">Publisher's Version</a> |
-  <a href="#/" onclick="visib('minwage_pt')">Abstract</a> |
   <a href="{{ site.baseurl }}{% link assets/MinWage_EARIE_2024.pdf %}" target="_blank">Slides</a> |
   <a href="#/" onclick="visib('minwage_bibtex')">BibTeX</a>
 ]
