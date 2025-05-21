@@ -34,7 +34,7 @@ I study the extent and evolution of labor market power in the US food retailing 
 
 <!-- Main Paper Entry -->
 <b>Minimum Wages and Pass-Through</b> (with Timothy J. Richards)<br/>
-<span style="color:#AA6666">Accepted, American Journal of Agricultural Economics.</span><br/>
+<span style="color:#AA6666">American Journal of Agricultural Economics, May 2025.</span><br/>
 <small>
 [<a href="#/" onclick="visib('minwage_pt')">Abstract</a> |
 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4833510" target="_blank">SSRN (Older)</a> |
