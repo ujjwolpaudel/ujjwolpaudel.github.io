@@ -56,7 +56,7 @@ I study the extent and evolution of labor market power in the US food retailing 
 <div id="minwage_bibtex" style="display: none; text-align: justify; line-height: 1.4; margin-top: 10px;">
   <small>
     <pre style="font-size: 0.8em; white-space: pre-wrap;">
-@article{PaudelRichardsAJAEE2025,
+@article{RichardsPaudelAJAE2025,
   title   = {Minimum Wages and Pass-Through},
   author  = {Richards, Timothy J and Paudel, Ujjwol},
   journal = {American Journal of Agricultural Economics},
