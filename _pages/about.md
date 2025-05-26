@@ -8,9 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I am a fourth year PhD Candidate at [Arizona State University](https://wpcarey.asu.edu). My advisor is [Timothy J. Richards](https://scholar.google.com/citations?hl=en&user=XOAzQkEAAAAJ&view_op=list_works&sortby=pubdate).
+I am a postdoc in the Department of Supply Chain Management at [Arizona State University](https://wpcarey.asu.edu/supply-chain-management-degrees).
 
-My research interests are in empirical IO and labor economics in food systems. 
+In May 2025, I finished my PhD under the supervision of [Timothy J. Richards](https://scholar.google.com/citations?hl=en&user=XOAzQkEAAAAJ&view_op=list_works&sortby=pubdate).
+
+My research interests are in empirical IO and supply chain management in food systems. 
 
 [CV]:{{ site.baseurl }}{% link CV_UPaudel.pdf %}
 
