@@ -123,7 +123,6 @@ I study the extent and evolution of labor market power in the US food retailing 
 </small><br><br/></div>
 
 **Cost Shocks and Price Pass-through**. <br/>
-<span style="color:#AA6666">.</span> <br/>
 <small>[ <a href="#/" onclick="visib('mw_pt_rf')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5278413) ] </small>
 
 <div id="mw_pt_rf" style="display: none; text-align: justify; line-height: 1.2" ><small>
