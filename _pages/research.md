@@ -122,14 +122,22 @@ I study the extent and evolution of labor market power in the US food retailing 
 
 </small><br><br/></div>
 
+**Cost Shocks and Price Pass-through**. <br/>
+<span style="color:#AA6666">.</span> <br/>
+<small>[ <a href="#/" onclick="visib('mw_pt_rf')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5278413) ] </small>
+
+<div id="mw_pt_rf" style="display: none; text-align: justify; line-height: 1.2" ><small>
+
+ The question of how firms pass changes in their input costs to consumer prices is an important and a long-standing puzzle in economics. I study this problem by exploring the impacts in retail prices due to cost shocks from increases in state minimum wage. Using spatial distribution of minimum wages in the United States, NielsenIQ's scanner transaction data from 2011-2021, and a stacked difference-indifferences research design, I find that a 10 percent increase in state minimum wage causes 1.1 to 1.5 percent increase in retail grocery prices. I also find evidence that food retailers exhibit forward-looking behavior by adjusting prices immediately after minimum wage legislation is enacted, rather than waiting until the policy is formally implemented. Additionally, I use a causal machine learning approach to examine the heterogeneity of the minimum wage price pass-through along different retailer-and market-specific covariates. I find that pass-through rates are lower among retailers with greater market share and in higher-income counties, which implies that larger firms and richer markets can absorb cost shocks better. Further, retailers with lower reliance on promotions and discounts exhibit higher pass-through, which suggests that price adjustments can also occur through changes in discounting strategies rather than solely through base price increases. My findings highlight the need for policymakers and marketing practitioners to consider the distributional effects of minimum wage policies on firms' pricing decisions.
+
+</small><br><br/></div>
+
 **Cross-Platform Merger Effects**. <br/>
 <small>[ <a href="#/" onclick="visib('platforms_mergers')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4976777) ] </small>
 
 <div id="platforms_mergers" style="display: none; text-align: justify; line-height: 1.2" ><small>
 
- Mergers and acquisitions tend to affect the prices and varieties offered by the merging firms. However, most of the existing research considers mergers between firms that interact on the same platform, such as between two online firms, or two firms on the same physical platform. To our knowledge, there is no empirical research on the price effects of integration across different platforms. Such cross-platform mergers likely have substantially different impacts on prices because indirect network effects are much weaker for physical firms than those that interact in low-cost environments having long-tail effects due to lower search costs and fewer constraints on physical inventory. We investigate this problem by analyzing the effects of an acquisition of a national grocery chain by a large online retailer in the United States. Our study differs from prior studies on mergers and acquisitions as the incentives to merge involve not
-only the usual market power and efficiency arguments, but accessing stronger, indirect network externalities as well. Because the decision to merge is endogenous, identifying merger effects is empirically difficult. We use a doubly-robust causal inference method
-to address this problem, and we find an evidence of a decrease in price levels in 8 out of 10 treated markets.
+ Mergers and acquisitions tend to affect the prices and varieties offered by the merging firms. However, most of the existing research considers mergers between firms that interact on the same platform, such as between two online firms, or two firms on the same physical platform. To our knowledge, there is no empirical research on the price effects of integration across different platforms. Such cross-platform mergers likely have substantially different impacts on prices because indirect network effects are much weaker for physical firms than those that interact in low-cost environments having long-tail effects due to lower search costs and fewer constraints on physical inventory. We investigate this problem by analyzing the effects of an acquisition of a national grocery chain by a large online retailer in the United States. Our study differs from prior studies on mergers and acquisitions as the incentives to merge involve not only the usual market power and efficiency arguments, but accessing stronger, indirect network externalities as well. Because the decision to merge is endogenous, identifying merger effects is empirically difficult. We use a doubly-robust causal inference method to address this problem, and we find an evidence of a decrease in price levels in 8 out of 10 treated markets.
 
 </small><br><br/></div>
 
