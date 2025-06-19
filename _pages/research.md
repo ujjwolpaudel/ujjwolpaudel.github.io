@@ -37,8 +37,7 @@ I study the extent and evolution of labor market power in the US food retailing 
 <span style="color:#AA6666">American Journal of Agricultural Economics, May 2025.</span><br/>
 <small>
 [<a href="#/" onclick="visib('minwage_pt')">Abstract</a> |
-<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4833510" target="_blank">SSRN (Older)</a> |
-  <a href="{{ site.baseurl }}{% link MW_PT.pdf %}" target="_blank">Current Draft</a> |
+  <a href="{{ site.baseurl }}{% link MW_PT.pdf %}" target="_blank">Draft</a> |
   <a href="https://onlinelibrary.wiley.com/doi/10.1111/ajae.12554" target="_blank">Publisher's Version</a> |
   <a href="{{ site.baseurl }}{% link assets/MinWage_EARIE_2024.pdf %}" target="_blank">Slides</a> |
   <a href="#/" onclick="visib('minwage_bibtex')">BibTeX</a>
