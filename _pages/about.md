@@ -10,7 +10,7 @@ redirect_from:
 
 I am a postdoc in the Department of Supply Chain Management at [Arizona State University](https://wpcarey.asu.edu/supply-chain-management-degrees).
 
-In May 2025, I finished my PhD under the supervision of [Timothy J. Richards](https://scholar.google.com/citations?hl=en&user=XOAzQkEAAAAJ&view_op=list_works&sortby=pubdate).
+In May 2025, I completed my PhD at [ASU](https://wpcarey.asu.edu/agribusiness-degrees) under the supervision of [Timothy J. Richards](https://scholar.google.com/citations?hl=en&user=XOAzQkEAAAAJ&view_op=list_works&sortby=pubdate).
 
 My research interests are in empirical IO and supply chain management in food systems. 
 
