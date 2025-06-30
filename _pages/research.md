@@ -68,7 +68,7 @@ I study the extent and evolution of labor market power in the US food retailing 
 </div>
 
 <!-- Conference and Poster Info -->
-* <small> <b>Conferences:</b> EARIE 2024 </small><br/>
+<!-- * <small> <b>Conferences:</b> EARIE 2024 </small><br/>
 * <small> <a href="https://issr.asu.edu/Fall_2023_Winners" target="_blank">A poster</a> won the first place at ASU Social Science Poster Contest in November 2023.</small>
 
 
@@ -108,7 +108,7 @@ I study the extent and evolution of labor market power in the US food retailing 
   </small>
 </div>
 
- * <small> **Conferences:** AAEA 2024; ETH Zürich 2024
+<!-- * <small> **Conferences:** AAEA 2024; ETH Zürich 2024 -->
 
 
 **Retail Concentration and Wages** (with Timothy J. Richards and Keenan Marchesi). <br/>
@@ -139,7 +139,7 @@ I study the extent and evolution of labor market power in the US food retailing 
 
 </small><br><br/></div>
 
-* <small> **Conferences:** AAEA 2023; INFORMS Marketing Science 2023. </small>
+<!-- * <small> **Conferences:** AAEA 2023; INFORMS Marketing Science 2023. </small> -->
 
 - - -
 # <center> Papers in Progress </center>
