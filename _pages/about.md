@@ -12,7 +12,9 @@ I am a postdoc in the Department of Supply Chain Management at [Arizona State Un
 
 In May 2025, I completed my PhD at [ASU](https://wpcarey.asu.edu/agribusiness-degrees) under the supervision of [Timothy J. Richards](https://scholar.google.com/citations?hl=en&user=XOAzQkEAAAAJ&view_op=list_works&sortby=pubdate).
 
-My research interests are in empirical IO and supply chain management in food systems. 
+My research interests are on empirical IO and supply chain management in food systems.
+
+I will be on the job market in the 2025–2026 academic year.
 
 [CV]:{{ site.baseurl }}{% link CV_UPaudel.pdf %}
 
