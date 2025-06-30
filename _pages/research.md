@@ -131,6 +131,11 @@ I study the extent and evolution of labor market power in the US food retailing 
 
 * <small> **Conferences/Seminars:** AEA-ASSA 2025; PhD-EVS 2024; ASU 2024; AAEA 2024   </small> -->
 
+
+**Food Intentions and Food Outcomes** (with Justin Bina). <span style="color:#AA6666">Submitted.</span>
+<br/>
+<small>Please [email](paudeluj@gmail.com) for draft. </small>
+
 **Cross-Platform Merger Effects**. <br/>
 <small>[ <a href="#/" onclick="visib('platforms_mergers')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4976777) ] </small>
 
@@ -141,11 +146,6 @@ I study the extent and evolution of labor market power in the US food retailing 
 </small><br><br/></div>
 
 <!-- * <small> **Conferences:** AAEA 2023; INFORMS Marketing Science 2023. </small> -->
-
-
-**Food Intentions and Food Outcomes** (with Justin Bina). 
-<br/>
-<small>Please [email](paudeluj@gmail.com) for draft. </small>
 
 
 [//]: This java script is the button to show abstract
