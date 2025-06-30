@@ -11,24 +11,10 @@ permalink: /research/
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-- - -
-# <center> Job Market Paper </center>
-- - -
-**Labor Market Power in Food Retailing**. <span style="color:#AA6666">Job Market Paper.</span><br/>
-<small>Please [email](paudeluj@gmail.com) for draft. </small>
-
-<!-- <div id="monop_retail" style="display: none; text-align: justify; line-height: 1.2" ><small>
-
-I study the extent and evolution of labor market power in the US food retailing sector by estimating the wedge between workers' marginal productivity and wage. Using data on a near universe of publicly trading American food retailers for the period 2004-2022, I first examine how concentration in labor markets moderates effects of state minimum wages on individual store's employment. On two proxies of labor market concentration---population density and number of establishments---I find that highly concentrated markets have more positive employment effects from minimum wages. Based on this model-free result, I hypothesize that labor oligopsony power enables food retailers in concentrated markets to maintain greater productivity-wage gaps, allowing them to absorb minimum wage increases by sacrificing some surplus while still expanding employment. To test this hypothesis, I implement a production function estimation strategy from IO literature which lets me estimate the labor markdowns or wage-productivity gaps, and understand how they differ by concentration levels. I then examine how these markdown estimates vary across years and along worker, firm, and market characteristics. 
-
-</small><br><br/></div>
-
-* <small> **Conferences/Seminars:** AEA-ASSA 2025; PhD-EVS 2024; ASU 2024; AAEA 2024   </small> -->
-
 
 - - -
 
-# <center> Papers </center>
+# <center> Publications </center>
 - - -
 
 
@@ -110,6 +96,10 @@ I study the extent and evolution of labor market power in the US food retailing 
 
 <!-- * <small> **Conferences:** AAEA 2024; ETH Zürich 2024 -->
 
+- - -
+# <center> Papers in Progress </center>
+- - -
+
 
 **Retail Concentration and Wages** (with Timothy J. Richards and Keenan Marchesi). <br/>
 <span style="color:#AA6666">Revise and Resubmit, Review of Industrial Organization.</span> <br/>
@@ -130,6 +120,17 @@ I study the extent and evolution of labor market power in the US food retailing 
 
 </small><br><br/></div>
 
+**Labor Market Power in Food Retailing**. <span style="color:#AA6666">Job Market Paper.</span><br/>
+<small>Please [email](paudeluj@gmail.com) for draft. </small>
+
+<!-- <div id="monop_retail" style="display: none; text-align: justify; line-height: 1.2" ><small>
+
+I study the extent and evolution of labor market power in the US food retailing sector by estimating the wedge between workers' marginal productivity and wage. Using data on a near universe of publicly trading American food retailers for the period 2004-2022, I first examine how concentration in labor markets moderates effects of state minimum wages on individual store's employment. On two proxies of labor market concentration---population density and number of establishments---I find that highly concentrated markets have more positive employment effects from minimum wages. Based on this model-free result, I hypothesize that labor oligopsony power enables food retailers in concentrated markets to maintain greater productivity-wage gaps, allowing them to absorb minimum wage increases by sacrificing some surplus while still expanding employment. To test this hypothesis, I implement a production function estimation strategy from IO literature which lets me estimate the labor markdowns or wage-productivity gaps, and understand how they differ by concentration levels. I then examine how these markdown estimates vary across years and along worker, firm, and market characteristics. 
+
+</small><br><br/></div>
+
+* <small> **Conferences/Seminars:** AEA-ASSA 2025; PhD-EVS 2024; ASU 2024; AAEA 2024   </small> -->
+
 **Cross-Platform Merger Effects**. <br/>
 <small>[ <a href="#/" onclick="visib('platforms_mergers')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4976777) ] </small>
 
@@ -141,14 +142,10 @@ I study the extent and evolution of labor market power in the US food retailing 
 
 <!-- * <small> **Conferences:** AAEA 2023; INFORMS Marketing Science 2023. </small> -->
 
-- - -
-# <center> Papers in Progress </center>
-- - -
-**Supermarket Entry and Labor Markdowns**.
-<br><br/>
 
 **Food Intentions and Food Outcomes** (with Justin Bina). 
-<br><br/>
+<br/>
+<small>Please [email](paudeluj@gmail.com) for draft. </small>
 
 
 [//]: This java script is the button to show abstract
