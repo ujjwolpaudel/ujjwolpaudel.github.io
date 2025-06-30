@@ -121,7 +121,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </small><br><br/></div>
 
 **Labor Market Power in Food Retailing**. <span style="color:#AA6666">Job Market Paper.</span><br/>
-<small>Please [email](paudeluj@gmail.com) for draft. </small>
+<small>Please <a href="mailto:paudeluj@gmail.com">email me</a> for a draft.</small>
 
 <!-- <div id="monop_retail" style="display: none; text-align: justify; line-height: 1.2" ><small>
 
@@ -134,7 +134,8 @@ I study the extent and evolution of labor market power in the US food retailing 
 
 **Food Intentions and Food Outcomes** (with Justin Bina). <span style="color:#AA6666">Submitted.</span>
 <br/>
-<small>Please [email](paudeluj@gmail.com) for draft. </small>
+<small>Please <a href="mailto:paudeluj@gmail.com">email me</a> for a draft.</small>
+
 
 **Cross-Platform Merger Effects**. <br/>
 <small>[ <a href="#/" onclick="visib('platforms_mergers')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4976777) ] </small>
