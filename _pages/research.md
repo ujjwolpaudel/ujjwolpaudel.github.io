@@ -19,7 +19,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 <!-- Main Paper Entry -->
-<b>Minimum Wages and Pass-Through</b> (with Timothy J. Richards)<br/>
+<b>Minimum Wages and Pass-Through</b> (with Timothy J. Richards).<br/>
 <span style="color:#AA6666">American Journal of Agricultural Economics, May 2025.</span><br/>
 <small>
 [<a href="#/" onclick="visib('minwage_pt')">Abstract</a> |
@@ -59,7 +59,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 <!-- Main Paper Entry -->
-<b>Farmworker Bargaining in US Agricultural Labor Markets</b> (with Timothy J. Richards)<br/>
+<b>Farmworker Bargaining in US Agricultural Labor Markets</b> (with Timothy J. Richards).<br/>
 <span style="color:#AA6666">Applied Economic Perspectives and Policy, April 2025.</span><br/>
 <small>
 [ <a href="#/" onclick="visib('monop_ag')">Abstract</a> |
