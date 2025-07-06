@@ -119,6 +119,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 </small><br><br/></div>
 
+
+**Food Intentions and Food Outcomes** (with Justin Bina). <span style="color:#AA6666">Under Review.</span>
+<br/>
+<small>Please <a href="mailto:paudeluj@gmail.com">email me</a> for a draft.</small>
+
 **Labor Market Power in Food Retailing**. <span style="color:#AA6666">Job Market Paper.</span><br/>
 <small>Please <a href="mailto:paudeluj@gmail.com">email me</a> for a draft.</small>
 
@@ -129,11 +134,6 @@ I study the extent and evolution of labor market power in the US food retailing 
 </small><br><br/></div>
 
 * <small> **Conferences/Seminars:** AEA-ASSA 2025; PhD-EVS 2024; ASU 2024; AAEA 2024   </small> -->
-
-
-**Food Intentions and Food Outcomes** (with Justin Bina). <span style="color:#AA6666">Submitted.</span>
-<br/>
-<small>Please <a href="mailto:paudeluj@gmail.com">email me</a> for a draft.</small>
 
 
 **Cross-Platform Merger Effects**. <br/>
