@@ -121,7 +121,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </small><br><br/></div>
 
 
-**Weight Loss and Food Spending.** (with Justin Bina). <br/>
+**Weight Loss and Food Spending** (with Justin Bina). <br/>
 <span style="color:#AA6666">Revise and Resubmit, Agricultural Economics.</span> <br/>
 <small>Please <a href="mailto:paudeluj@gmail.com">email me</a> for a draft.</small>
 
