@@ -100,6 +100,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 # <center> Papers in Progress </center>
 - - -
 
+**Cost Shocks and Price Pass-through**. <br/>
+<span style="color:#AA6666">Under Review, The Review of Economics and Statistics</span> <br/>
+<small>[ <a href="#/" onclick="visib('mw_pt_rf')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5278424) ] </small>
+
+<div id="mw_pt_rf" style="display: none; text-align: justify; line-height: 1.2" ><small>
+
+ The question of how firms pass changes in their input costs to consumer prices is an important and a long-standing puzzle in economics. I study this problem by exploring the impacts in retail prices due to cost shocks from increases in state minimum wage. Using spatial distribution of minimum wages in the United States, NielsenIQ's scanner transaction data from 2011-2021, and a stacked difference-indifferences research design, I find that a 10 percent increase in state minimum wage causes 1.1 to 1.5 percent increase in retail grocery prices. I also find evidence that food retailers exhibit forward-looking behavior by adjusting prices immediately after minimum wage legislation is enacted, rather than waiting until the policy is formally implemented. Additionally, I use a causal machine learning approach to examine the heterogeneity of the minimum wage price pass-through along different retailer-and market-specific covariates. I find that pass-through rates are lower among retailers with greater market share and in higher-income counties, which implies that larger firms and richer markets can absorb cost shocks better. Further, retailers with lower reliance on promotions and discounts exhibit higher pass-through, which suggests that price adjustments can also occur through changes in discounting strategies rather than solely through base price increases. My findings highlight the need for policymakers and marketing practitioners to consider the distributional effects of minimum wage policies on firms' pricing decisions.
+
+</small><br><br/></div>
+
 **Retail Concentration and Wages** (with Timothy J. Richards and Keenan Marchesi). <br/>
 <span style="color:#AA6666">Revise and Resubmit, Review of Industrial Organization.</span> <br/>
 <small>[ <a href="#/" onclick="visib('concen_wages')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4815715) ] </small>
@@ -110,19 +120,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 </small><br><br/></div>
 
-**Cost Shocks and Price Pass-through**. <br/>
-<span style="color:#AA6666">Under Review.</span> <br/>
-<small>[ <a href="#/" onclick="visib('mw_pt_rf')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5278424) ] </small>
-
-<div id="mw_pt_rf" style="display: none; text-align: justify; line-height: 1.2" ><small>
-
- The question of how firms pass changes in their input costs to consumer prices is an important and a long-standing puzzle in economics. I study this problem by exploring the impacts in retail prices due to cost shocks from increases in state minimum wage. Using spatial distribution of minimum wages in the United States, NielsenIQ's scanner transaction data from 2011-2021, and a stacked difference-indifferences research design, I find that a 10 percent increase in state minimum wage causes 1.1 to 1.5 percent increase in retail grocery prices. I also find evidence that food retailers exhibit forward-looking behavior by adjusting prices immediately after minimum wage legislation is enacted, rather than waiting until the policy is formally implemented. Additionally, I use a causal machine learning approach to examine the heterogeneity of the minimum wage price pass-through along different retailer-and market-specific covariates. I find that pass-through rates are lower among retailers with greater market share and in higher-income counties, which implies that larger firms and richer markets can absorb cost shocks better. Further, retailers with lower reliance on promotions and discounts exhibit higher pass-through, which suggests that price adjustments can also occur through changes in discounting strategies rather than solely through base price increases. My findings highlight the need for policymakers and marketing practitioners to consider the distributional effects of minimum wage policies on firms' pricing decisions.
-
-</small><br><br/></div>
-
 
 **Weight Loss and Food Spending** (with Justin Bina). <br/>
-<span style="color:#AA6666">Under Review.</span> <br/>
+<span style="color:#AA6666">Revise and Resubmit, Agricultural Economics.</span> <br/>
 <small>Please <a href="mailto:paudeluj@gmail.com">email me</a> for a draft.</small>
 
 **Labor Market Power in Food Retailing**. <span style="color:#AA6666">Preparing for Submission.</span><br/>
