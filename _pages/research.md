@@ -147,7 +147,7 @@ I study the extent and evolution of labor market power in the US food retailing 
 </small><br><br/></div>
 
 **Asymmetric Supply Relationships and Vertical Bargaining** (with Elliot Rabinovich, Timothy J. Richards, and Lina Wang). 
-</small><br><br/></div>
+
 
 <!-- * <small> **Conferences:** AAEA 2023; INFORMS Marketing Science 2023. </small> -->
 
