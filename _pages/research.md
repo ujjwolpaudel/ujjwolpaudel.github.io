@@ -138,7 +138,7 @@ I study the extent and evolution of labor market power in the US food retailing 
 
 
 **Cross-Platform Merger Effects**. <span style="color:#AA6666">Preparing for Submission.</span><br/>
-<small>[ <a href="#/" onclick="visib('platforms_mergers')">Abstract</a> </small>
+<small>[ <a href="#/" onclick="visib('platforms_mergers')">Abstract</a> ] </small>
 
 <div id="platforms_mergers" style="display: none; text-align: justify; line-height: 1.2" ><small>
 
