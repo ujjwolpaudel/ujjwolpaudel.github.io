@@ -123,10 +123,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 **Weight Loss and Food Spending** (with Justin Bina). <br/>
 <span style="color:#AA6666">Revise and Resubmit, Agricultural Economics.</span> <br/>
-<small>Please <a href="mailto:paudeluj@gmail.com">email me</a> for a draft.</small>
+
 
 **Labor Market Power in Food Retailing**. <span style="color:#AA6666">Preparing for Submission.</span><br/>
-<small>Please <a href="mailto:paudeluj@gmail.com">email me</a> for a draft.</small>
+
 
 <!-- <div id="monop_retail" style="display: none; text-align: justify; line-height: 1.2" ><small>
 
