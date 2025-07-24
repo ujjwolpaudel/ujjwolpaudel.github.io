@@ -137,7 +137,7 @@ I study the extent and evolution of labor market power in the US food retailing 
 * <small> **Conferences/Seminars:** AEA-ASSA 2025; PhD-EVS 2024; ASU 2024; AAEA 2024   </small> -->
 
 
-**Cross-Platform Merger Effects**. <span style="color:#AA6666">Preparing for Submission.</span><br/>
+**Cross-Platform Merger Effects** (with Timothy J. Richards). <span style="color:#AA6666">Preparing for Submission.</span><br/>
 <small>[ <a href="#/" onclick="visib('platforms_mergers')">Abstract</a> ] </small>
 
 <div id="platforms_mergers" style="display: none; text-align: justify; line-height: 1.2" ><small>
