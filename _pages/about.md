@@ -21,9 +21,9 @@ I will be on the job market in the 2025–2026 academic year.
 - - -
 
 ### Recent Talks: 
+* [AAEA Labor Workshop](https://www.aaea.org/meetings/2025-aaea-annual-meeting/events/ticketed-events/pre--and-post-conference-workshops/reducing-the-labor-of-beginning-agricultural-labor-economics-research-an-introduction-to-the-aaea-labor-economics-section), Denver, July 2025
+* [Cornerstone Research](https://www.cornerstone.com), San Francisco, February 2025
 * [ASSA Meeting](https://www.aeaweb.org/conference/2025-assa-spotlight), San Francisco, January 2025
-* [EARIE Conference](https://earie.org/earie-2024-amsterdam/), Amsterdam, August 2024
-* [FRIES Seminar](https://frieseth.wixsite.com/friesethz), ETH Zürich, August 2024
   
 - - -
 
