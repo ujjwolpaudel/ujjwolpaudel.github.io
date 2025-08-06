@@ -101,7 +101,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 - - -
 
 **Retail Concentration and Wages** (with Timothy J. Richards and Keenan Marchesi). <br/>
-<span style="color:#AA6666">Revise and Resubmit, Review of Industrial Organization.</span> <br/>
+<span style="color:#AA6666">Revised and Resubmitted, Review of Industrial Organization.</span> <br/>
 <small>[ <a href="#/" onclick="visib('concen_wages')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4815715) ] </small>
 
 <div id="concen_wages" style="display: none; text-align: justify; line-height: 1.2" ><small>
