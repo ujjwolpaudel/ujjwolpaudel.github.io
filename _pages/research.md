@@ -97,7 +97,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- * <small> **Conferences:** AAEA 2024; ETH Zürich 2024 -->
 
 - - -
-# <center> Papers in Progress </center>
+# <center> Working Papers </center>
 - - -
 
 **Retail Concentration and Wages** (with Timothy J. Richards and Keenan Marchesi). <br/>
@@ -146,8 +146,15 @@ Mergers and acquisitions tend to affect the prices and varieties offered by the 
 
 </small><br><br/></div>
 
+- - -
+# <center> In Progress </center>
+- - -
+
 **Asymmetric Supply Relationships and Vertical Bargaining** (with Elliot Rabinovich, Timothy J. Richards, and Lina Wang). 
 
+**Sequential Pricing in Platforms** (with Steve Hamilton). 
+
+**Worker Bargaining in Last Mile Delivery Platforms** (with Stanley Lim). 
 
 <!-- * <small> **Conferences:** AAEA 2023; INFORMS Marketing Science 2023. </small> -->
 
