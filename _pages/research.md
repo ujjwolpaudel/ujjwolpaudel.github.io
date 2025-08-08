@@ -152,7 +152,7 @@ Mergers and acquisitions tend to affect the prices and varieties offered by the 
 
 **Asymmetric Supply Relationships and Vertical Bargaining** (with Elliot Rabinovich, Timothy J. Richards, and Lina Wang). 
 
-**Sequential Pricing in Platforms** (with Steve Hamilton). 
+<!-- **Sequential Pricing in Platforms** (with Steve Hamilton). 
 
 **Worker Bargaining in Last Mile Delivery Platforms** (with Stanley Lim). 
 
