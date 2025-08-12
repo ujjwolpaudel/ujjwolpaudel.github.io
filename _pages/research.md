@@ -82,14 +82,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <small>
     <pre style="font-size: 0.8em; white-space: pre-wrap;">
 @article{PaudelRichardsAEPP2025,
-  title   = {Farmworker Bargaining in US Agricultural Labor Markets},
+  title   = {Farmworker Bargaining in {US} Agricultural Labor Markets},
   author  = {Paudel, Ujjwol and Richards, Timothy J.},
   journal = {Applied Economic Perspectives and Policy},
   year    = {2025},
-  pages   = {1--31},
+  volume  = {47},
+  number  = {4},
+  pages   = {1507--1537},
+  month   = sep,
   doi     = {10.1002/aepp.13526},
   url     = {https://doi.org/10.1002/aepp.13526}
 }
+
     </pre>
   </small>
 </div>
