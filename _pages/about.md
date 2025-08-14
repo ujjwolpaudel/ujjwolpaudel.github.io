@@ -26,7 +26,7 @@ I am on the job market in the 2025–2026 academic year.
 - - -
 
 ### Education: 
-* Ph.D., Business Administration, [Arizona State Univ.](https://wpcarey.asu.edu/agribusiness-degrees) (Advisor: [Timothy J. Richards](https://scholar.google.com/citations?hl=en&user=XOAzQkEAAAAJ&view_op=list_works&sortby=pubdate)).
+* Ph.D., Business Administration, [Arizona State Univ.](https://wpcarey.asu.edu/agribusiness-degrees) (Advisor: [Timothy J. Richards](https://scholar.google.com/citations?hl=en&user=XOAzQkEAAAAJ&view_op=list_works&sortby=pubdate))
 * M.S., Mathematics, [ETH Zürich](https://math.ethz.ch)
 * B.S., Mathematics, [Jacobs University Bremen](http://math.jacobs-university.de)
 
