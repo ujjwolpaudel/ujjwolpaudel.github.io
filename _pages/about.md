@@ -8,13 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I am a postdoc in the Department of Supply Chain Management at [Arizona State University](https://wpcarey.asu.edu/supply-chain-management-degrees).
+Postdoctoral Researcher, [Arizona State University](https://wpcarey.asu.edu/supply-chain-management-degrees).
 
-In May 2025, I completed my PhD at [ASU](https://wpcarey.asu.edu/agribusiness-degrees) under the supervision of [Timothy J. Richards](https://scholar.google.com/citations?hl=en&user=XOAzQkEAAAAJ&view_op=list_works&sortby=pubdate).
+Research interests: empirical IO, supply chain management, food economics.
 
-My research interests are on empirical IO and supply chain management in food systems.
-
-I will be on the job market in the 2025–2026 academic year.
+I am on the job market in the 2025–2026 academic year.
 
 [CV]:{{ site.baseurl }}{% link CV_UPaudel.pdf %}
 
@@ -27,11 +25,11 @@ I will be on the job market in the 2025–2026 academic year.
   
 - - -
 
-### Prior Education: 
-
+### Education: 
+* Ph.D., Business Administration, [Arizona State Univ.](https://wpcarey.asu.edu/agribusiness-degrees) (Advisor: [Timothy J. Richards](https://scholar.google.com/citations?hl=en&user=XOAzQkEAAAAJ&view_op=list_works&sortby=pubdate)).
 * M.S., Mathematics, [ETH Zürich](https://math.ethz.ch)
 * B.S., Mathematics, [Jacobs University Bremen](http://math.jacobs-university.de)
 
 - - - 
 
-I originally come from [south-eastern Nepal](https://en.wikipedia.org/wiki/Budhabare,_Jhapa). 
+Originally from [south-eastern Nepal](https://en.wikipedia.org/wiki/Budhabare,_Jhapa). 
