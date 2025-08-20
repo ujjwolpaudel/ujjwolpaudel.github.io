@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a postdoctoral researcher at [Arizona State University](https://wpcarey.asu.edu/supply-chain-management-degrees).
+I am a postdoctoral researcher in the Department of Supply Chain Management at [Arizona State University](https://wpcarey.asu.edu/supply-chain-management-degrees).
 
-My research interests are on empirical IO, supply chain management, and food economics.
+Broadly, I study competition in product and labor markets through the lens of empirical IO, using structural and causal inference methods to untangle pricing on digital platforms, bargaining in last-mile delivery, and buyer–supplier dynamics in vertical relationships.
 
 I am on the job market in the 2025–2026 academic year.
 
