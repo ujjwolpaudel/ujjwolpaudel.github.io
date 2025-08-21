@@ -10,7 +10,9 @@ redirect_from:
 
 I am a postdoctoral researcher in the Department of Supply Chain Management at [Arizona State University](https://wpcarey.asu.edu/supply-chain-management-degrees).
 
-Broadly, I study empirical industrial organization and its applications to food supply chains, where I examine digital-platform pricing, optimization in last-mile delivery, and vertical buyer–supplier relationships.
+<!-- Broadly, I study empirical industrial organization and its applications to food supply chains, where I examine digital-platform pricing, optimization in last-mile delivery, and vertical buyer–supplier relationships. -->
+
+My interests are on empirical industrial organization with a focus on food supply chains.
 
 I am on the job market in the 2025–2026 academic year.
 
