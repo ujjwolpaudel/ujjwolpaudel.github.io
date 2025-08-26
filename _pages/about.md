@@ -12,7 +12,9 @@ I am a postdoctoral researcher in the Department of Supply Chain Management at [
 
 <!-- Broadly, I study empirical industrial organization and its applications to food supply chains, where I examine digital-platform pricing, optimization in last-mile delivery, and vertical buyer–supplier relationships. -->
 
-My interest is on empirical industrial organization with a focus on food supply chains.
+In May 2025, I completed my Ph.D. in Business Administration at [Arizona State Univ.](https://wpcarey.asu.edu/agribusiness-degrees) (Advisor: [Timothy J. Richards](https://scholar.google.com/citations?hl=en&user=XOAzQkEAAAAJ&view_op=list_works&sortby=pubdate))
+
+Research interests: empirical industrial organization, labor, food supply chains. 
 
 I am on the job market in the 2025–2026 academic year.
 
@@ -28,7 +30,6 @@ I am on the job market in the 2025–2026 academic year.
 - - -
 
 ### Education: 
-* Ph.D., Business Administration, [Arizona State Univ.](https://wpcarey.asu.edu/agribusiness-degrees) (Advisor: [Timothy J. Richards](https://scholar.google.com/citations?hl=en&user=XOAzQkEAAAAJ&view_op=list_works&sortby=pubdate))
 * M.S., Mathematics, [ETH Zürich](https://math.ethz.ch)
 * B.S., Mathematics, [Jacobs University Bremen](http://math.jacobs-university.de)
 
