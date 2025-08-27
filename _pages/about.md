@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a postdoctoral researcher in the Department of Supply Chain Management at [Arizona State University](https://wpcarey.asu.edu/supply-chain-management-degrees).
+I am a postdoctoral researcher in the Department of Supply Chain Management at [Arizona State University](https://wpcarey.asu.edu/supply-chain-management-degrees). My advisor is [Elliot Rabinovich](https://search.asu.edu/profile/330867). 
 
 <!-- Broadly, I study empirical industrial organization and its applications to food supply chains, where I examine digital-platform pricing, optimization in last-mile delivery, and vertical buyer–supplier relationships. -->
 
