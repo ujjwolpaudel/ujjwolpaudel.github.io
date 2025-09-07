@@ -124,6 +124,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 </small><br><br/></div>
 
+**Cross-Platform Merger Effects** (with Timothy J. Richards). <br/>
+<span style="color:#AA6666">Under Review.</span> <br/>
+<small>[ <a href="#/" onclick="visib('platforms_mergers')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5454114)] </small>
+
+<div id="platforms_mergers" style="display: none; text-align: justify; line-height: 1.2" ><small>
+
+Mergers and acquisitions tend to affect the prices and varieties offered by the merging firms. Most existing research, however, focuses on mergers between firms operating on the same platform, such as between two online firms or two firms in the same physical channel. In contrast, the price effects of integration across different platforms remain unexplored in empirical research but are likely of critical importance given the growth of omnichannel, or combined physical and online channels, retailing. We study this question by analyzing the acquisition of a national grocery chain by a large online retailer in the United States. Unlike same-platform mergers, this merger combines market power and efficiency motives with cross-platform network externalities that raise each channel’s value as the other grows. This changes channel substitution and effective marginal costs of the merged firm and leaves the price effect ambiguous ex ante. Identifying price effects is further challenging due to the endogenous nature of merger decisions. We use a doubly-robust synthetic control method and find that prices decrease in four out of 10 treated markets, while in five markets, prices remain unchanged. Unlike in same-platform horizontal mergers, these price effects do not systematically vary with market concentration levels and challenge predictions from the Structure-Conduct-Performance literature. Therefore, in cross-platform mergers, competitive effects likely reflect forces beyond market structure, such as channel complementarities and consumer substitution.
+
+</small><br><br/></div>
+
 
 **Weight Loss and Food Spending** (with Justin Bina). <br/>
 <span style="color:#AA6666">Revise and Resubmit, Agricultural Economics.</span> <br/>
@@ -139,17 +149,6 @@ I study the extent and evolution of labor market power in the US food retailing 
 </small><br><br/></div>
 
 * <small> **Conferences/Seminars:** AEA-ASSA 2025; PhD-EVS 2024; ASU 2024; AAEA 2024   </small> -->
-
-
-**Cross-Platform Merger Effects** (with Timothy J. Richards). <br/>
-<span style="color:#AA6666">Under Review.</span> <br/>
-<small>[ <a href="#/" onclick="visib('platforms_mergers')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5454114)] </small>
-
-<div id="platforms_mergers" style="display: none; text-align: justify; line-height: 1.2" ><small>
-
-Mergers and acquisitions tend to affect the prices and varieties offered by the merging firms. Most existing research, however, focuses on mergers between firms operating on the same platform, such as between two online firms or two firms in the same physical channel. In contrast, the price effects of integration across different platforms remain unexplored in empirical research but are likely of critical importance given the growth of omnichannel, or combined physical and online channels, retailing. We study this question by analyzing the acquisition of a national grocery chain by a large online retailer in the United States. Unlike same-platform mergers, this merger combines market power and efficiency motives with cross-platform network externalities that raise each channel’s value as the other grows. This changes channel substitution and effective marginal costs of the merged firm and leaves the price effect ambiguous ex ante. Identifying price effects is further challenging due to the endogenous nature of merger decisions. We use a doubly-robust synthetic control method and find that prices decrease in four out of 10 treated markets, while in five markets, prices remain unchanged. Unlike in same-platform horizontal mergers, these price effects do not systematically vary with market concentration levels and challenge predictions from the Structure-Conduct-Performance literature. Therefore, in cross-platform mergers, competitive effects likely reflect forces beyond market structure, such as channel complementarities and consumer substitution.
-
-</small><br><br/></div>
 
 - - -
 # <center> In Progress </center>
