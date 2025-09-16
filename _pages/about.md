@@ -14,7 +14,7 @@ I am a postdoctoral researcher in the Department of Supply Chain Management at [
 
 In May 2025, I completed my Ph.D. in Business Administration at [Arizona State](https://wpcarey.asu.edu/agribusiness-degrees) (Advisor: [Timothy J. Richards](https://scholar.google.com/citations?hl=en&user=XOAzQkEAAAAJ&view_op=list_works&sortby=pubdate)).
 
-My research interests are on empirical industrial organization, labor, food supply chains. 
+I use empirical industrial organization methods to study retail and digital-platform markets within food supply chains.
 
 I am on the job market in the 2025–2026 academic year.
 
