@@ -139,7 +139,7 @@ Mergers and acquisitions tend to affect the prices and varieties offered by the 
 
 **Minimum Wages and Employment** (with Timothy J. Richards). <br/>
 <span style="color:#AA6666">Under Review.</span> <br/>
-<small>[ <a href="#/" onclick="visib('mw_empl')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5454114)] </small>
+<small>[ <a href="#/" onclick="visib('mw_empl')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5615290)] </small>
 
 <div id="mw_empl" style="display: none; text-align: justify; line-height: 1.2" ><small>
 
