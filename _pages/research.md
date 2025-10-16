@@ -98,6 +98,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </small>
 </div>
 
+**Weight Loss and Food Spending** (with Justin Bina). <br/>
+<span style="color:#AA6666">Forthcoming, Agricultural Economics.</span> <br/>
+
 <!-- * <small> **Conferences:** AAEA 2024; ETH Zürich 2024 -->
 
 - - -
@@ -134,9 +137,16 @@ Mergers and acquisitions tend to affect the prices and varieties offered by the 
 
 </small><br><br/></div>
 
+**Minimum Wages and Employment** (with Timothy J. Richards). <br/>
+<span style="color:#AA6666">Under Review.</span> <br/>
+<small>[ <a href="#/" onclick="visib('platforms_mergers')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5454114)] </small>
 
-**Weight Loss and Food Spending** (with Justin Bina). <br/>
-<span style="color:#AA6666">Revise and Resubmit, Agricultural Economics.</span> <br/>
+<div id="platforms_mergers" style="display: none; text-align: justify; line-height: 1.2" ><small>
+
+Minimum wages do not necessarily cause a reduction in employment as fundamental microeconomics principles suggest. In the food and agriculture industry, minimum wages may be important tools to not only address income inequalities, but to increase the quantity of labor supplied and potentially help solve chronic labor shortages. While there are many possible explanations for the paradox of minimum wage neutrality, from correcting for monopsony power to segmented labor markets, we examine a relatively new and important mechanism. Namely, we test for whether minimum wages have a "cleansing" effect in industries that tend to employ minimum-wage workers, driving relatively inefficient firms, or those that could only survive by paying workers low wages, out of the industry. Exiting firms cede market share to more efficient firms, who employ the workers that are released by the exiting firms. We examine this question using a two-stage approach, first using reduced-form methods in aggregate data from the Quarterly Census of Employment and Wages
+(QCEW) and then using micro-level data on individual firms in the retail industry from NielsenIQ TDLinx data set. We find broad support for the cleansing hypothesis in both the aggregate and micro-level analyses, suggesting that minimum wages may have a beneficial efficiency-enhancing effect that has otherwise been overlooked in the policy literature.
+
+</small><br><br/></div>
 
 
 **Labor Market Power in Food Retailing**. <span style="color:#AA6666">Preparing for Submission.</span><br/>
