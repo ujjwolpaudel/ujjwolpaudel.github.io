@@ -99,7 +99,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 **Weight Loss and Food Spending** (with Justin Bina). <br/>
-<span style="color:#AA6666">Forthcoming, Agricultural Economics.</span> <br/>
+<span style="color:#AA6666">Agricultural Economics, Forthcoming.</span> <br/>
 
 <!-- * <small> **Conferences:** AAEA 2024; ETH Zürich 2024 -->
 
