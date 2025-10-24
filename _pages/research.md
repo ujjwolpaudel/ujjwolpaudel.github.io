@@ -17,6 +17,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 # <center> Publications </center>
 - - -
 
+**Weight Loss and Food Spending** (with Justin Bina). <br/>
+<span style="color:#AA6666">Agricultural Economics, October 2025.</span> <br/>
+
+<small>
+[ <a href="#/" onclick="visib('weight_loss')">Abstract</a> |
+  <a href="https://onlinelibrary.wiley.com/doi/10.1111/agec.70072" target="_blank">Published Version</a>
+]
+</small>
+
+<!-- Abstract -->
+<div id="weight_loss" style="display: none; text-align: justify; line-height: 1.4; margin-top: 10px;">
+  <small>
+    <i> US consumers are increasingly focused on weight management. However, the economic impacts of this on the US food industry are not well understood. Thus, we estimate the effects of weight loss attempts on the consumption of and expenditures on a collection of 35 food groups. We obtain weight loss history and food consumption data from the National Health and Nutrition Examination Survey and Purchase to Plate Suite. Attempting weight loss is an endogenous choice and, as such, we use matching methods to reduce confounding. Matched samples and weights are used in lower-limit censored outcome models of food consumption and expenditures. Nationwide weight loss attempts yield increases in daily expenditures on non-citrus fruits, non-starchy vegetables, and tomatoes of $17.8 million. Daily, national expenditures on processed grain products and soft drinks decrease by $18.8 million and $7.3 million, respectively. Food manufacturers and retailers can use these results to develop business strategy and mitigate risks associated with changing consumer behavior related to weight management. These findings can also guide public health and nutrition policies, directly speaking to how the composition of diets changes as consumers attempt weight loss.
+  </small>
+</div>
 
 <!-- Main Paper Entry -->
 <b>Minimum Wages and Pass-Through</b> (with Timothy J. Richards).<br/>
@@ -97,9 +112,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </pre>
   </small>
 </div>
-
-**Weight Loss and Food Spending** (with Justin Bina). <br/>
-<span style="color:#AA6666">Agricultural Economics, Forthcoming.</span> <br/>
 
 <!-- * <small> **Conferences:** AAEA 2024; ETH Zürich 2024 -->
 
