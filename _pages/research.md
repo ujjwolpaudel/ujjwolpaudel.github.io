@@ -19,7 +19,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <b> Weight Loss and Food Spending</b> (with Justin Bina). <br/>
 <span style="color:#AA6666">Agricultural Economics, October 2025.</span> <br/>
-
 <small>
 [ <a href="#/" onclick="visib('weight_loss')">Abstract</a> |
   <a href="https://onlinelibrary.wiley.com/doi/10.1111/agec.70072" target="_blank">Published Version</a>
