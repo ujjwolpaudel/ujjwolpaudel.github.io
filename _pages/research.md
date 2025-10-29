@@ -176,9 +176,10 @@ I study the extent and evolution of labor market power in the US food retailing 
 
 **Asymmetric Supply Relationships and Vertical Bargaining** (with Elliot Rabinovich, Timothy J. Richards, and Lina Wang). 
 
-<!-- **Sequential Pricing in Platforms** (with Steve Hamilton). 
+**Contract Design and Labor Dynamics in Platform Logistics** (with Stanley Lim).
 
-**Worker Bargaining in Last Mile Delivery Platforms** (with Stanley Lim). 
+<!-- **Sequential Pricing in Platforms** (with Steve Hamilton). 
+ 
 
 <!-- * <small> **Conferences:** AAEA 2023; INFORMS Marketing Science 2023. </small> -->
 
