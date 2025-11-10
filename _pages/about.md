@@ -12,9 +12,9 @@ I am a postdoctoral researcher in the Department of Supply Chain Management at [
 
 <!-- Broadly, I study empirical industrial organization and its applications to food supply chains, where I examine digital-platform pricing, optimization in last-mile delivery, and vertical buyer–supplier relationships. -->
 
-In May 2025, I completed my Ph.D. in Business Administration at [Arizona State](https://wpcarey.asu.edu/agribusiness-degrees) (Advisor: [Timothy J. Richards](https://scholar.google.com/citations?hl=en&user=XOAzQkEAAAAJ&view_op=list_works&sortby=pubdate)).
+In May 2025, I completed my Ph.D. in Business Administration at [Arizona State](https://wpcarey.asu.edu/agribusiness-degrees) under the guidance of [Timothy J. Richards](https://scholar.google.com/citations?hl=en&user=XOAzQkEAAAAJ&view_op=list_works&sortby=pubdate).
 
-I use empirical industrial organization methods to study food retail and digital-platform markets.
+I have broad research interests in retail operations, labor markets, digital platforms, and supply chain management, with a particular focus on the food and related industries. Methodologically, my work employs causal inference, machine learning, and structural econometric models, drawing primarily from empirical industrial organization.  
 
 I am on the job market in the 2025–2026 academic year.
 
