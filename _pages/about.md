@@ -22,11 +22,10 @@ I am on the job market in the 2025–2026 academic year.
 
 - - -
 
-### Recent Talks: 
-* [AAEA Labor Workshop](https://www.aaea.org/meetings/2025-aaea-annual-meeting/events/ticketed-events/pre--and-post-conference-workshops/reducing-the-labor-of-beginning-agricultural-labor-economics-research-an-introduction-to-the-aaea-labor-economics-section), Denver, July 2025
-* [Cornerstone Research](https://www.cornerstone.com), San Francisco, February 2025
-* [ASSA Meeting](https://www.aeaweb.org/conference/2025-assa-spotlight), San Francisco, January 2025
-  
+### Upcoming/Recent Talks: 
+* [Decision Sciences Institute](https://convention2.allacademic.com/one/dsi/dsi25/index.php?cmd=Online+Program+View+Session&selected_session_id=2277649&PHPSESSID=i9qedkgvail2drand5e7lbmnou), Orlando FL, Nov 2025
+* [POMS College of SCM](https://msu.zoom.us/webinar/register/WN_CVI9mbW7QzW6M4zbC3tJHQ#/registration), Virtual, Nov 2025
+* [AAEA Labor Workshop](https://www.aaea.org/meetings/2025-aaea-annual-meeting/events/ticketed-events/pre--and-post-conference-workshops/reducing-the-labor-of-beginning-agricultural-labor-economics-research-an-introduction-to-the-aaea-labor-economics-section), Denver CO, July 2025  
 - - -
 
 ### Education: 
