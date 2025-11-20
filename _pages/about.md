@@ -26,7 +26,7 @@ Here is my [CV](https://www.dropbox.com/scl/fi/mxg06bmeji4syuuyhcjp6/CV_Paudel.p
 
 ### Upcoming/Recent Talks: 
 * [Decision Sciences Institute](https://convention2.allacademic.com/one/dsi/dsi25/index.php?cmd=Online+Program+View+Session&selected_session_id=2277649&PHPSESSID=i9qedkgvail2drand5e7lbmnou), Orlando FL, Nov 2025
-* [POMS College of SCM](https://msu.zoom.us/webinar/register/WN_CVI9mbW7QzW6M4zbC3tJHQ#/registration), Virtual, Nov 2025
+* [POMS College of SCM](https://msu.zoom.us/w_p/93668941547/e6c70e3f-58e8-465d-b1de-fdafa92ce652.png), Virtual, Nov 2025
 * [AAEA Labor Workshop](https://www.aaea.org/meetings/2025-aaea-annual-meeting/events/ticketed-events/pre--and-post-conference-workshops/reducing-the-labor-of-beginning-agricultural-labor-economics-research-an-introduction-to-the-aaea-labor-economics-section), Denver CO, July 2025
   
 - - -
