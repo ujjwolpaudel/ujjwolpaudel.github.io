@@ -129,7 +129,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </small><br><br/></div>
 
 **Cost Shocks and Price Pass-through**. <br/>
-<span style="color:#AA6666">Under Review.</span> <br/>
+<span style="color:#AA6666">Revise and Resubmit, Canadian Journal of Agricultural Economics.</span> <br/>
 <small>[ <a href="#/" onclick="visib('mw_pt_rf')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5278424) ] </small>
 
 <div id="mw_pt_rf" style="display: none; text-align: justify; line-height: 1.2" ><small>
