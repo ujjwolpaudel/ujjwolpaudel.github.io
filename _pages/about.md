@@ -15,7 +15,7 @@ Interests: supply chains × {IO economics, causal inference, machine learning}.
 - - -
 
 ### Upcoming/Recent Talks
-* [POMS Annual Conference](https://pomsmeetings.org), Reno NV, May 2026
+* [POMS Annual Conference](https://pomsmeetings.org/conf-2026/), Reno NV, May 2026
 * [Decision Sciences Institute](https://convention2.allacademic.com/one/dsi/dsi25/index.php?cmd=Online+Program+View+Session&selected_session_id=2277649&PHPSESSID=i9qedkgvail2drand5e7lbmnou), Orlando FL, Nov 2025
 * [POMS College of SCM](https://msu.zoom.us/w_p/93668941547/e6c70e3f-58e8-465d-b1de-fdafa92ce652.png), Virtual, Nov 2025
 
