@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-Postdoc, Supply Chain Management, [Arizona State University](https://wpcarey.asu.edu/supply-chain-management-degrees).
+Postdoc, Supply Chain Management, [ASU](https://wpcarey.asu.edu/supply-chain-management-degrees).
 
-Ph.D. in Business Administration (Agribusiness), [Arizona State University](https://wpcarey.asu.edu/agribusiness-degrees), advised by [Timothy J. Richards](https://scholar.google.com/citations?hl=en&user=XOAzQkEAAAAJ&view_op=list_works&sortby=pubdate).
+Ph.D. in Business Administration (Agribusiness), [ASU](https://wpcarey.asu.edu/agribusiness-degrees), advised by [Timothy J. Richards](https://scholar.google.com/citations?hl=en&user=XOAzQkEAAAAJ&view_op=list_works&sortby=pubdate).
 
 I study issues inf supply chains using causal inference, machine learning, and IO economics.
 
