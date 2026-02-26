@@ -14,11 +14,11 @@ I am a postdoctoral researcher in the Department of Supply Chain Management at [
 
 In May 2025, I completed my Ph.D. in Business Administration (Agribusiness) at [Arizona State University](https://wpcarey.asu.edu/agribusiness-degrees) under the guidance of [Timothy J. Richards](https://scholar.google.com/citations?hl=en&user=XOAzQkEAAAAJ&view_op=list_works&sortby=pubdate).
 
-I study issues in retail operations, labor, digital platforms, and supply chains in the food and related industries. My work uses causal inference, machine learning, and structural econometric methods from empirical industrial organization.
+I study issues in supply chains in the food and related industries. My work uses causal inference, machine learning, and structural econometric methods from empirical industrial organization.
 
-I am on the job market in the 2025–2026 academic year. 
+<!--- I am on the job market in the 2025–2026 academic year. 
 
-Here is my [CV](https://www.dropbox.com/scl/fi/mxg06bmeji4syuuyhcjp6/CV_Paudel.pdf?rlkey=q1lfq5zymx3bzkwpyhmugpyll&dl=0). 
+<!--- Here is my [CV](https://www.dropbox.com/scl/fi/mxg06bmeji4syuuyhcjp6/CV_Paudel.pdf?rlkey=q1lfq5zymx3bzkwpyhmugpyll&dl=0). 
 
 [CV]:{{ site.baseurl }}{% link CV_UPaudel.pdf %}
 
