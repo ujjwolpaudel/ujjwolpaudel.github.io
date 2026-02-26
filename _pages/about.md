@@ -10,7 +10,7 @@ redirect_from:
 
 Postdoc, Supply Chain Management, [ASU](https://wpcarey.asu.edu/supply-chain-management-degrees).
 
-I study issues in supply chains using causal inference, machine learning, and IO economics.
+Interests: supply chains × {IO economics, causal inference, machine learning}. 
 
 - - -
 
