@@ -11,9 +11,61 @@ permalink: /research/
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
+- - -
+# <center> In Progress </center>
+- - -
+**Store Format and Labor Efficiency Gaps in Food Retailing** (with Elliot Rabinovich and Timothy J. Richards).
+
+**Asymmetric Supply Relationships and Vertical Bargaining** (with Elliot Rabinovich, Timothy J. Richards, and Lina Wang). 
+
+**Contract Design and Labor Dynamics in Platform Logistics** (with Stanley Lim).
 
 - - -
+# <center> Working Papers </center>
+- - -
 
+**Retail Concentration and Wages** (with Timothy J. Richards and Keenan Marchesi). <br/>
+<span style="color:#AA6666">Revised and Resubmitted, Review of Industrial Organization.</span> <br/>
+<small>[ <a href="#/" onclick="visib('concen_wages')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4815715) ] </small>
+
+<div id="concen_wages" style="display: none; text-align: justify; line-height: 1.2" ><small>
+
+ Antitrust policy in the U.S. now explicitly includes labor-market outcomes as measures of interest when considering the potential anticompetitive effects of mergers or acquisitions. Concentration in the food retailing industry is of particular concern due to several recent high-profile mergers, and a troubling increase in concentration at the national and local levels. We study this problem using both causal reduced-form models and a structural model of search, match, and bargaining. Our reduced-form models show no relationship between concentration and wages, but our structural model finds that concentration is associated with substantial wage suppression.
+
+</small><br><br/></div>
+
+**Cost Shocks and Price Pass-through**. <br/>
+<span style="color:#AA6666">Revise and Resubmit, Canadian Journal of Agricultural Economics.</span> <br/>
+<small>[ <a href="#/" onclick="visib('mw_pt_rf')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5278424) ] </small>
+
+<div id="mw_pt_rf" style="display: none; text-align: justify; line-height: 1.2" ><small>
+
+ The question of how firms pass changes in their input costs to consumer prices is an important and a long-standing puzzle in economics. I study this problem by exploring the impacts in retail prices due to cost shocks from increases in state minimum wage. Using spatial distribution of minimum wages in the United States, NielsenIQ's scanner transaction data from 2011-2021, and a stacked difference-indifferences research design, I find that a 10 percent increase in state minimum wage causes 1.1 to 1.5 percent increase in retail grocery prices. I also find evidence that food retailers exhibit forward-looking behavior by adjusting prices immediately after minimum wage legislation is enacted, rather than waiting until the policy is formally implemented. Additionally, I use a causal machine learning approach to examine the heterogeneity of the minimum wage price pass-through along different retailer-and market-specific covariates. I find that pass-through rates are lower among retailers with greater market share and in higher-income counties, which implies that larger firms and richer markets can absorb cost shocks better. Further, retailers with lower reliance on promotions and discounts exhibit higher pass-through, which suggests that price adjustments can also occur through changes in discounting strategies rather than solely through base price increases. My findings highlight the need for policymakers and marketing practitioners to consider the distributional effects of minimum wage policies on firms' pricing decisions.
+
+</small><br><br/></div>
+
+**Cross-Platform Merger Effects** (with Timothy J. Richards). <br/>
+<span style="color:#AA6666">Under Review.</span> <br/>
+<small>[ <a href="#/" onclick="visib('platforms_mergers')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5454114)] </small>
+
+<div id="platforms_mergers" style="display: none; text-align: justify; line-height: 1.2" ><small>
+
+Mergers and acquisitions tend to affect the prices and varieties offered by the merging firms. Most existing research, however, focuses on mergers between firms operating on the same platform, such as between two online firms or two firms in the same physical channel. In contrast, the price effects of integration across different platforms remain unexplored in empirical research but are likely of critical importance given the growth of omnichannel, or combined physical and online channels, retailing. We study this question by analyzing the acquisition of a national grocery chain by a large online retailer in the United States. Unlike same-platform mergers, this merger combines market power and efficiency motives with cross-platform network externalities that raise each channel’s value as the other grows. This changes channel substitution and effective marginal costs of the merged firm and leaves the price effect ambiguous ex ante. Identifying price effects is further challenging due to the endogenous nature of merger decisions. We use a doubly-robust synthetic control method and find that prices decrease in four out of 10 treated markets, while in five markets, prices remain unchanged. Unlike in same-platform horizontal mergers, these price effects do not systematically vary with market concentration levels and challenge predictions from the Structure-Conduct-Performance literature. Therefore, in cross-platform mergers, competitive effects likely reflect forces beyond market structure, such as channel complementarities and consumer substitution.
+
+</small><br><br/></div>
+
+**Minimum Wages and Employment** (with Timothy J. Richards). <br/>
+<span style="color:#AA6666">Under Review.</span> <br/>
+<small>[ <a href="#/" onclick="visib('mw_empl')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5615290)] </small>
+
+<div id="mw_empl" style="display: none; text-align: justify; line-height: 1.2" ><small>
+
+Minimum wages do not necessarily cause a reduction in employment as fundamental microeconomics principles suggest. In the food and agriculture industry, minimum wages may be important tools to not only address income inequalities, but to increase the quantity of labor supplied and potentially help solve chronic labor shortages. While there are many possible explanations for the paradox of minimum wage neutrality, from correcting for monopsony power to segmented labor markets, we examine a relatively new and important mechanism. Namely, we test for whether minimum wages have a "cleansing" effect in industries that tend to employ minimum-wage workers, driving relatively inefficient firms, or those that could only survive by paying workers low wages, out of the industry. Exiting firms cede market share to more efficient firms, who employ the workers that are released by the exiting firms. We examine this question using a two-stage approach, first using reduced-form methods in aggregate data from the Quarterly Census of Employment and Wages
+(QCEW) and then using micro-level data on individual firms in the retail industry from NielsenIQ TDLinx data set. We find broad support for the cleansing hypothesis in both the aggregate and micro-level analyses, suggesting that minimum wages may have a beneficial efficiency-enhancing effect that has otherwise been overlooked in the policy literature.
+
+</small><br><br/></div>
+
+- - -
 # <center> Publications </center>
 - - -
 
@@ -114,75 +166,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <!-- * <small> **Conferences:** AAEA 2024; ETH Zürich 2024 -->
 
-- - -
-# <center> Working Papers </center>
-- - -
 
-**Retail Concentration and Wages** (with Timothy J. Richards and Keenan Marchesi). <br/>
-<span style="color:#AA6666">Revised and Resubmitted, Review of Industrial Organization.</span> <br/>
-<small>[ <a href="#/" onclick="visib('concen_wages')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4815715) ] </small>
-
-<div id="concen_wages" style="display: none; text-align: justify; line-height: 1.2" ><small>
-
- Antitrust policy in the U.S. now explicitly includes labor-market outcomes as measures of interest when considering the potential anticompetitive effects of mergers or acquisitions. Concentration in the food retailing industry is of particular concern due to several recent high-profile mergers, and a troubling increase in concentration at the national and local levels. We study this problem using both causal reduced-form models and a structural model of search, match, and bargaining. Our reduced-form models show no relationship between concentration and wages, but our structural model finds that concentration is associated with substantial wage suppression.
-
-</small><br><br/></div>
-
-**Cost Shocks and Price Pass-through**. <br/>
-<span style="color:#AA6666">Revise and Resubmit, Canadian Journal of Agricultural Economics.</span> <br/>
-<small>[ <a href="#/" onclick="visib('mw_pt_rf')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5278424) ] </small>
-
-<div id="mw_pt_rf" style="display: none; text-align: justify; line-height: 1.2" ><small>
-
- The question of how firms pass changes in their input costs to consumer prices is an important and a long-standing puzzle in economics. I study this problem by exploring the impacts in retail prices due to cost shocks from increases in state minimum wage. Using spatial distribution of minimum wages in the United States, NielsenIQ's scanner transaction data from 2011-2021, and a stacked difference-indifferences research design, I find that a 10 percent increase in state minimum wage causes 1.1 to 1.5 percent increase in retail grocery prices. I also find evidence that food retailers exhibit forward-looking behavior by adjusting prices immediately after minimum wage legislation is enacted, rather than waiting until the policy is formally implemented. Additionally, I use a causal machine learning approach to examine the heterogeneity of the minimum wage price pass-through along different retailer-and market-specific covariates. I find that pass-through rates are lower among retailers with greater market share and in higher-income counties, which implies that larger firms and richer markets can absorb cost shocks better. Further, retailers with lower reliance on promotions and discounts exhibit higher pass-through, which suggests that price adjustments can also occur through changes in discounting strategies rather than solely through base price increases. My findings highlight the need for policymakers and marketing practitioners to consider the distributional effects of minimum wage policies on firms' pricing decisions.
-
-</small><br><br/></div>
-
-**Cross-Platform Merger Effects** (with Timothy J. Richards). <br/>
-<span style="color:#AA6666">Under Review.</span> <br/>
-<small>[ <a href="#/" onclick="visib('platforms_mergers')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5454114)] </small>
-
-<div id="platforms_mergers" style="display: none; text-align: justify; line-height: 1.2" ><small>
-
-Mergers and acquisitions tend to affect the prices and varieties offered by the merging firms. Most existing research, however, focuses on mergers between firms operating on the same platform, such as between two online firms or two firms in the same physical channel. In contrast, the price effects of integration across different platforms remain unexplored in empirical research but are likely of critical importance given the growth of omnichannel, or combined physical and online channels, retailing. We study this question by analyzing the acquisition of a national grocery chain by a large online retailer in the United States. Unlike same-platform mergers, this merger combines market power and efficiency motives with cross-platform network externalities that raise each channel’s value as the other grows. This changes channel substitution and effective marginal costs of the merged firm and leaves the price effect ambiguous ex ante. Identifying price effects is further challenging due to the endogenous nature of merger decisions. We use a doubly-robust synthetic control method and find that prices decrease in four out of 10 treated markets, while in five markets, prices remain unchanged. Unlike in same-platform horizontal mergers, these price effects do not systematically vary with market concentration levels and challenge predictions from the Structure-Conduct-Performance literature. Therefore, in cross-platform mergers, competitive effects likely reflect forces beyond market structure, such as channel complementarities and consumer substitution.
-
-</small><br><br/></div>
-
-**Minimum Wages and Employment** (with Timothy J. Richards). <br/>
-<span style="color:#AA6666">Under Review.</span> <br/>
-<small>[ <a href="#/" onclick="visib('mw_empl')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5615290)] </small>
-
-<div id="mw_empl" style="display: none; text-align: justify; line-height: 1.2" ><small>
-
-Minimum wages do not necessarily cause a reduction in employment as fundamental microeconomics principles suggest. In the food and agriculture industry, minimum wages may be important tools to not only address income inequalities, but to increase the quantity of labor supplied and potentially help solve chronic labor shortages. While there are many possible explanations for the paradox of minimum wage neutrality, from correcting for monopsony power to segmented labor markets, we examine a relatively new and important mechanism. Namely, we test for whether minimum wages have a "cleansing" effect in industries that tend to employ minimum-wage workers, driving relatively inefficient firms, or those that could only survive by paying workers low wages, out of the industry. Exiting firms cede market share to more efficient firms, who employ the workers that are released by the exiting firms. We examine this question using a two-stage approach, first using reduced-form methods in aggregate data from the Quarterly Census of Employment and Wages
-(QCEW) and then using micro-level data on individual firms in the retail industry from NielsenIQ TDLinx data set. We find broad support for the cleansing hypothesis in both the aggregate and micro-level analyses, suggesting that minimum wages may have a beneficial efficiency-enhancing effect that has otherwise been overlooked in the policy literature.
-
-</small><br><br/></div>
-
-
-**Labor Market Power in Food Retailing**. <span style="color:#AA6666">Preparing for Submission.</span><br/>
-
-
-<!-- <div id="monop_retail" style="display: none; text-align: justify; line-height: 1.2" ><small>
-
-I study the extent and evolution of labor market power in the US food retailing sector by estimating the wedge between workers' marginal productivity and wage. Using data on a near universe of publicly trading American food retailers for the period 2004-2022, I first examine how concentration in labor markets moderates effects of state minimum wages on individual store's employment. On two proxies of labor market concentration---population density and number of establishments---I find that highly concentrated markets have more positive employment effects from minimum wages. Based on this model-free result, I hypothesize that labor oligopsony power enables food retailers in concentrated markets to maintain greater productivity-wage gaps, allowing them to absorb minimum wage increases by sacrificing some surplus while still expanding employment. To test this hypothesis, I implement a production function estimation strategy from IO literature which lets me estimate the labor markdowns or wage-productivity gaps, and understand how they differ by concentration levels. I then examine how these markdown estimates vary across years and along worker, firm, and market characteristics. 
-
-</small><br><br/></div>
-
-* <small> **Conferences/Seminars:** AEA-ASSA 2025; PhD-EVS 2024; ASU 2024; AAEA 2024   </small> -->
-
-- - -
-# <center> In Progress </center>
-- - -
-
-**Asymmetric Supply Relationships and Vertical Bargaining** (with Elliot Rabinovich, Timothy J. Richards, and Lina Wang). 
-
-**Contract Design and Labor Dynamics in Platform Logistics** (with Stanley Lim).
-
-<!-- **Sequential Pricing in Platforms** (with Steve Hamilton). 
- 
-
-<!-- * <small> **Conferences:** AAEA 2023; INFORMS Marketing Science 2023. </small> -->
 
 
 [//]: This java script is the button to show abstract
