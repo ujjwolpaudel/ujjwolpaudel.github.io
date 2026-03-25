@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Postdoc, Supply Chain Management, [ASU](https://wpcarey.asu.edu/supply-chain-management-degrees).
+Postdoc, Supply Chain Management, [Arizona State University](https://wpcarey.asu.edu/supply-chain-management-degrees).
 
 Interests: supply chains × {IO economics, causal inference}. 
 
