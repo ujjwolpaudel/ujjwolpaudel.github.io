@@ -1,4 +1,3 @@
-# main links
 main:
   - title: "About Me"
     url: /
@@ -6,5 +5,5 @@ main:
   - title: "Research"
     url: /research/
 
-  - title: "Minimum Wage"
-    url: /minimum-wage/
+  - title: "Dashboard"
+    url: /dashboard/
