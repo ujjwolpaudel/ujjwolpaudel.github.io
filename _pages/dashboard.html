@@ -1,0 +1,79 @@
+---
+layout: archive
+title: "Dashboard"
+permalink: /dashboard/
+author_profile: false
+---
+
+<style>
+  .dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+  }
+  .dashboard-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    transition: box-shadow 0.2s, transform 0.2s;
+  }
+  .dashboard-card:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    transform: translateY(-2px);
+    text-decoration: none;
+    color: inherit;
+  }
+  .dashboard-card-thumb {
+    background: linear-gradient(135deg, #1B2D47 0%, #2a4a72 100%);
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+  }
+  .dashboard-card-body {
+    padding: 1rem 1.2rem 1.2rem;
+  }
+  .dashboard-card-body h3 {
+    margin: 0 0 0.4rem;
+    font-size: 1.05rem;
+  }
+  .dashboard-card-body p {
+    margin: 0;
+    font-size: 0.88rem;
+    color: #555;
+    line-height: 1.5;
+  }
+  .dashboard-tag {
+    display: inline-block;
+    margin-top: 0.6rem;
+    font-size: 0.75rem;
+    background: #eef2f7;
+    color: #1B2D47;
+    padding: 2px 8px;
+    border-radius: 20px;
+  }
+</style>
+
+<p>Interactive data visualizations on labor economics and policy. Click a card to explore.</p>
+
+<div class="dashboard-grid">
+
+  <a class="dashboard-card" href="/minimum-wage/">
+    <div class="dashboard-card-thumb">💵</div>
+    <div class="dashboard-card-body">
+      <h3>U.S. Minimum Wage Policy</h3>
+      <p>State and federal minimum wages from 1980 to 2022. Map view, trends, year snapshots, and rankings.</p>
+      <span class="dashboard-tag">Labor Markets</span>
+      <span class="dashboard-tag">1980–2022</span>
+    </div>
+  </a>
+
+  <!-- Add future dashboard cards here in the same format -->
+
+</div>
