@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>U.S. Minimum Wage History · 1980–2022</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Literata:ital,opsz,wght@0,7..72,300;0,7..72,400;1,7..72,300&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+:root{
+  --bg:#F3EFE6;--text:#1B2D47;--muted:#607080;--accent:#C96A2A;
+  --green:#3A7057;--card:#FDFAF4;--border:#D9D2C2;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Literata',Georgia,serif;background:var(--bg);color:var(--text);min-height:100vh}
+
+header{background:var(--text);color:var(--bg);padding:3rem 2rem 2.5rem;position:relative;overflow:hidden}
+header::before{content:'';position:absolute;top:-80px;right:-60px;width:360px;height:360px;border-radius:50%;border:90px solid rgba(255,255,255,.03);pointer-events:none}
+header::after{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--accent),#7BA7BC 50%,var(--green))}
+.hdr{max-width:1200px;margin:0 auto;display:flex;justify-content:space-between;align-items:flex-end;gap:2rem;flex-wrap:wrap}
+.eyebrow{font-family:'Syne',sans-serif;font-size:.63rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);margin-bottom:.8rem}
+h1{font-family:'Syne',sans-serif;font-size:clamp(2rem,5vw,3.4rem);font-weight:800;line-height:1.05;letter-spacing:-.025em;margin-bottom:.75rem}
+.subtitle{font-size:.93rem;color:#8EA8C0;line-height:1.65;max-width:54ch;font-style:italic;font-weight:300}
+.hdr-badges{display:flex;gap:.6rem;flex-shrink:0}
+.badge{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);border-radius:4px;padding:.8rem 1.1rem;text-align:center;min-width:110px}
+.badge-v{font-family:'Syne',sans-serif;font-size:1.9rem;font-weight:800;color:var(--accent);line-height:1}
+.badge-l{font-family:'Syne',sans-serif;font-size:.58rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#8EA8C0;margin-top:.3rem}
+
+.stat-strip{background:var(--card);border-bottom:1px solid var(--border)}
+.stat-inner{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr)}
+.stat{padding:1.1rem 1.4rem;border-right:1px solid var(--border)}
+.stat:last-child{border-right:none}
+.stat-l{font-family:'Syne',sans-serif;font-size:.6rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:.3rem}
+.stat-v{font-family:'Syne',sans-serif;font-size:1.75rem;font-weight:800;color:var(--text);line-height:1}
+.stat-s{font-size:.73rem;color:var(--muted);margin-top:.2rem;font-style:italic}
+
+.nav-wrap{background:var(--card);border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;box-shadow:0 2px 10px rgba(0,0,0,.06)}
+.nav-inner{max-width:1200px;margin:0 auto;padding:0 2rem;display:flex;gap:0;overflow-x:auto}
+.tab{font-family:'Syne',sans-serif;font-size:.71rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:.85rem 1.35rem;border:none;background:transparent;color:var(--muted);cursor:pointer;position:relative;transition:color .18s;white-space:nowrap}
+.tab::after{content:'';position:absolute;bottom:-2px;left:0;right:0;height:2px;background:var(--accent);transform:scaleX(0);transform-origin:left;transition:transform .22s}
+.tab.active{color:var(--text)}.tab.active::after{transform:scaleX(1)}.tab:hover{color:var(--text)}
+
+main{max-width:1200px;margin:0 auto;padding:2rem 2rem 5rem}
+.panel{display:none}.panel.active{display:block}
+
+.ctrls{display:flex;align-items:center;gap:1.5rem;margin-bottom:1.2rem;flex-wrap:wrap}
+.ctrl-g{display:flex;align-items:center;gap:.75rem}
+.ctrl-l{font-family:'Syne',sans-serif;font-size:.63rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+input[type=range]{-webkit-appearance:none;height:3px;background:var(--border);border-radius:2px;outline:none;cursor:pointer;width:220px}
+input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:15px;height:15px;background:var(--accent);border-radius:50%;box-shadow:0 1px 4px rgba(0,0,0,.2)}
+.yr{font-family:'Syne',sans-serif;font-size:1.5rem;font-weight:800;color:var(--text);min-width:3rem}
+
+.card{background:var(--card);border:1px solid var(--border);border-radius:3px;padding:1.25rem}
+
+#map-svg{width:100%;height:auto;display:block}
+.state-path{stroke:#fff;stroke-width:.4;cursor:pointer;transition:opacity .15s}
+.state-path:hover{opacity:.72;stroke:var(--text);stroke-width:.9}
+.leg-wrap{display:flex;align-items:center;gap:.5rem;margin-top:.75rem}
+.leg-l{font-family:'Syne',sans-serif;font-size:.63rem;color:var(--muted)}
+
+.tt{position:fixed;background:var(--text);color:var(--bg);padding:.6rem .9rem;border-radius:3px;font-family:'Syne',sans-serif;pointer-events:none;z-index:999;opacity:0;transition:opacity .12s;min-width:160px}
+.tt.on{opacity:1}
+.tt-name{font-size:.74rem;font-weight:700;margin-bottom:.15rem}
+.tt-wage{font-size:1.15rem;font-weight:800;color:var(--accent);line-height:1}
+.tt-delta{font-size:.67rem;color:#8EA8C0;margin-top:.2rem}
+
+.chips{display:flex;flex-wrap:wrap;gap:.3rem;margin-bottom:.9rem}
+.chip{font-family:'Syne',sans-serif;font-size:.61rem;font-weight:700;letter-spacing:.05em;padding:.28rem .55rem;border:1px solid var(--border);border-radius:2px;cursor:pointer;background:transparent;color:var(--muted);transition:all .15s}
+.chip:hover{border-color:var(--muted);color:var(--text)}
+.chip.on{background:var(--text);color:var(--bg);border-color:var(--text)}
+
+table{width:100%;border-collapse:collapse;font-size:.88rem}
+th{font-family:'Syne',sans-serif;font-size:.6rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:left;padding:.7rem 1rem;border-bottom:2px solid var(--border);cursor:pointer;user-select:none;white-space:nowrap}
+th:hover{color:var(--text)}.th-sorted{color:var(--text)!important}
+td{padding:.58rem 1rem;border-bottom:1px solid var(--border);vertical-align:middle}
+tr:last-child td{border-bottom:none}tr:hover td{background:rgba(0,0,0,.016)}
+.rn{font-family:'Syne',sans-serif;font-weight:800;color:var(--muted);font-size:.78rem}
+.wv{font-family:'Syne',sans-serif;font-weight:700;font-size:.98rem}
+.dp{font-family:'Syne',sans-serif;font-size:.8rem;font-weight:600;color:var(--green)}
+.dz{font-family:'Syne',sans-serif;font-size:.8rem;color:var(--muted)}
+.gb-bg{height:5px;background:var(--border);border-radius:3px;min-width:80px;overflow:hidden;flex:1}
+.gb-fill{height:100%;background:var(--accent);border-radius:3px}
+.gb-v{font-family:'Syne',sans-serif;font-size:.69rem;color:var(--muted);min-width:42px}
+
+.source{margin-top:2rem;padding-top:1rem;border-top:1px solid var(--border);font-size:.74rem;color:var(--muted);line-height:1.7}
+.source a{color:var(--muted)}
+
+@media(max-width:700px){
+  .stat-inner{grid-template-columns:repeat(2,1fr)}
+  .hdr{flex-direction:column;align-items:flex-start}
+  header{padding:2rem 1rem 1.5rem}
+  main{padding:1rem 1rem 4rem}
+  input[type=range]{width:160px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="hdr">
+    <div>
+      <div class="eyebrow">Policy Dashboard · Vaghul &amp; Zipperer 2022 v1.4.0</div>
+      <h1>U.S. Minimum Wage<br>History, 1980–2022</h1>
+      <p class="subtitle">Four decades of state and federal minimum wage policy across all 51 jurisdictions. Effective wage = the higher of state law or the federal floor.</p>
+    </div>
+    <div class="hdr-badges">
+      <div class="badge"><div class="badge-v">$7.25</div><div class="badge-l">Federal Floor</div></div>
+      <div class="badge"><div class="badge-v">$16.10</div><div class="badge-l">Highest 2022<br><span style="font-size:.53rem">(D.C.)</span></div></div>
+    </div>
+  </div>
+</header>
+
+<div class="stat-strip">
+  <div class="stat-inner">
+    <div class="stat"><div class="stat-l">Federal Floor 2022</div><div class="stat-v">$7.25</div><div class="stat-s">Unchanged since July 2009</div></div>
+    <div class="stat"><div class="stat-l">States Above Federal</div><div class="stat-v" id="s-above">—</div><div class="stat-s">of 51 jurisdictions, 2022</div></div>
+    <div class="stat"><div class="stat-l">Median Eff. Wage 2022</div><div class="stat-v" id="s-med">—</div><div class="stat-s">Across all 51 jurisdictions</div></div>
+    <div class="stat"><div class="stat-l">Federal Increase 1980–2022</div><div class="stat-v">+$4.15</div><div class="stat-s">$3.10 → $7.25</div></div>
+  </div>
+</div>
+
+<div class="nav-wrap">
+  <div class="nav-inner">
+    <button class="tab active" data-tab="map">Map View</button>
+    <button class="tab" data-tab="trends">State Trends</button>
+    <button class="tab" data-tab="snap">Year Snapshot</button>
+    <button class="tab" data-tab="rank">2022 Rankings</button>
+  </div>
+</div>
+
+<main>
+
+<div class="panel active" id="panel-map">
+  <div class="ctrls">
+    <div class="ctrl-g">
+      <span class="ctrl-l">Year</span>
+      <input type="range" id="map-sl" min="1980" max="2022" value="2022">
+      <span class="yr" id="map-yr">2022</span>
+    </div>
+    <span style="font-family:'Syne',sans-serif;font-size:.68rem;color:var(--muted);font-style:italic">Hover states for details</span>
+  </div>
+  <div class="card">
+    <svg id="map-svg" viewBox="0 0 960 600"></svg>
+    <div class="leg-wrap">
+      <span class="leg-l">$3.00</span>
+      <canvas id="leg-canvas" width="240" height="10" style="border-radius:2px"></canvas>
+      <span class="leg-l">$17.00</span>
+    </div>
+  </div>
+</div>
+
+<div class="panel" id="panel-trends">
+  <div style="margin-bottom:.75rem">
+    <div class="ctrl-l" style="margin-bottom:.4rem;display:block">Select up to 6 states — federal shown as dashed reference</div>
+    <div class="chips" id="chips"></div>
+  </div>
+  <div class="card"><canvas id="tc" height="420"></canvas></div>
+</div>
+
+<div class="panel" id="panel-snap">
+  <div class="ctrls">
+    <div class="ctrl-g">
+      <span class="ctrl-l">Year</span>
+      <input type="range" id="snap-sl" min="1980" max="2022" value="2022">
+      <span class="yr" id="snap-yr">2022</span>
+    </div>
+    <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap">
+      <span style="width:11px;height:11px;background:#1B2D47;border-radius:1px;display:inline-block"></span>
+      <span style="font-family:'Syne',sans-serif;font-size:.66rem;color:var(--muted)">Above federal</span>
+      <span style="width:11px;height:11px;background:#C2BAB0;border-radius:1px;display:inline-block;margin-left:.4rem"></span>
+      <span style="font-family:'Syne',sans-serif;font-size:.66rem;color:var(--muted)">At federal floor</span>
+    </div>
+  </div>
+  <div class="card" style="overflow-x:auto">
+    <div id="snap-wrap" style="position:relative"><canvas id="sc"></canvas></div>
+  </div>
+</div>
+
+<div class="panel" id="panel-rank">
+  <div class="card" style="overflow-x:auto">
+    <table id="rt">
+      <thead><tr>
+        <th data-col="rank"># <span>↓</span></th>
+        <th data-col="name">State <span>↕</span></th>
+        <th data-col="wage">2022 Wage <span>↕</span></th>
+        <th data-col="delta">vs. Federal <span>↕</span></th>
+        <th data-col="growth" style="min-width:190px">Growth since 1980 <span>↕</span></th>
+      </tr></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+</div>
+
+<div class="source">
+  <strong>Source:</strong> Vaghul, K. and Zipperer, B. (2022). "Historical State and Sub-state Minimum Wages," Version 1.4.0.
+  <a href="https://github.com/benzipperer/historicalminwage/releases/tag/v1.4.0" target="_blank">github.com/benzipperer/historicalminwage</a>.
+  Effective minimum wage = max(state law, federal floor), annual (January 1 of each year).
+  States without their own wage law above the federal floor appear at the federal rate.
+</div>
+</main>
+
+<div class="tt" id="tt">
+  <div class="tt-name" id="tt-n"></div>
+  <div class="tt-wage" id="tt-w"></div>
+  <div class="tt-delta" id="tt-d"></div>
+</div>
+
+<script>
+// ── DATA ──────────────────────────────────────
+const YEARS=Array.from({length:43},(_,i)=>1980+i);
+const FED={
+  1980:3.10,1981:3.35,1982:3.35,1983:3.35,1984:3.35,1985:3.35,1986:3.35,
+  1987:3.35,1988:3.35,1989:3.35,1990:3.80,1991:4.25,1992:4.25,1993:4.25,
+  1994:4.25,1995:4.25,1996:4.75,1997:5.15,1998:5.15,1999:5.15,2000:5.15,
+  2001:5.15,2002:5.15,2003:5.15,2004:5.15,2005:5.15,2006:5.15,2007:5.85,
+  2008:6.55,2009:7.25,2010:7.25,2011:7.25,2012:7.25,2013:7.25,2014:7.25,
+  2015:7.25,2016:7.25,2017:7.25,2018:7.25,2019:7.25,2020:7.25,2021:7.25,
+  2022:7.25
+};
+const SL={
+  AK:{1980:3.40,1981:3.85,1982:3.85,1983:3.85,1984:3.85,1985:3.85,1986:3.85,1987:3.85,1988:3.85,1989:3.85,1990:3.85,1991:4.25,1992:4.75,1993:4.75,1994:4.75,1995:4.75,1996:4.75,1997:5.15,1998:5.15,1999:5.25,2000:5.65,2001:5.65,2002:5.65,2003:5.65,2004:5.65,2005:5.65,2006:5.65,2007:6.75,2008:7.15,2009:7.25,2010:7.75,2011:7.75,2012:7.75,2013:7.75,2014:7.75,2015:9.75,2016:9.75,2017:9.80,2018:9.84,2019:9.89,2020:10.19,2021:10.34,2022:10.34},
+  AZ:{2007:6.75,2008:6.90,2009:7.25,2010:7.25,2011:7.35,2012:7.65,2013:7.80,2014:7.90,2015:8.05,2016:8.05,2017:10.00,2018:10.50,2019:11.00,2020:12.00,2021:12.15,2022:12.80},
+  AR:{2015:7.50,2016:8.00,2017:8.50,2018:8.50,2019:9.25,2020:10.00,2021:11.00,2022:11.00},
+  CA:{1988:4.25,1989:4.25,1990:4.25,1991:4.25,1992:4.25,1993:4.25,1994:4.25,1995:4.25,1996:5.00,1997:5.15,1998:5.75,1999:5.75,2000:6.25,2001:6.25,2002:6.75,2003:6.75,2004:6.75,2005:6.75,2006:6.75,2007:7.50,2008:8.00,2009:8.00,2010:8.00,2011:8.00,2012:8.00,2013:8.00,2014:9.00,2015:9.00,2016:10.00,2017:10.50,2018:11.00,2019:12.00,2020:13.00,2021:14.00,2022:15.00},
+  CO:{2007:6.85,2008:7.02,2009:7.28,2010:7.24,2011:7.36,2012:7.64,2013:7.78,2014:8.00,2015:8.23,2016:8.31,2017:9.30,2018:10.20,2019:11.10,2020:12.00,2021:12.32,2022:12.56},
+  CT:{1990:4.27,1991:4.27,1992:4.27,1993:4.27,1994:4.27,1995:5.18,1996:5.18,1997:5.18,1998:5.65,1999:5.65,2000:6.15,2001:6.70,2002:6.70,2003:6.90,2004:7.10,2005:7.10,2006:7.40,2007:7.65,2008:7.65,2009:8.00,2010:8.25,2011:8.25,2012:8.25,2013:8.25,2014:8.70,2015:9.15,2016:9.60,2017:10.10,2018:10.10,2019:10.10,2020:12.00,2021:13.00,2022:14.00},
+  DC:{1993:5.25,1994:5.25,1995:5.25,1996:5.25,1997:6.15,1998:6.15,1999:6.15,2000:6.15,2001:6.15,2002:6.15,2003:6.15,2004:6.60,2005:6.60,2006:7.00,2007:7.55,2008:7.55,2009:8.25,2010:8.25,2011:8.25,2012:8.25,2013:8.25,2014:9.50,2015:10.50,2016:11.50,2017:12.50,2018:13.25,2019:14.00,2020:15.00,2021:15.20,2022:16.10},
+  DE:{2014:7.75,2015:8.25,2016:8.25,2017:8.25,2018:8.25,2019:8.75,2020:9.25,2021:10.25,2022:10.50},
+  FL:{2005:6.15,2006:6.40,2007:6.67,2008:6.79,2009:7.21,2010:7.25,2011:7.31,2012:7.67,2013:7.79,2014:7.93,2015:8.05,2016:8.05,2017:8.10,2018:8.25,2019:8.46,2020:8.56,2021:8.65,2022:10.00},
+  HI:{1988:3.85,1989:3.85,1990:3.85,1991:4.25,1992:4.25,1993:4.75,1994:4.75,1995:4.75,1996:4.75,1997:5.25,1998:5.25,1999:5.25,2000:5.25,2001:5.25,2002:5.75,2003:6.25,2004:6.25,2005:6.25,2006:7.25,2007:7.25,2008:7.25,2009:7.25,2010:7.25,2011:7.25,2012:7.25,2013:7.25,2014:7.75,2015:7.75,2016:8.50,2017:9.25,2018:10.10,2019:10.10,2020:10.10,2021:10.10,2022:10.10},
+  IL:{1984:3.35,1985:3.35,1986:3.50,1987:3.65,1988:3.80,1989:3.80,1990:3.80,1991:4.25,1992:4.25,1993:4.25,1994:4.25,1995:4.25,1996:4.75,1997:5.15,1998:5.15,1999:5.15,2000:5.15,2001:5.15,2002:5.15,2003:5.15,2004:5.15,2005:5.50,2006:6.50,2007:7.50,2008:7.75,2009:8.00,2010:8.25,2011:8.25,2012:8.25,2013:8.25,2014:8.25,2015:8.25,2016:8.25,2017:8.25,2018:8.25,2019:8.25,2020:10.00,2021:11.00,2022:12.00},
+  ME:{1985:3.65,1986:3.65,1987:3.65,1988:3.65,1989:3.65,1990:3.85,1991:4.25,1992:4.25,1993:4.25,1994:4.25,1995:4.25,1996:4.75,1997:5.15,1998:5.15,1999:5.15,2000:5.15,2001:5.15,2002:6.25,2003:6.25,2004:6.25,2005:6.50,2006:6.50,2007:7.00,2008:7.00,2009:7.25,2010:7.50,2011:7.50,2012:7.50,2013:7.50,2014:7.50,2015:7.50,2016:7.50,2017:9.00,2018:10.00,2019:11.00,2020:12.00,2021:12.15,2022:12.75},
+  MD:{1992:4.25,1993:4.25,1994:4.25,1995:4.25,1996:4.75,1997:5.15,1998:5.15,1999:5.15,2000:5.15,2001:5.15,2002:5.15,2003:5.15,2004:5.15,2005:5.15,2006:6.15,2007:6.15,2008:6.15,2009:7.25,2010:7.25,2011:7.25,2012:7.25,2013:7.25,2014:7.25,2015:8.00,2016:8.75,2017:9.25,2018:10.10,2019:10.10,2020:11.00,2021:11.75,2022:12.50},
+  MA:{1988:3.65,1989:3.75,1990:3.75,1991:4.25,1992:4.25,1993:4.25,1994:4.25,1995:4.25,1996:4.75,1997:5.25,1998:5.25,1999:5.25,2000:6.00,2001:6.75,2002:6.75,2003:6.75,2004:6.75,2005:6.75,2006:6.75,2007:7.50,2008:8.00,2009:8.00,2010:8.00,2011:8.00,2012:8.00,2013:8.00,2014:8.00,2015:9.00,2016:10.00,2017:11.00,2018:12.00,2019:12.00,2020:12.75,2021:13.50,2022:14.25},
+  MI:{1981:3.35,1982:3.35,1983:3.35,1984:3.35,1985:3.35,1986:3.35,1987:3.35,1988:3.35,1989:3.35,1990:3.80,1991:4.25,1992:4.25,1993:4.25,1994:4.25,1995:4.25,1996:4.75,1997:5.15,1998:5.15,1999:5.15,2000:5.15,2001:5.15,2002:5.15,2003:5.15,2004:5.15,2005:5.15,2006:5.15,2007:6.95,2008:7.40,2009:7.40,2010:7.40,2011:7.40,2012:7.40,2013:7.40,2014:8.15,2015:8.15,2016:8.50,2017:8.90,2018:9.25,2019:9.45,2020:9.65,2021:9.87,2022:9.87},
+  MN:{1990:3.80,1991:4.25,1992:4.25,1993:4.25,1994:4.25,1995:4.25,1996:4.75,1997:5.15,1998:5.15,1999:5.15,2000:5.15,2001:5.15,2002:5.15,2003:5.15,2004:5.15,2005:5.25,2006:5.25,2007:6.15,2008:6.15,2009:7.25,2010:7.25,2011:7.25,2012:7.25,2013:7.25,2014:8.00,2015:9.00,2016:9.50,2017:9.50,2018:9.65,2019:9.86,2020:10.00,2021:10.08,2022:10.33},
+  MO:{1992:4.25,1993:4.25,1994:4.25,1995:4.25,1996:4.75,1997:5.15,1998:5.15,1999:5.15,2000:5.15,2001:5.15,2002:5.15,2003:5.15,2004:5.15,2005:5.15,2006:5.15,2007:6.50,2008:6.65,2009:7.25,2010:7.25,2011:7.25,2012:7.25,2013:7.35,2014:7.50,2015:7.65,2016:7.65,2017:7.70,2018:7.85,2019:8.60,2020:9.45,2021:10.30,2022:11.15},
+  MT:{1992:4.25,1993:4.25,1994:4.25,1995:4.25,1996:4.75,1997:5.15,1998:5.15,1999:5.15,2000:5.15,2001:5.15,2002:5.15,2003:5.15,2004:5.15,2005:5.15,2006:5.15,2007:6.25,2008:6.55,2009:7.25,2010:7.25,2011:7.35,2012:7.65,2013:7.80,2014:7.90,2015:8.05,2016:8.05,2017:8.15,2018:8.30,2019:8.50,2020:8.65,2021:8.75,2022:9.20},
+  NE:{2015:8.00,2016:9.00,2017:9.00,2018:9.00,2019:9.00,2020:9.00,2021:9.00,2022:9.00},
+  NV:{1990:3.80,1991:4.25,1992:4.25,1993:4.25,1994:4.25,1995:4.25,1996:4.75,1997:5.15,1998:5.15,1999:5.15,2000:5.15,2001:5.15,2002:5.15,2003:5.15,2004:5.15,2005:5.15,2006:5.15,2007:6.33,2008:6.55,2009:7.25,2010:8.25,2011:8.25,2012:8.25,2013:8.25,2014:8.25,2015:8.25,2016:8.25,2017:8.25,2018:8.25,2019:8.25,2020:8.75,2021:9.75,2022:9.75},
+  NJ:{1990:3.80,1991:4.25,1992:4.25,1993:4.25,1994:5.05,1995:5.05,1996:5.05,1997:5.15,1998:5.15,1999:5.15,2000:5.15,2001:5.15,2002:5.15,2003:5.15,2004:5.15,2005:5.15,2006:5.15,2007:7.15,2008:7.15,2009:7.25,2010:7.25,2011:7.25,2012:7.25,2013:7.25,2014:8.25,2015:8.38,2016:8.38,2017:8.44,2018:8.60,2019:10.00,2020:11.00,2021:12.00,2022:13.00},
+  NM:{2009:7.50,2010:7.50,2011:7.50,2012:7.50,2013:7.50,2014:7.50,2015:7.50,2016:7.50,2017:7.50,2018:7.50,2019:7.50,2020:9.00,2021:10.50,2022:11.50},
+  NY:{1990:3.80,1991:4.25,1992:4.25,1993:4.25,1994:4.25,1995:4.25,1996:4.75,1997:5.15,1998:5.15,1999:5.15,2000:5.15,2001:5.15,2002:5.15,2003:5.15,2004:5.15,2005:6.00,2006:6.75,2007:7.15,2008:7.15,2009:7.25,2010:7.25,2011:7.25,2012:7.25,2013:7.25,2014:8.00,2015:8.75,2016:9.00,2017:9.70,2018:10.40,2019:11.10,2020:11.80,2021:12.50,2022:13.20},
+  OH:{2007:6.85,2008:7.00,2009:7.30,2010:7.30,2011:7.40,2012:7.70,2013:7.85,2014:7.95,2015:8.10,2016:8.10,2017:8.15,2018:8.30,2019:8.55,2020:8.70,2021:8.80,2022:9.30},
+  OR:{1988:3.35,1989:3.35,1990:3.80,1991:4.25,1992:4.25,1993:4.25,1994:4.75,1995:4.75,1996:4.75,1997:5.15,1998:5.50,1999:5.50,2000:6.50,2001:6.50,2002:6.50,2003:6.90,2004:7.05,2005:7.25,2006:7.50,2007:7.80,2008:7.95,2009:8.40,2010:8.40,2011:8.50,2012:8.80,2013:8.95,2014:9.10,2015:9.25,2016:9.75,2017:10.25,2018:10.75,2019:11.25,2020:12.00,2021:12.75,2022:13.50},
+  RI:{1989:3.65,1990:3.80,1991:4.25,1992:4.25,1993:4.25,1994:4.25,1995:4.45,1996:4.75,1997:5.15,1998:5.15,1999:5.65,2000:6.15,2001:6.15,2002:6.15,2003:6.15,2004:6.75,2005:6.75,2006:7.10,2007:7.40,2008:7.40,2009:7.40,2010:7.40,2011:7.40,2012:7.40,2013:7.75,2014:8.00,2015:9.00,2016:9.60,2017:9.60,2018:10.10,2019:10.50,2020:11.50,2021:12.25,2022:13.00},
+  SD:{2015:8.50,2016:8.55,2017:8.65,2018:8.85,2019:9.10,2020:9.30,2021:9.45,2022:9.95},
+  VA:{2021:9.50,2022:11.00},
+  VT:{1990:3.85,1991:4.25,1992:4.25,1993:4.25,1994:4.25,1995:4.25,1996:5.00,1997:5.25,1998:5.25,1999:5.25,2000:5.75,2001:6.25,2002:6.25,2003:6.75,2004:6.75,2005:7.00,2006:7.25,2007:7.53,2008:7.68,2009:8.06,2010:8.06,2011:8.15,2012:8.46,2013:8.60,2014:8.73,2015:9.15,2016:9.60,2017:10.00,2018:10.50,2019:10.78,2020:10.96,2021:11.75,2022:12.55},
+  WA:{1988:3.85,1989:4.25,1990:4.25,1991:4.25,1992:4.25,1993:4.90,1994:4.90,1995:4.90,1996:4.90,1997:5.15,1998:5.70,1999:5.70,2000:6.50,2001:6.72,2002:6.90,2003:7.01,2004:7.16,2005:7.35,2006:7.63,2007:7.93,2008:8.07,2009:8.55,2010:8.55,2011:8.67,2012:9.04,2013:9.19,2014:9.32,2015:9.47,2016:9.47,2017:11.00,2018:11.50,2019:12.00,2020:13.50,2021:13.69,2022:14.49},
+  WV:{1990:3.85,1991:4.25,1992:4.25,1993:4.25,1994:4.25,1995:4.25,1996:4.75,1997:5.15,1998:5.15,1999:5.15,2000:5.15,2001:5.15,2002:5.15,2003:5.15,2004:5.15,2005:5.15,2006:5.15,2007:5.85,2008:6.55,2009:7.25,2010:7.25,2011:7.25,2012:7.25,2013:7.25,2014:7.25,2015:8.00,2016:8.75,2017:8.75,2018:8.75,2019:8.75,2020:8.75,2021:8.75,2022:8.75}
+};
+const NM={
+  AL:'Alabama',AK:'Alaska',AZ:'Arizona',AR:'Arkansas',CA:'California',
+  CO:'Colorado',CT:'Connecticut',DC:'D.C.',DE:'Delaware',FL:'Florida',
+  GA:'Georgia',HI:'Hawaii',ID:'Idaho',IL:'Illinois',IN:'Indiana',
+  IA:'Iowa',KS:'Kansas',KY:'Kentucky',LA:'Louisiana',ME:'Maine',
+  MD:'Maryland',MA:'Massachusetts',MI:'Michigan',MN:'Minnesota',
+  MS:'Mississippi',MO:'Missouri',MT:'Montana',NE:'Nebraska',NV:'Nevada',
+  NH:'New Hampshire',NJ:'New Jersey',NM:'New Mexico',NY:'New York',
+  NC:'North Carolina',ND:'North Dakota',OH:'Ohio',OK:'Oklahoma',
+  OR:'Oregon',PA:'Pennsylvania',RI:'Rhode Island',SC:'South Carolina',
+  SD:'South Dakota',TN:'Tennessee',TX:'Texas',UT:'Utah',VT:'Vermont',
+  VA:'Virginia',WA:'Washington',WV:'West Virginia',WI:'Wisconsin',WY:'Wyoming'
+};
+const FIPS={
+  '01':'AL','02':'AK','04':'AZ','05':'AR','06':'CA','08':'CO','09':'CT',
+  '10':'DE','11':'DC','12':'FL','13':'GA','15':'HI','16':'ID','17':'IL',
+  '18':'IN','19':'IA','20':'KS','21':'KY','22':'LA','23':'ME','24':'MD',
+  '25':'MA','26':'MI','27':'MN','28':'MS','29':'MO','30':'MT','31':'NE',
+  '32':'NV','33':'NH','34':'NJ','35':'NM','36':'NY','37':'NC','38':'ND',
+  '39':'OH','40':'OK','41':'OR','42':'PA','44':'RI','45':'SC','46':'SD',
+  '47':'TN','48':'TX','49':'UT','50':'VT','51':'VA','53':'WA','54':'WV',
+  '55':'WI','56':'WY'
+};
+const CODES=Object.keys(NM);
+function eff(c,y){return Math.max(SL[c]?.[y]??0, FED[y]);}
+
+// Stats
+const w22=CODES.map(c=>eff(c,2022)).sort((a,b)=>a-b);
+document.getElementById('s-above').textContent=w22.filter(w=>w>7.25).length;
+document.getElementById('s-med').textContent='$'+((w22[25]+w22[26])/2).toFixed(2);
+
+// ── TABS ──────────────────────────────────────
+const inited={trends:false,snap:false,rank:false};
+document.querySelectorAll('.tab').forEach(b=>{
+  b.addEventListener('click',()=>{
+    document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
+    document.querySelectorAll('.panel').forEach(x=>x.classList.remove('active'));
+    b.classList.add('active');
+    const t=b.dataset.tab;
+    document.getElementById('panel-'+t).classList.add('active');
+    if(t==='trends'&&!inited.trends){initTrends();inited.trends=true;}
+    if(t==='snap'&&!inited.snap){initSnap();inited.snap=true;}
+    if(t==='rank'&&!inited.rank){initRank();inited.rank=true;}
+  });
+});
+
+// ── MAP ──────────────────────────────────────
+const clr=d3.scaleSequential().domain([3,17]).interpolator(d3.interpolateBlues);
+const mapSvg=d3.select('#map-svg');
+const proj=d3.geoAlbersUsa().scale(1260).translate([480,300]);
+const pathFn=d3.geoPath().projection(proj);
+const tt=document.getElementById('tt');
+
+// Legend
+(()=>{const lc=document.getElementById('leg-canvas'),ctx=lc.getContext('2d');
+  const g=ctx.createLinearGradient(0,0,240,0);
+  for(let i=0;i<=30;i++)g.addColorStop(i/30,clr(3+(i/30)*14));
+  ctx.fillStyle=g;ctx.fillRect(0,0,240,10);
+})();
+
+let mapYr=2022;
+async function initMap(){
+  let us;
+  try{us=await d3.json('https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json');}
+  catch(e){
+    mapSvg.append('text').attr('x',480).attr('y',300).attr('text-anchor','middle')
+      .attr('fill','#607080').attr('font-family',"'Syne',sans-serif").attr('font-size',14)
+      .text('Map requires internet connection. Other tabs work offline.');
+    return;
+  }
+  const states=topojson.feature(us,us.objects.states);
+  mapSvg.selectAll('.state-path').data(states.features).join('path')
+    .attr('class','state-path').attr('d',pathFn)
+    .attr('fill',d=>{const c=FIPS[String(d.id).padStart(2,'0')];return c?clr(eff(c,mapYr)):'#ccc';})
+    .on('mousemove',(ev,d)=>{
+      const c=FIPS[String(d.id).padStart(2,'0')];if(!c)return;
+      const w=eff(c,mapYr),f=FED[mapYr],delta=w-f;
+      document.getElementById('tt-n').textContent=NM[c]||c;
+      document.getElementById('tt-w').textContent='$'+w.toFixed(2)+'/hr';
+      document.getElementById('tt-d').textContent=delta>0.01?'+$'+delta.toFixed(2)+' above federal ($'+f.toFixed(2)+')':'At federal floor ($'+f.toFixed(2)+')';
+      tt.style.left=(ev.clientX+14)+'px';tt.style.top=(ev.clientY-8)+'px';tt.classList.add('on');
+    })
+    .on('mouseleave',()=>tt.classList.remove('on'));
+  renderMap();
+}
+function renderMap(){
+  mapSvg.selectAll('.state-path').transition().duration(280)
+    .attr('fill',d=>{const c=FIPS[String(d.id).padStart(2,'0')];return c?clr(eff(c,mapYr)):'#ccc';});
+}
+const msl=document.getElementById('map-sl'),myrEl=document.getElementById('map-yr');
+msl.addEventListener('input',()=>{mapYr=+msl.value;myrEl.textContent=mapYr;renderMap();});
+initMap();
+
+// ── TRENDS ──────────────────────────────────
+const PAL=['#1B2D47','#C96A2A','#3A7057','#8B3B7A','#2565A8','#B08A20'];
+let tChart=null,selSt=['CA','NY','WA','TX','FL'];
+function initTrends(){
+  const w=document.getElementById('chips');
+  CODES.forEach(c=>{
+    const b=document.createElement('button');
+    b.className='chip'+(selSt.includes(c)?' on':'');
+    b.textContent=c;b.title=NM[c];
+    b.addEventListener('click',()=>{
+      if(selSt.includes(c)){selSt=selSt.filter(s=>s!==c);b.classList.remove('on');}
+      else if(selSt.length<6){selSt.push(c);b.classList.add('on');}
+      rebuildT();
+    });
+    w.appendChild(b);
+  });
+  const hint=document.createElement('span');
+  hint.style.cssText='font-family:"Syne",sans-serif;font-size:.61rem;color:var(--muted);font-style:italic;padding:.3rem 0';
+  hint.textContent='(max 6 states)';w.appendChild(hint);
+  buildT();
+}
+function tDS(){
+  const ds=[{label:'Federal',data:YEARS.map(y=>FED[y]),borderColor:'#3A7057',borderDash:[7,4],borderWidth:2,pointRadius:0,tension:.1}];
+  selSt.forEach((c,i)=>ds.push({label:NM[c],data:YEARS.map(y=>eff(c,y)),borderColor:PAL[i%PAL.length],borderWidth:2.5,pointRadius:0,tension:.1}));
+  return ds;
+}
+function buildT(){
+  const ctx=document.getElementById('tc').getContext('2d');
+  tChart=new Chart(ctx,{type:'line',data:{labels:YEARS,datasets:tDS()},options:{responsive:true,interaction:{mode:'index',intersect:false},plugins:{legend:{labels:{font:{family:"'Syne',sans-serif",size:11},color:'#1B2D47',boxWidth:22,boxHeight:3,padding:14}},tooltip:{callbacks:{label:c=>`${c.dataset.label}: $${c.parsed.y.toFixed(2)}`}}},scales:{x:{ticks:{font:{family:"'Syne',sans-serif",size:10},color:'#607080',maxTicksLimit:12},grid:{color:'#E0D9CE'}},y:{ticks:{font:{family:"'Syne',sans-serif",size:10},color:'#607080',callback:v=>'$'+v.toFixed(2)},grid:{color:'#E0D9CE'}}}}});
+}
+function rebuildT(){if(!tChart)return;tChart.data.datasets=tDS();tChart.update();}
+
+// ── SNAPSHOT ─────────────────────────────────
+let sChart=null;
+function initSnap(){
+  buildS(2022);
+  const sl=document.getElementById('snap-sl'),yl=document.getElementById('snap-yr');
+  sl.addEventListener('input',()=>{const y=+sl.value;yl.textContent=y;updS(y);});
+}
+function sData(yr){
+  return CODES.map(c=>({code:c,w:eff(c,yr),fed:FED[yr]})).sort((a,b)=>b.w-a.w);
+}
+function buildS(yr){
+  const data=sData(yr);
+  const wrap=document.getElementById('snap-wrap');
+  const h=data.length*18+80;
+  wrap.style.height=h+'px';
+  const canvas=document.getElementById('sc');
+  canvas.width=wrap.clientWidth||880;canvas.height=h;
+  const ctx=canvas.getContext('2d');
+  sChart=new Chart(ctx,{type:'bar',data:{labels:data.map(d=>d.code),datasets:[{data:data.map(d=>d.w),backgroundColor:data.map(d=>d.w>d.fed+.01?'#1B2D47':'#C2BAB0'),borderWidth:0,borderRadius:1}]},options:{indexAxis:'y',responsive:false,plugins:{legend:{display:false},tooltip:{callbacks:{title:c=>NM[c[0].label]||c[0].label,label:c=>{const w=c.parsed.x,f=FED[yr],d=w-f;return '$'+w.toFixed(2)+'/hr'+(d>.01?' (+$'+d.toFixed(2)+' above federal)':' (at federal floor)');} }}},scales:{x:{min:0,ticks:{font:{family:"'Syne',sans-serif",size:10},color:'#607080',callback:v=>'$'+v},grid:{color:'#E0D9CE'}},y:{ticks:{font:{family:"'Syne',sans-serif",size:9.5},color:'#1B2D47'},grid:{display:false}}}}});
+}
+function updS(yr){
+  if(!sChart)return;
+  const data=sData(yr);
+  sChart.data.labels=data.map(d=>d.code);
+  sChart.data.datasets[0].data=data.map(d=>d.w);
+  sChart.data.datasets[0].backgroundColor=data.map(d=>d.w>d.fed+.01?'#1B2D47':'#C2BAB0');
+  sChart.update();
+}
+
+// ── RANKINGS ─────────────────────────────────
+let rCol='rank',rDir=1;
+function initRank(){renderR();
+  document.querySelectorAll('#rt th').forEach(th=>{
+    th.addEventListener('click',()=>{
+      document.querySelectorAll('#rt th').forEach(t=>{t.classList.remove('th-sorted');t.querySelector('span').textContent='↕';});
+      const col=th.dataset.col;
+      if(rCol===col)rDir*=-1;else{rCol=col;rDir=1;}
+      th.classList.add('th-sorted');th.querySelector('span').textContent=rDir===1?'↓':'↑';
+      renderR();
+    });
+  });
+  document.querySelector('#rt th[data-col="rank"]').classList.add('th-sorted');
+}
+function renderR(){
+  let data=CODES.map(c=>{const w=eff(c,2022),w0=eff(c,1980);return{rank:0,code:c,name:NM[c],wage:w,delta:w-7.25,growth:w-w0};});
+  data.sort((a,b)=>b.wage-a.wage);data.forEach((d,i)=>d.rank=i+1);
+  if(rCol!=='rank'){data.sort((a,b)=>{const av=a[rCol],bv=b[rCol];return typeof av==='string'?av.localeCompare(bv)*rDir:(bv-av)*rDir;});}
+  else{if(rDir===-1)data.reverse();}
+  const mx=Math.max(...data.map(d=>d.growth));
+  const tb=document.querySelector('#rt tbody');tb.innerHTML='';
+  data.forEach(d=>{
+    const tr=document.createElement('tr');
+    tr.innerHTML=`<td><span class="rn">${d.rank}</span></td><td>${d.name}</td><td class="wv">$${d.wage.toFixed(2)}</td><td>${d.delta>.01?`<span class="dp">+$${d.delta.toFixed(2)}</span>`:`<span class="dz">—</span>`}</td><td><div style="display:flex;align-items:center;gap:.5rem"><div class="gb-bg"><div class="gb-fill" style="width:${(d.growth/mx*100).toFixed(1)}%"></div></div><span class="gb-v">+$${d.growth.toFixed(2)}</span></div></td>`;
+    tb.appendChild(tr);
+  });
+}
+</script>
+</body>
+</html>
