@@ -79,7 +79,7 @@ Minimum wages do not necessarily cause a reduction in employment as fundamental 
   <a href="{{ site.baseurl }}{% link assets/AgLabor_ETHZ_2024.pdf %}" target="_blank">Slides</a> |
   <a href="#/" onclick="visib('bargaining_bibtex')">BibTeX</a>
 ] <br/>
-<span style="color:#008080"><b>2026 AEPP Outstanding Article Award.</b></span><br/>
+<span style="color:#008080; font-size:1.2em;"><b>2026 AEPP Outstanding Article Award.</b></span><br/>
 </small>
 
 <!-- Abstract -->
