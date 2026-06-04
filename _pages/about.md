@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Postdoc, Supply Chain Management, [Arizona State University](https://wpcarey.asu.edu/supply-chain-management-degrees).
+Incoming Assistant Professor, Department of Agricultural and Applied Economics, [Texas Tech University](https://www.depts.ttu.edu/aaec/).
 
 Interests: industrial organization economics, operations management. 
 
