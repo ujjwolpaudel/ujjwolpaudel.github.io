@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Assistant Professor [Texas Tech University](https://www.depts.ttu.edu/aaec/).
+Assistant Professor, [Texas Tech University](https://www.depts.ttu.edu/aaec/).
 
 Interests: industrial organization economics, operations management. 
 
