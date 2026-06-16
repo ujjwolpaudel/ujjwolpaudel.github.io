@@ -24,7 +24,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 # <center> Working Papers </center>
 - - -
 
-**Retail Concentration and Wages** (with Timothy J. Richards and Keenan Marchesi). <br/>
+**Concentration and Wages in Retailing** (with Timothy J. Richards and Keenan Marchesi). <br/>
 <span style="color:#AA6666">Accepted, Review of Industrial Organization.</span> <br/>
 <small>[ <a href="#/" onclick="visib('concen_wages')">Abstract</a> | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4815715) ] </small>
 
