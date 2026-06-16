@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ujjwol Paudel</title>
+<meta name="description" content="Ujjwol Paudel is an Assistant Professor in the Department of Agricultural and Applied Economics at Texas Tech University, studying the industrial organization of food and agricultural markets.">
+
+<!-- Open Graph / social -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Ujjwol Paudel">
+<meta property="og:description" content="Assistant Professor of Agricultural and Applied Economics at Texas Tech University. Industrial organization of food and agricultural markets.">
+<meta property="og:url" content="https://ujjwolpaudel.github.io/">
+<meta property="og:image" content="https://ujjwolpaudel.github.io/images/profile.jpeg">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#faf9f5">
+
+<!-- Lightweight inline favicon: lowercase serif monogram on the page's paper tone -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='5' fill='%231F3B57'/%3E%3Ctext x='16' y='23' font-family='Georgia,serif' font-size='20' fill='%23faf9f5' text-anchor='middle'%3Eu%3C/text%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --paper:#faf9f5;
+    --ink:#1b1a17;
+    --ink-soft:#54524b;
+    --label:#6f6d64;
+    --ink-faint:#9c9a8f;
+    --rule:#e8e5dc;
+    --accent:#1f3b57;
+    --accent-soft:#34597d;
+    --box:#f3f1ea;
+
+    --serif:'Newsreader', Georgia, 'Times New Roman', serif;
+    --mono:'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+
+    --maxw:42rem;
+    --gutter:5.5rem;
+  }
+
+  *,*::before,*::after{box-sizing:border-box}
+
+  html{ -webkit-text-size-adjust:100%; }
+  @media (prefers-reduced-motion: no-preference){ html{ scroll-behavior:smooth; } }
+
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:var(--serif);
+    font-size:clamp(1rem, 0.97rem + 0.15vw, 1.06rem);
+    line-height:1.62;
+    font-weight:400;
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+  }
+
+  ::selection{ background:color-mix(in srgb, var(--accent) 16%, transparent); }
+
+  .wrap{ max-width:var(--maxw); margin:0 auto; padding:0 clamp(1.25rem, 5vw, 2rem); }
+
+  /* ---------- Links ---------- */
+  a{
+    color:var(--accent);
+    text-decoration:underline;
+    text-decoration-thickness:1px;
+    text-underline-offset:2px;
+    text-decoration-color:color-mix(in srgb, var(--accent) 28%, transparent);
+    transition:color .18s ease, text-decoration-color .18s ease;
+  }
+  a:hover{ color:var(--accent-soft); text-decoration-color:var(--accent); }
+  a:focus-visible{ outline:2px solid var(--accent); outline-offset:3px; border-radius:2px; }
+
+  /* ---------- Nav ---------- */
+  .nav{
+    position:sticky; top:0; z-index:10;
+    background:color-mix(in srgb, var(--paper) 86%, transparent);
+    backdrop-filter:saturate(1.2) blur(8px);
+    -webkit-backdrop-filter:saturate(1.2) blur(8px);
+    border-bottom:1px solid transparent;
+    transition:border-color .25s ease;
+    animation:fade .8s ease both;
+  }
+  .nav.scrolled{ border-bottom-color:var(--rule); }
+  .nav-inner{
+    max-width:var(--maxw); margin:0 auto;
+    padding:.9rem clamp(1.25rem, 5vw, 2rem);
+    display:flex; align-items:baseline; justify-content:space-between; gap:1rem;
+  }
+  .brand{ font-size:1.02rem; font-weight:500; color:var(--ink); text-decoration:none; letter-spacing:.01em; }
+  .brand:hover{ color:var(--ink); }
+  .nav-links{ display:flex; gap:1.35rem; }
+  .nav-links a{
+    font-family:var(--mono); font-size:.72rem; letter-spacing:.13em; text-transform:uppercase;
+    color:var(--label); text-decoration:none;
+  }
+  .nav-links a:hover{ color:var(--accent); }
+  @media (max-width:560px){ .nav-talks{ display:none; } }
+
+  /* ---------- Hero ---------- */
+  .hero{
+    display:grid; grid-template-columns:1fr auto; gap:1.9rem;
+    align-items:start;
+    padding:3.4rem 0 2.4rem;
+  }
+  .portrait{
+    grid-column:2; grid-row:1;
+    width:92px; height:92px; object-fit:cover;
+    border-radius:3px; border:1px solid var(--rule);
+  }
+  .hero-text{ grid-column:1; grid-row:1; }
+  h1{
+    font-size:clamp(2.1rem, 1.4rem + 3vw, 2.75rem);
+    font-weight:500; line-height:1.05; letter-spacing:-0.012em;
+    margin:0 0 .55rem;
+  }
+  .role{
+    margin:0 0 1.1rem; color:var(--ink-soft);
+    font-size:1.02rem; line-height:1.45;
+  }
+  .role a{ color:var(--ink-soft); text-decoration-color:var(--rule); }
+  .role a:hover{ color:var(--accent); text-decoration-color:var(--accent); }
+  .intro{ margin:0 0 1.05rem; max-width:34rem; }
+  .origin{ margin:0 0 1.35rem; color:var(--ink-soft); font-style:italic; font-size:.98rem; }
+  .origin a{ color:var(--ink-soft); }
+  .social{ display:flex; flex-wrap:wrap; gap:.2rem .85rem; align-items:baseline; }
+  .social a{ color:var(--ink-soft); text-decoration:none; font-size:.95rem; }
+  .social a:hover{ color:var(--accent); text-decoration:underline; text-decoration-color:var(--accent); }
+  .social .sep{ color:var(--ink-faint); }
+
+  @media (max-width:560px){
+    .hero{ grid-template-columns:1fr; gap:1.25rem; padding-top:2.4rem; }
+    .portrait{ grid-column:1; width:76px; height:76px; }
+    .hero-text{ grid-column:1; }
+  }
+
+  /* ---------- Sections ---------- */
+  section{ scroll-margin-top:4.5rem; padding:2.7rem 0; }
+  .eyebrow{
+    display:flex; align-items:center; gap:1rem;
+    margin:0 0 1.9rem;
+    font-family:var(--mono); font-size:.72rem; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--label);
+  }
+  .eyebrow::after{ content:""; flex:1; height:1px; background:var(--rule); }
+
+  .subhead{
+    font-family:var(--serif); font-size:1.05rem; font-weight:600; color:var(--ink);
+    letter-spacing:.005em; margin:0 0 1.15rem;
+  }
+  .group + .group{ margin-top:2.5rem; }
+
+  /* ---------- Ledger entry ---------- */
+  .entry{
+    display:grid; grid-template-columns:var(--gutter) 1fr; gap:1.25rem;
+    padding:1.25rem 0;
+    border-top:1px solid var(--rule);
+  }
+  .group .entry:first-of-type{ border-top:none; padding-top:.2rem; }
+  .tag{
+    font-family:var(--mono); font-size:.7rem; letter-spacing:.07em;
+    line-height:1.35; color:var(--label); padding-top:.28rem;
+    text-transform:uppercase;
+  }
+  .tag.year{ letter-spacing:.04em; }
+  .entry-body{ min-width:0; }
+  .title{ font-size:1.07rem; font-weight:500; line-height:1.38; margin:0; color:var(--ink); }
+  .authors{ margin:.18rem 0 0; color:var(--ink-soft); font-size:.93rem; }
+  .venue{ margin:.18rem 0 0; color:var(--ink-soft); font-size:.93rem; }
+  .venue em{ font-style:italic; }
+  .award{ margin:.32rem 0 0; color:var(--accent); font-size:.9rem; }
+  .award::before{ content:"\25C6"; font-size:.62rem; vertical-align:1.5px; margin-right:.45rem; }
+
+  /* actions row */
+  .actions{ display:flex; flex-wrap:wrap; align-items:baseline; gap:.45rem; margin-top:.6rem; }
+  .actions a, .toggle{
+    font-family:var(--serif); font-size:.85rem; color:var(--ink-soft);
+    background:none; border:none; padding:0; cursor:pointer;
+    text-decoration:none; transition:color .18s ease;
+  }
+  .actions a:hover, .toggle:hover{ color:var(--accent); text-decoration:underline; text-decoration-color:var(--accent); text-underline-offset:2px; }
+  .actions .sep{ color:var(--ink-faint); font-size:.8rem; user-select:none; }
+  .toggle::after{
+    content:"\203A"; display:inline-block; margin-left:.32rem;
+    transition:transform .25s ease; color:var(--ink-faint);
+  }
+  .toggle[aria-expanded="true"]::after{ transform:rotate(90deg); color:var(--accent); }
+  .toggle:hover::after{ color:var(--accent); }
+  .toggle:focus-visible, .actions a:focus-visible{ outline:2px solid var(--accent); outline-offset:3px; border-radius:2px; }
+
+  /* expandable panels */
+  .panel{ display:grid; grid-template-rows:0fr; transition:grid-template-rows .35s ease; }
+  .panel.open{ grid-template-rows:1fr; }
+  .panel-inner{ overflow:hidden; }
+  .abstract{
+    margin:.85rem 0 .2rem; max-width:35rem;
+    font-size:.95rem; line-height:1.66; color:var(--ink-soft);
+  }
+  .bibtex-wrap{ margin:.85rem 0 .2rem; }
+  .bibtex-head{ display:flex; align-items:center; gap:.85rem; margin-bottom:.4rem; }
+  .bibtex-label{ font-family:var(--mono); font-size:.66rem; letter-spacing:.16em; text-transform:uppercase; color:var(--label); }
+  .copy{
+    font-family:var(--mono); font-size:.66rem; letter-spacing:.08em; text-transform:uppercase;
+    color:var(--label); background:none; border:none; padding:0; cursor:pointer;
+  }
+  .copy:hover{ color:var(--accent); }
+  .copy:focus-visible{ outline:2px solid var(--accent); outline-offset:3px; }
+  pre.bibtex{
+    margin:0; padding:.95rem 1.05rem;
+    background:var(--box); border:1px solid var(--rule); border-radius:4px;
+    font-family:var(--mono); font-size:.74rem; line-height:1.55; color:var(--ink-soft);
+    overflow-x:auto; white-space:pre;
+  }
+
+  @media (max-width:560px){
+    .entry{ grid-template-columns:1fr; gap:.45rem; }
+    .tag{ padding-top:0; }
+    .group .entry:first-of-type{ padding-top:1.25rem; border-top:1px solid var(--rule); }
+  }
+
+  /* ---------- Talks / education share the ledger look but lighter ---------- */
+  .line{ margin:0; }
+  .line a{ color:var(--ink); text-decoration-color:var(--rule); }
+  .line a:hover{ color:var(--accent); text-decoration-color:var(--accent); }
+  .line-sub{ margin:.16rem 0 0; color:var(--ink-soft); font-size:.93rem; }
+
+  /* ---------- Contact ---------- */
+  #contact .email{
+    font-size:1.18rem; font-weight:500; display:inline-block; margin:0 0 .85rem;
+    color:var(--accent); text-decoration-color:color-mix(in srgb, var(--accent) 35%, transparent);
+  }
+  #contact .links{ display:flex; flex-wrap:wrap; gap:.2rem .85rem; align-items:baseline; margin-bottom:1.1rem; }
+  #contact .links a{ color:var(--ink-soft); text-decoration:none; font-size:.95rem; }
+  #contact .links a:hover{ color:var(--accent); text-decoration:underline; text-decoration-color:var(--accent); }
+  #contact .links .sep{ color:var(--ink-faint); }
+  .addr{ margin:0; color:var(--label); font-family:var(--mono); font-size:.74rem; letter-spacing:.04em; line-height:1.6; }
+
+  /* ---------- Footer ---------- */
+  footer{
+    border-top:1px solid var(--rule);
+    margin-top:1rem;
+    padding:1.8rem 0 3rem;
+  }
+  .foot-inner{
+    max-width:var(--maxw); margin:0 auto;
+    padding:0 clamp(1.25rem, 5vw, 2rem);
+    display:flex; flex-wrap:wrap; justify-content:space-between; gap:.6rem;
+    font-family:var(--mono); font-size:.7rem; letter-spacing:.06em; color:var(--ink-faint);
+  }
+  .foot-inner a{ color:var(--label); text-decoration:none; }
+  .foot-inner a:hover{ color:var(--accent); }
+
+  /* ---------- Load animation ---------- */
+  @keyframes rise{ to{ opacity:1; transform:none; } }
+  @keyframes fade{ from{ opacity:0; } to{ opacity:1; } }
+  .reveal{ opacity:0; transform:translateY(8px); animation:rise .6s cubic-bezier(.2,.7,.2,1) forwards; animation-delay:calc(var(--i,0) * 70ms); }
+
+  @media (prefers-reduced-motion: reduce){
+    .reveal{ animation:none; opacity:1; transform:none; }
+    .nav{ animation:none; }
+    .panel{ transition:none; }
+    .toggle::after{ transition:none; }
+  }
+</style>
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="brand">Ujjwol Paudel</a>
+    <div class="nav-links">
+      <a href="#research">Research</a>
+      <a href="#talks" class="nav-talks">Talks</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<main class="wrap" id="top">
+
+  <!-- ===================== HERO ===================== -->
+  <header class="hero">
+    <img class="portrait reveal" style="--i:0" src="https://ujjwolpaudel.github.io/images/profile.jpeg" alt="Ujjwol Paudel">
+    <div class="hero-text">
+      <h1 class="reveal" style="--i:1">Ujjwol Paudel</h1>
+      <p class="role reveal" style="--i:2">Assistant Professor &middot; Agricultural &amp; Applied Economics &middot; <a href="https://www.depts.ttu.edu/aaec/" target="_blank" rel="noopener">Texas Tech University</a></p>
+      <p class="intro reveal" style="--i:3">I study the industrial organization of food and agricultural markets, using structural and empirical methods to understand market power, vertical bargaining, and how costs and competition shape prices and wages in retailing. My work also draws on operations management, with a focus on supply chains and platform logistics.</p>
+      <p class="origin reveal" style="--i:4">Originally from <a href="https://en.wikipedia.org/wiki/Budhabare,_Jhapa" target="_blank" rel="noopener">Budhabare, Jhapa</a>, in south-eastern Nepal.</p>
+      <nav class="social reveal" style="--i:5" aria-label="Profiles and contact">
+        <a href="mailto:upaudel@ttu.edu">Email</a><span class="sep" aria-hidden="true">/</span>
+        <a href="https://scholar.google.com/citations?user=rFlNKNoAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a><span class="sep" aria-hidden="true">/</span>
+        <a href="https://twitter.com/specfunctor" target="_blank" rel="noopener">Twitter</a><span class="sep" aria-hidden="true">/</span>
+        <a href="https://www.linkedin.com/in/ujjwol-paudel-62589b12b" target="_blank" rel="noopener">LinkedIn</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===================== RESEARCH ===================== -->
+  <section id="research">
+    <h2 class="eyebrow">Research</h2>
+
+    <!-- ---------- Publications ---------- -->
+    <div class="group">
+      <h3 class="subhead">Publications</h3>
+
+      <div class="entry">
+        <div class="tag year">2025</div>
+        <div class="entry-body">
+          <p class="title">Farmworker Bargaining in US Agricultural Labor Markets</p>
+          <p class="authors">with Timothy J. Richards</p>
+          <p class="venue"><em>Applied Economic Perspectives and Policy</em>, 2025</p>
+          <p class="award">2026 AEPP Outstanding Article Award</p>
+          <div class="actions">
+            <button class="toggle" aria-expanded="false" aria-controls="abs-1">Abstract</button><span class="sep" aria-hidden="true">&middot;</span>
+            <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4954851" target="_blank" rel="noopener">SSRN</a><span class="sep" aria-hidden="true">&middot;</span>
+            <a href="https://onlinelibrary.wiley.com/doi/10.1002/aepp.13526" target="_blank" rel="noopener">Published</a><span class="sep" aria-hidden="true">&middot;</span>
+            <a href="https://ujjwolpaudel.github.io/assets/AgLabor_ETHZ_2024.pdf" target="_blank" rel="noopener">Slides</a><span class="sep" aria-hidden="true">&middot;</span>
+            <button class="toggle" aria-expanded="false" aria-controls="bib-1">BibTeX</button>
+          </div>
+          <div class="panel" id="abs-1"><div class="panel-inner"><p class="abstract">"Superstar firms" can be large and successful without necessarily exploiting labor market power (Autor et al. 2020). This paper examines that idea in the context of U.S. agriculture by studying how wages relate to employment surplus, defined as the gap between a worker's value marginal product and their wage. We estimate a structural search-match-bargaining model to quantify how productivity and bargaining power determine surplus allocation. Results show average productivity of $8.67/hour, with workers capturing 24.2% of the surplus on average, and significant heterogeneity across individuals. Workers generating higher surplus tend to retain a larger share. Contrary to a "winner-take-all" narrative, our findings suggest that firms may gain more by paying higher wages, rather than extracting surplus through monopsony power.</p></div></div>
+          <div class="panel" id="bib-1"><div class="panel-inner"><div class="bibtex-wrap"><div class="bibtex-head"><span class="bibtex-label">BibTeX</span><button class="copy" data-copy="bibtex-1">Copy</button></div><pre class="bibtex" id="bibtex-1">@article{PaudelRichardsAEPP2025,
+  title   = {Farmworker Bargaining in {US} Agricultural Labor Markets},
+  author  = {Paudel, Ujjwol and Richards, Timothy J.},
+  journal = {Applied Economic Perspectives and Policy},
+  year    = {2025},
+  volume  = {47},
+  number  = {4},
+  pages   = {1507--1537},
+  doi     = {10.1002/aepp.13526},
+  url     = {https://doi.org/10.1002/aepp.13526}
+}</pre></div></div></div>
+        </div>
+      </div>
+
+      <div class="entry">
+        <div class="tag year">2025</div>
+        <div class="entry-body">
+          <p class="title">Minimum Wages and Pass-Through</p>
+          <p class="authors">with Timothy J. Richards</p>
+          <p class="venue"><em>American Journal of Agricultural Economics</em>, 2025</p>
+          <div class="actions">
+            <button class="toggle" aria-expanded="false" aria-controls="abs-2">Abstract</button><span class="sep" aria-hidden="true">&middot;</span>
+            <a href="https://ujjwolpaudel.github.io/MW_PT.pdf" target="_blank" rel="noopener">Draft</a><span class="sep" aria-hidden="true">&middot;</span>
+            <a href="https://onlinelibrary.wiley.com/doi/10.1111/ajae.12554" target="_blank" rel="noopener">Published</a><span class="sep" aria-hidden="true">&middot;</span>
+            <a href="https://ujjwolpaudel.github.io/assets/MinWage_EARIE_2024.pdf" target="_blank" rel="noopener">Slides</a><span class="sep" aria-hidden="true">&middot;</span>
+            <button class="toggle" aria-expanded="false" aria-controls="bib-2">BibTeX</button>
+          </div>
+          <div class="panel" id="abs-2"><div class="panel-inner"><p class="abstract">Retail food prices rose dramatically in late 2021. Some argue that this "food price inflation" was due to "greedflation," or firms increasing downstream prices simply because they can. In this study, we investigate the sources of "overshifting" store-level cost shocks into downstream prices, or the apparent ability of retailers to pass along price increases that are proportionately larger than increases in cost. We use exogenous changes in minimum wages as our setting, and study how food retailers pass increases in labor costs along to consumers in the form of higher food prices. We derive a new theoretical model of retail price pass-through, and show that demand curvature, market power, and consumer search behavior each likely affect observed rates of retail price pass-through. Our structural analysis shows that, after controlling for the primary determinants of wage pass-through, market power and demand curvature explain much of the variation in cost pass-through, although general price inflation has an important role in accentuating the rate of minimum-wage pass-through. Our findings have important implications for minimum wage policy, and for understanding the role of cost shocks in food price inflation.</p></div></div>
+          <div class="panel" id="bib-2"><div class="panel-inner"><div class="bibtex-wrap"><div class="bibtex-head"><span class="bibtex-label">BibTeX</span><button class="copy" data-copy="bibtex-2">Copy</button></div><pre class="bibtex" id="bibtex-2">@article{RichardsPaudelAJAE2025,
+  title   = {Minimum Wages and Pass-Through},
+  author  = {Richards, Timothy J. and Paudel, Ujjwol},
+  journal = {American Journal of Agricultural Economics},
+  year    = {2025},
+  doi     = {10.1111/ajae.12554},
+  url     = {https://onlinelibrary.wiley.com/doi/10.1111/ajae.12554}
+}</pre></div></div></div>
+        </div>
+      </div>
+
+      <div class="entry">
+        <div class="tag year">2025</div>
+        <div class="entry-body">
+          <p class="title">Weight Loss and Food Spending</p>
+          <p class="authors">with Justin Bina</p>
+          <p class="venue"><em>Agricultural Economics</em>, 2025</p>
+          <div class="actions">
+            <button class="toggle" aria-expanded="false" aria-controls="abs-3">Abstract</button><span class="sep" aria-hidden="true">&middot;</span>
+            <a href="https://onlinelibrary.wiley.com/doi/10.1111/agec.70072" target="_blank" rel="noopener">Published</a>
+          </div>
+          <div class="panel" id="abs-3"><div class="panel-inner"><p class="abstract">US consumers are increasingly focused on weight management. However, the economic impacts of this on the US food industry are not well understood. Thus, we estimate the effects of weight loss attempts on the consumption of and expenditures on a collection of 35 food groups. We obtain weight loss history and food consumption data from the National Health and Nutrition Examination Survey and Purchase to Plate Suite. Attempting weight loss is an endogenous choice and, as such, we use matching methods to reduce confounding. Matched samples and weights are used in lower-limit censored outcome models of food consumption and expenditures. Nationwide weight loss attempts yield increases in daily expenditures on non-citrus fruits, non-starchy vegetables, and tomatoes of $17.8 million. Daily, national expenditures on processed grain products and soft drinks decrease by $18.8 million and $7.3 million, respectively. Food manufacturers and retailers can use these results to develop business strategy and mitigate risks associated with changing consumer behavior related to weight management. These findings can also guide public health and nutrition policies, directly speaking to how the composition of diets changes as consumers attempt weight loss.</p></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------- Working papers ---------- -->
+    <div class="group">
+      <h3 class="subhead">Working papers</h3>
+
+      <div class="entry">
+        <div class="tag">Accepted</div>
+        <div class="entry-body">
+          <p class="title">Concentration and Wages in Retailing</p>
+          <p class="authors">with Timothy J. Richards and Keenan Marchesi</p>
+          <p class="venue">Accepted &middot; <em>Review of Industrial Organization</em></p>
+          <div class="actions">
+            <button class="toggle" aria-expanded="false" aria-controls="abs-4">Abstract</button><span class="sep" aria-hidden="true">&middot;</span>
+            <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4815715" target="_blank" rel="noopener">SSRN</a>
+          </div>
+          <div class="panel" id="abs-4"><div class="panel-inner"><p class="abstract">Antitrust policy in the U.S. now explicitly includes labor-market outcomes as measures of interest when considering the potential anticompetitive effects of mergers or acquisitions. Concentration in the food retailing industry is of particular concern due to several recent high-profile mergers, and a troubling increase in concentration at the national and local levels. We study this problem using both causal reduced-form models and a structural model of search, match, and bargaining. Our reduced-form models show no relationship between concentration and wages, but our structural model finds that concentration is associated with substantial wage suppression.</p></div></div>
+        </div>
+      </div>
+
+      <div class="entry">
+        <div class="tag">R&amp;R</div>
+        <div class="entry-body">
+          <p class="title">Cost Shocks and Price Pass-through</p>
+          <p class="venue">Revise &amp; resubmit &middot; <em>Canadian Journal of Agricultural Economics</em></p>
+          <div class="actions">
+            <button class="toggle" aria-expanded="false" aria-controls="abs-5">Abstract</button><span class="sep" aria-hidden="true">&middot;</span>
+            <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5278424" target="_blank" rel="noopener">SSRN</a>
+          </div>
+          <div class="panel" id="abs-5"><div class="panel-inner"><p class="abstract">The question of how firms pass changes in their input costs to consumer prices is an important and long-standing puzzle in economics. I study this problem by exploring the impacts in retail prices due to cost shocks from increases in state minimum wage. Using spatial distribution of minimum wages in the United States, NielsenIQ's scanner transaction data from 2011-2021, and a stacked difference-in-differences research design, I find that a 10 percent increase in state minimum wage causes a 1.1 to 1.5 percent increase in retail grocery prices. I also find evidence that food retailers exhibit forward-looking behavior by adjusting prices immediately after minimum wage legislation is enacted, rather than waiting until the policy is formally implemented. Additionally, I use a causal machine learning approach to examine the heterogeneity of the minimum wage price pass-through along different retailer- and market-specific covariates. I find that pass-through rates are lower among retailers with greater market share and in higher-income counties, which implies that larger firms and richer markets can absorb cost shocks better. Further, retailers with lower reliance on promotions and discounts exhibit higher pass-through, which suggests that price adjustments can also occur through changes in discounting strategies rather than solely through base price increases. My findings highlight the need for policymakers and marketing practitioners to consider the distributional effects of minimum wage policies on firms' pricing decisions.</p></div></div>
+        </div>
+      </div>
+
+      <div class="entry">
+        <div class="tag">Under Review</div>
+        <div class="entry-body">
+          <p class="title">Cross-Platform Merger Effects</p>
+          <p class="authors">with Timothy J. Richards</p>
+          <p class="venue">Under review</p>
+          <div class="actions">
+            <button class="toggle" aria-expanded="false" aria-controls="abs-6">Abstract</button><span class="sep" aria-hidden="true">&middot;</span>
+            <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5454114" target="_blank" rel="noopener">SSRN</a>
+          </div>
+          <div class="panel" id="abs-6"><div class="panel-inner"><p class="abstract">Mergers and acquisitions tend to affect the prices and varieties offered by the merging firms. Most existing research, however, focuses on mergers between firms operating on the same platform, such as between two online firms or two firms in the same physical channel. In contrast, the price effects of integration across different platforms remain unexplored in empirical research but are likely of critical importance given the growth of omnichannel, or combined physical and online channels, retailing. We study this question by analyzing the acquisition of a national grocery chain by a large online retailer in the United States. Unlike same-platform mergers, this merger combines market power and efficiency motives with cross-platform network externalities that raise each channel's value as the other grows. This changes channel substitution and effective marginal costs of the merged firm and leaves the price effect ambiguous ex ante. Identifying price effects is further challenging due to the endogenous nature of merger decisions. We use a doubly-robust synthetic control method and find that prices decrease in four out of 10 treated markets, while in five markets, prices remain unchanged. Unlike in same-platform horizontal mergers, these price effects do not systematically vary with market concentration levels and challenge predictions from the Structure-Conduct-Performance literature. Therefore, in cross-platform mergers, competitive effects likely reflect forces beyond market structure, such as channel complementarities and consumer substitution.</p></div></div>
+        </div>
+      </div>
+
+      <div class="entry">
+        <div class="tag">Under Review</div>
+        <div class="entry-body">
+          <p class="title">Minimum Wages and Employment</p>
+          <p class="authors">with Timothy J. Richards</p>
+          <p class="venue">Under review</p>
+          <div class="actions">
+            <button class="toggle" aria-expanded="false" aria-controls="abs-7">Abstract</button><span class="sep" aria-hidden="true">&middot;</span>
+            <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5615290" target="_blank" rel="noopener">SSRN</a>
+          </div>
+          <div class="panel" id="abs-7"><div class="panel-inner"><p class="abstract">Minimum wages do not necessarily cause a reduction in employment, as fundamental microeconomics principles suggest. In the food and agriculture industry, minimum wages may be important tools not only to address income inequalities, but to increase the quantity of labor supplied and potentially help solve chronic labor shortages. While there are many possible explanations for the paradox of minimum wage neutrality, from correcting for monopsony power to segmented labor markets, we examine a relatively new and important mechanism. Namely, we test for whether minimum wages have a "cleansing" effect in industries that tend to employ minimum-wage workers, driving relatively inefficient firms, or those that could only survive by paying workers low wages, out of the industry. Exiting firms cede market share to more efficient firms, who employ the workers that are released by the exiting firms. We examine this question using a two-stage approach, first using reduced-form methods in aggregate data from the Quarterly Census of Employment and Wages (QCEW) and then using micro-level data on individual firms in the retail industry from NielsenIQ TDLinx data set. We find broad support for the cleansing hypothesis in both the aggregate and micro-level analyses, suggesting that minimum wages may have a beneficial efficiency-enhancing effect that has otherwise been overlooked in the policy literature.</p></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------- In progress ---------- -->
+    <div class="group">
+      <h3 class="subhead">In progress</h3>
+
+      <div class="entry">
+        <div class="tag"></div>
+        <div class="entry-body">
+          <p class="title">Store Format and Labor Efficiency Gaps in Food Retailing</p>
+          <p class="authors">with Elliot Rabinovich and Timothy J. Richards</p>
+        </div>
+      </div>
+
+      <div class="entry">
+        <div class="tag"></div>
+        <div class="entry-body">
+          <p class="title">Asymmetric Supply Relationships and Vertical Bargaining</p>
+          <p class="authors">with Elliot Rabinovich, Timothy J. Richards, and Lina Wang</p>
+        </div>
+      </div>
+
+      <div class="entry">
+        <div class="tag"></div>
+        <div class="entry-body">
+          <p class="title">Contract Design and Labor Dynamics in Platform Logistics</p>
+          <p class="authors">with Stanley Lim</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== EDUCATION ===================== -->
+  <section id="education">
+    <h2 class="eyebrow">Education</h2>
+    <div class="group">
+      <div class="entry">
+        <div class="tag">PhD</div>
+        <div class="entry-body">
+          <p class="line">Business Administration (Agribusiness), <a href="https://wpcarey.asu.edu/agribusiness-degrees" target="_blank" rel="noopener">Arizona State University</a></p>
+          <p class="line-sub">Advisor: <a href="https://scholar.google.com/citations?hl=en&user=XOAzQkEAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" rel="noopener">Timothy J. Richards</a></p>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="tag">MS</div>
+        <div class="entry-body">
+          <p class="line">Mathematics, <a href="https://math.ethz.ch" target="_blank" rel="noopener">ETH Z&uuml;rich</a></p>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="tag">BS</div>
+        <div class="entry-body">
+          <p class="line">Mathematics, <a href="http://math.jacobs-university.de" target="_blank" rel="noopener">Jacobs University Bremen</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TALKS ===================== -->
+  <section id="talks">
+    <h2 class="eyebrow">Talks</h2>
+    <div class="group">
+      <div class="entry">
+        <div class="tag year">May 2026</div>
+        <div class="entry-body">
+          <p class="line"><a href="https://pomsmeetings.org/conf-2026/" target="_blank" rel="noopener">POMS Annual Conference</a></p>
+          <p class="line-sub">Reno, NV</p>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="tag year">Nov 2025</div>
+        <div class="entry-body">
+          <p class="line"><a href="https://convention2.allacademic.com/one/dsi/dsi25/index.php?cmd=Online+Program+View+Session&selected_session_id=2277649" target="_blank" rel="noopener">Decision Sciences Institute</a></p>
+          <p class="line-sub">Orlando, FL</p>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="tag year">Nov 2025</div>
+        <div class="entry-body">
+          <p class="line">POMS College of SCM</p>
+          <p class="line-sub">Virtual</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section id="contact">
+    <h2 class="eyebrow">Contact</h2>
+    <a class="email" href="mailto:upaudel@ttu.edu">upaudel@ttu.edu</a>
+    <div class="links" aria-label="Profiles">
+      <a href="https://scholar.google.com/citations?user=rFlNKNoAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a><span class="sep" aria-hidden="true">/</span>
+      <a href="https://twitter.com/specfunctor" target="_blank" rel="noopener">Twitter</a><span class="sep" aria-hidden="true">/</span>
+      <a href="https://www.linkedin.com/in/ujjwol-paudel-62589b12b" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+    <p class="addr">Department of Agricultural &amp; Applied Economics<br>Texas Tech University &middot; Lubbock, TX</p>
+  </section>
+
+</main>
+
+<footer>
+  <div class="foot-inner">
+    <span>&copy; 2026 Ujjwol Paudel</span>
+    <a href="https://ujjwolpaudel.github.io/dashboard/" target="_blank" rel="noopener">Dashboard &#8599;</a>
+  </div>
+</footer>
+
+<script>
+  // Expand / collapse abstracts and BibTeX
+  document.querySelectorAll('.toggle').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var panel = document.getElementById(btn.getAttribute('aria-controls'));
+      if(!panel) return;
+      var open = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', String(!open));
+      panel.classList.toggle('open', !open);
+    });
+  });
+
+  // Copy BibTeX
+  document.querySelectorAll('.copy').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var el = document.getElementById(btn.getAttribute('data-copy'));
+      if(!el) return;
+      navigator.clipboard.writeText(el.textContent).then(function(){
+        var prev = btn.textContent;
+        btn.textContent = 'Copied';
+        setTimeout(function(){ btn.textContent = prev; }, 1400);
+      }).catch(function(){});
+    });
+  });
+
+  // Hairline under nav once the page scrolls
+  var nav = document.getElementById('nav');
+  var onScroll = function(){ nav.classList.toggle('scrolled', window.scrollY > 8); };
+  onScroll();
+  window.addEventListener('scroll', onScroll, { passive:true });
+</script>
+
+</body>
+</html>
