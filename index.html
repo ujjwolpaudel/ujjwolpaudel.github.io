@@ -6,284 +6,491 @@
 <title>Ujjwol Paudel</title>
 <meta name="description" content="Ujjwol Paudel is an Assistant Professor in the Department of Agricultural and Applied Economics at Texas Tech University, studying the industrial organization of food and agricultural markets.">
 
+<!-- Open Graph / social -->
 <meta property="og:type" content="website">
 <meta property="og:title" content="Ujjwol Paudel">
 <meta property="og:description" content="Assistant Professor of Agricultural and Applied Economics at Texas Tech University. Industrial organization of food and agricultural markets.">
 <meta property="og:url" content="https://ujjwolpaudel.github.io/">
 <meta property="og:image" content="https://ujjwolpaudel.github.io/images/profile.jpeg">
 <meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#faf9f5">
 
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext x='16' y='24' font-family='Georgia,serif' font-size='24' fill='%23222' text-anchor='middle'%3Eu%3C/text%3E%3C/svg%3E">
+<!-- Lightweight inline favicon: lowercase serif monogram on the page's paper tone -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='5' fill='%231F3B57'/%3E%3Ctext x='16' y='23' font-family='Georgia,serif' font-size='20' fill='%23faf9f5' text-anchor='middle'%3Eu%3C/text%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&display=swap" rel="stylesheet">
 
 <style>
   :root{
-    --bg:#ffffff;
-    --text:#222020;
-    --muted:#6b6764;
-    --faint:#95908c;
-    --rule:#e4e1dc;
-    --link:#2f5673;
+    --paper:#faf9f5;
+    --ink:#1b1a17;
+    --ink-soft:#54524b;
+    --label:#6f6d64;
+    --ink-faint:#9c9a8f;
+    --rule:#e8e5dc;
+    --accent:#1f3b57;
+    --accent-soft:#34597d;
+    --box:#f3f1ea;
     --journal:#990033;
+
+    --serif:'Newsreader', Georgia, 'Times New Roman', serif;
+    --mono:'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+
+    --maxw:42rem;
+    --gutter:5.5rem;
   }
 
-  *,*::before,*::after{ box-sizing:border-box }
+  *,*::before,*::after{box-sizing:border-box}
 
-  html{ -webkit-text-size-adjust:100% }
+  html{ -webkit-text-size-adjust:100%; }
+  @media (prefers-reduced-motion: no-preference){ html{ scroll-behavior:smooth; } }
 
   body{
-    margin:0 auto;
-    max-width:39rem;
-    padding:3.5rem 1.5rem 4rem;
-    background:var(--bg);
-    color:var(--text);
-    font-family:Charter,'Bitstream Charter','Sitka Text',Cambria,Georgia,serif;
-    font-size:1.08rem;
-    line-height:1.66;
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:var(--serif);
+    font-size:clamp(1rem, 0.97rem + 0.15vw, 1.06rem);
+    line-height:1.62;
+    font-weight:400;
     -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
   }
 
+  ::selection{ background:color-mix(in srgb, var(--accent) 16%, transparent); }
+
+  .wrap{ max-width:var(--maxw); margin:0 auto; padding:0 clamp(1.25rem, 5vw, 2rem); }
+
+  /* ---------- Links ---------- */
   a{
-    color:var(--link);
+    color:var(--accent);
     text-decoration:underline;
-    text-decoration-thickness:.5px;
+    text-decoration-thickness:1px;
     text-underline-offset:2px;
+    text-decoration-color:color-mix(in srgb, var(--accent) 28%, transparent);
+    transition:color .18s ease, text-decoration-color .18s ease;
   }
-  a:hover{ text-decoration-thickness:1px }
-  a:focus-visible{ outline:2px solid var(--link); outline-offset:2px }
+  a:hover{ color:var(--accent-soft); text-decoration-color:var(--accent); }
+  a:focus-visible{ outline:2px solid var(--accent); outline-offset:3px; border-radius:2px; }
 
-  /* ---------- Header ---------- */
-  header{ margin-bottom:2.75rem }
+  /* ---------- Nav ---------- */
+  .nav{
+    position:sticky; top:0; z-index:10;
+    background:color-mix(in srgb, var(--paper) 86%, transparent);
+    backdrop-filter:saturate(1.2) blur(8px);
+    -webkit-backdrop-filter:saturate(1.2) blur(8px);
+    border-bottom:1px solid transparent;
+    transition:border-color .25s ease;
+    animation:fade .8s ease both;
+  }
+  .nav.scrolled{ border-bottom-color:var(--rule); }
+  .nav-inner{
+    max-width:var(--maxw); margin:0 auto;
+    padding:.9rem clamp(1.25rem, 5vw, 2rem);
+    display:flex; align-items:baseline; justify-content:space-between; gap:1rem;
+  }
+  .brand{ font-size:1.02rem; font-weight:500; color:var(--ink); text-decoration:none; letter-spacing:.01em; }
+  .brand:hover{ color:var(--ink); }
+  .nav-links{ display:flex; gap:1.35rem; }
+  .nav-links a{
+    font-family:var(--mono); font-size:.72rem; letter-spacing:.13em; text-transform:uppercase;
+    color:var(--label); text-decoration:none;
+  }
+  .nav-links a:hover{ color:var(--accent); }
 
+  /* ---------- Hero ---------- */
+  .hero{
+    display:grid; grid-template-columns:1fr auto; gap:1.9rem;
+    align-items:start;
+    padding:3.4rem 0 2.4rem;
+  }
   .portrait{
-    float:right;
-    width:130px; height:130px;
-    margin:.3rem 0 1rem 1.5rem;
-    object-fit:cover;
+    grid-column:2; grid-row:1;
+    width:220px; height:220px; object-fit:cover;
+    border-radius:3px; border:1px solid var(--rule);
   }
-
+  .hero-text{ grid-column:1; grid-row:1; }
   h1{
-    font-size:1.7rem;
-    font-weight:600;
-    line-height:1.2;
-    letter-spacing:-.01em;
-    margin:0 0 .35rem;
+    font-size:clamp(2.1rem, 1.4rem + 3vw, 2.75rem);
+    font-weight:500; line-height:1.05; letter-spacing:-0.012em;
+    margin:0 0 .55rem;
   }
+  .role{
+    margin:0 0 1.1rem; color:var(--ink-soft);
+    font-size:1.02rem; line-height:1.45;
+  }
+  .role a{ color:var(--ink-soft); text-decoration-color:var(--rule); }
+  .role a:hover{ color:var(--accent); text-decoration-color:var(--accent); }
+  .intro{ margin:0 0 1.05rem; max-width:34rem; }
+  .origin{   margin:0;   padding:1.5rem 0 0;   border-top:1px solid var(--rule);   color:var(--ink-soft);   font-style:italic;   font-size:.98rem; }
+  .origin a{ color:var(--ink-soft); }
+  .social{ display:flex; flex-wrap:wrap; gap:.2rem .85rem; align-items:baseline; }
+  .social a{ color:var(--ink-soft); text-decoration:none; font-size:.95rem; }
+  .social a:hover{ color:var(--accent); text-decoration:underline; text-decoration-color:var(--accent); }
+  .social .sep{ color:var(--ink-faint); }
 
-  .role{ margin:0 0 1.1rem; color:var(--muted) }
-  header p{ margin:0 0 .75rem }
-  .links{ margin-top:1.1rem; clear:none }
+  @media (max-width:560px){
+    .hero{ grid-template-columns:1fr; gap:1.25rem; padding-top:2.4rem; }
+    .portrait{ grid-column:1; grid-row:1; width:190px; height:190px; }
+    .hero-text{ grid-column:1; grid-row:2; }
+  }
 
   /* ---------- Sections ---------- */
-  section{ margin-bottom:2.75rem; clear:both }
-
-  h2{
-    font-size:1.15rem;
-    font-weight:600;
-    margin:0 0 1.25rem;
-    padding-bottom:.35rem;
-    border-bottom:1px solid var(--rule);
+  section{ scroll-margin-top:4.5rem; padding:2.7rem 0; }
+  .eyebrow{
+    display:flex; align-items:center; gap:1rem;
+    margin:0 0 1.9rem;
+    font-family:var(--mono); font-size:.72rem; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--label);
   }
+  .eyebrow::after{ content:""; flex:1; height:1px; background:var(--rule); }
 
-  h3{
-    font-size:1rem;
-    font-weight:600;
-    color:var(--muted);
-    margin:2rem 0 .9rem;
+  .subhead{
+    font-family:var(--serif); font-size:1.05rem; font-weight:600; color:var(--ink);
+    letter-spacing:.005em; margin:0 0 1.15rem;
   }
-  h2 + h3{ margin-top:0 }
+  .group + .group{ margin-top:2.5rem; }
 
-  .item{ margin:0 0 1.35rem }
-  .item p{ margin:0 }
+  /* ---------- Ledger entry ---------- */
+  .entry{
+    display:grid; grid-template-columns:var(--gutter) 1fr; gap:1.25rem;
+    padding:1.25rem 0;
+    border-top:1px solid var(--rule);
+  }
+  .group .entry:first-of-type{ border-top:none; padding-top:.2rem; }
+  .tag{
+    font-family:var(--mono); font-size:.7rem; letter-spacing:.07em;
+    line-height:1.35; color:var(--label); padding-top:.28rem;
+    text-transform:uppercase;
+  }
+  .tag.year{ letter-spacing:.04em; }
+  .entry-body{ min-width:0; }
+  .title{ font-size:1.07rem; font-weight:500; line-height:1.38; margin:0; color:var(--ink); }
+  .title a{ color:var(--ink); text-decoration-color:var(--rule); }
+  .title a:hover{ color:var(--accent); text-decoration-color:var(--accent); }
+  .authors{ margin:.18rem 0 0; color:var(--ink-soft); font-size:.93rem; }
+  .venue{ margin:.18rem 0 0; color:var(--ink-soft); font-size:.93rem; }
+  .venue em{ font-style:italic; color:var(--journal); }
+  .award{ margin:.32rem 0 0; color:var(--accent); font-size:.9rem; }
+  .award::before{ content:"\25C6"; font-size:.62rem; vertical-align:1.5px; margin-right:.45rem; }
+  .award .sep{ color:var(--ink-faint); font-size:.8rem; margin:0 .45rem; user-select:none; }
+  .award .toggle{ font-size:.9rem; }
 
-  .title{ line-height:1.45 }
-  .title a{ color:var(--text); text-decoration-color:var(--rule) }
-  .title a:hover{ color:var(--link); text-decoration-color:currentColor }
-
-  .meta{ color:var(--muted); font-size:.95rem }
-  .status{ color:var(--muted); font-size:.95rem; font-style:italic }
-  .status em{ color:var(--journal) }
-  .talks{ color:var(--faint); font-size:.9rem; line-height:1.55; margin-top:.15rem }
-  .talks a{ color:var(--faint) }
-
-  .award{ color:var(--muted); font-size:.95rem }
-
-  /* ---------- Photo toggle ---------- */
+  /* photo toggle */
   .toggle{
-    font:inherit; font-size:.95rem;
-    color:var(--link); background:none; border:0; padding:0;
-    cursor:pointer; text-decoration:underline;
-    text-decoration-thickness:.5px; text-underline-offset:2px;
+    font-family:var(--serif); font-size:.85rem; color:var(--ink-soft);
+    background:none; border:none; padding:0; cursor:pointer;
+    text-decoration:none; transition:color .18s ease;
   }
-  .toggle:focus-visible{ outline:2px solid var(--link); outline-offset:2px }
-  figure{ margin:.75rem 0 0; max-width:20rem }
-  figure img{ display:block; width:100%; height:auto }
-  figcaption{ margin-top:.35rem; color:var(--faint); font-size:.85rem }
-  [hidden]{ display:none }
+  .toggle:hover{ color:var(--accent); text-decoration:underline; text-decoration-color:var(--accent); text-underline-offset:2px; }
+  .toggle::after{
+    content:"\203A"; display:inline-block; margin-left:.32rem;
+    transition:transform .25s ease; color:var(--ink-faint);
+  }
+  .toggle[aria-expanded="true"]::after{ transform:rotate(90deg); color:var(--accent); }
+  .toggle:hover::after{ color:var(--accent); }
+  .toggle:focus-visible{ outline:2px solid var(--accent); outline-offset:3px; border-radius:2px; }
+
+  /* expandable panels */
+  .panel{ display:grid; grid-template-rows:0fr; transition:grid-template-rows .35s ease; }
+  .panel.open{ grid-template-rows:1fr; }
+  .panel-inner{ overflow:hidden; }
+
+  /* ---------- Photo panel ---------- */
+  .shot{ margin:.85rem 0 .2rem; max-width:24rem; }
+  .shot img{
+    display:block; width:100%; height:auto;
+    border-radius:3px; border:1px solid var(--rule);
+  }
+  .shot figcaption{
+    margin:.5rem 0 0;
+    font-family:var(--mono); font-size:.66rem; letter-spacing:.1em; text-transform:uppercase;
+    color:var(--ink-faint);
+  }
+
+  @media (max-width:560px){
+    .entry{ grid-template-columns:1fr; gap:.45rem; }
+    .tag{ padding-top:0; }
+    .group .entry:first-of-type{ padding-top:1.25rem; border-top:1px solid var(--rule); }
+  }
+
+  /* ---------- Talks / education share the ledger look but lighter ---------- */
+  .line{ margin:0; }
+  .line a{ color:var(--ink); text-decoration-color:var(--rule); }
+  .line a:hover{ color:var(--accent); text-decoration-color:var(--accent); }
+  .line-sub{ margin:.16rem 0 0; color:var(--ink-soft); font-size:.93rem; }
+
+  /* ---------- Per-paper presentations ---------- */
+  .presented{ margin:.6rem 0 0; color:var(--label); font-size:.85rem; line-height:1.55; }
+  .presented a{ color:var(--label); text-decoration-color:var(--rule); }
+  .presented a:hover{ color:var(--accent); text-decoration-color:var(--accent); }
+  .presented .pres-label{
+    font-family:var(--mono); font-size:.62rem; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--ink-faint); margin-right:.55rem;
+  }
 
   /* ---------- Footer ---------- */
   footer{
-    clear:both;
     border-top:1px solid var(--rule);
-    padding-top:1.1rem;
-    color:var(--faint);
-    font-size:.9rem;
-    display:flex;
-    flex-wrap:wrap;
-    gap:.5rem 1.5rem;
-    justify-content:space-between;
+    margin-top:1rem;
+    padding:1.8rem 0 3rem;
   }
-  footer a{ color:var(--faint) }
+  .foot-inner{
+    max-width:var(--maxw); margin:0 auto;
+    padding:0 clamp(1.25rem, 5vw, 2rem);
+    display:flex; flex-wrap:wrap; justify-content:space-between; gap:.6rem;
+    font-family:var(--mono); font-size:.7rem; letter-spacing:.06em; color:var(--ink-faint);
+  }
+  .foot-inner a{ color:var(--label); text-decoration:none; }
+  .foot-inner a:hover{ color:var(--accent); }
 
-  .origin{ color:var(--muted); font-size:.95rem; margin:0 0 2rem }
-  .origin a{ color:var(--muted) }
+  /* ---------- Load animation ---------- */
+  @keyframes rise{ to{ opacity:1; transform:none; } }
+  @keyframes fade{ from{ opacity:0; } to{ opacity:1; } }
+  .reveal{ opacity:0; transform:translateY(8px); animation:rise .6s cubic-bezier(.2,.7,.2,1) forwards; animation-delay:calc(var(--i,0) * 70ms); }
 
-  @media (max-width:480px){
-    body{ padding-top:2.5rem; font-size:1.04rem }
-    .portrait{ float:none; margin:0 0 1.25rem; width:120px; height:120px }
+  @media (prefers-reduced-motion: reduce){
+    .reveal{ animation:none; opacity:1; transform:none; }
+    .nav{ animation:none; }
+    .panel{ transition:none; }
+    .toggle::after{ transition:none; }
   }
 </style>
 </head>
 <body>
 
-<header>
-  <img class="portrait" src="https://ujjwolpaudel.github.io/images/profile.jpeg" alt="Ujjwol Paudel">
-  <h1>Ujjwol Paudel</h1>
-  <p class="role">Assistant Professor, Agricultural &amp; Applied Economics, <a href="https://www.depts.ttu.edu/aaec/">Texas Tech University</a></p>
-  <p>Interests: industrial organization economics, operations management.</p>
-  <p>TTU PhD students can sign up for a meeting <a href="https://calendly.com/upaudel-ttu/25min">with this link</a>.</p>
-  <p class="links"><a href="mailto:upaudel@ttu.edu">Email</a> &nbsp;&middot;&nbsp; <a href="https://scholar.google.com/citations?user=rFlNKNoAAAAJ&hl=en">Google Scholar</a> &nbsp;&middot;&nbsp; <a href="https://www.linkedin.com/in/ujjwol-paudel-62589b12b">LinkedIn</a></p>
-</header>
-
-<section id="research">
-  <h2>Research</h2>
-
-  <h3>In progress</h3>
-  <div class="item">
-    <p class="title">Discretion and Information in Matching Markets</p>
-    <p class="meta">with Stanley Lim</p>
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="brand">Ujjwol Paudel</a>
+    <div class="nav-links">
+      <a href="#research">Research</a>
+      <a href="#teaching">Teaching</a>
+    </div>
   </div>
+</nav>
 
-  <h3>Working papers</h3>
+<main class="wrap" id="top">
 
-  <div class="item">
-    <p class="title">Compensation Design and Labor Dynamics in Platform Logistics</p>
-    <p class="meta">with Stanley Lim</p>
-    <p class="status">Under review</p>
-    <p class="talks">Presented at INFORMS Annual Meeting 2026</p>
-  </div>
+  <!-- ===================== HERO ===================== -->
+  <header class="hero">
+    <img class="portrait reveal" style="--i:0" src="https://ujjwolpaudel.github.io/images/profile.jpeg" alt="Ujjwol Paudel">
+    <div class="hero-text">
+      <h1 class="reveal" style="--i:1">Ujjwol Paudel</h1>
+      <p class="role reveal" style="--i:2">Assistant Professor &middot; Agricultural &amp; Applied Economics &middot; <a href="https://www.depts.ttu.edu/aaec/" target="_blank" rel="noopener">Texas Tech University</a></p>
+      <p class="intro reveal" style="--i:3">Interests: industrial organization economics, operations management.</p>
+      <p class="intro reveal" style="--i:4">TTU PhD students can sign up for a meeting <a href="https://calendly.com/upaudel-ttu/25min" target="_blank" rel="noopener">with this link</a>.</p>
+      <div class="social reveal" style="--i:5" aria-label="Profiles">
+        <a href="mailto:upaudel@ttu.edu">Email</a><span class="sep" aria-hidden="true">/</span>
+        <a href="https://scholar.google.com/citations?user=rFlNKNoAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a><span class="sep" aria-hidden="true">/</span>
+        <a href="https://www.linkedin.com/in/ujjwol-paudel-62589b12b" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </header>
 
-  <div class="item">
-    <p class="title">Distribution Channel and Vertical Bargaining</p>
-    <p class="meta">with Elliot Rabinovich, Timothy J. Richards, and Lina Wang</p>
-    <p class="status">Under review</p>
-    <p class="talks">Presented at POMS College of SCM 2025, Decision Sciences Institute 2025, ASU 2026, Texas Tech University 2026, University of Minnesota 2026, POMS Annual Conference 2026, AAEA 2026</p>
-  </div>
+  <!-- ===================== RESEARCH ===================== -->
+  <section id="research">
+    <h2 class="eyebrow">Research</h2>
 
-  <div class="item">
-    <p class="title">Store Format and Return to Labor in Food Retailing</p>
-    <p class="meta">with Elliot Rabinovich and Timothy J. Richards</p>
-    <p class="status">Under review</p>
-    <p class="talks">Presented at ASU 2024, PhD EVS 2024, AEA-ASSA 2025, Cornerstone Research 2025, POMS Annual Conference 2026</p>
-  </div>
+    <!-- ---------- In progress ---------- -->
+    <div class="group">
+      <h3 class="subhead">In progress</h3>
 
-  <div class="item">
-    <p class="title"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5454114">Cross-Platform Merger Effects</a></p>
-    <p class="meta">with Timothy J. Richards</p>
-    <p class="status">Under review</p>
-    <p class="talks">Presented at INFORMS Marketing Science 2023, AAEA 2023</p>
-  </div>
+      <div class="entry">
+        <div class="tag"></div>
+        <div class="entry-body">
+          <p class="title">Discretion and Information in Matching Markets</p>
+          <p class="authors">with Stanley Lim</p>
+        </div>
+      </div>
+    </div>
 
-  <div class="item">
-    <p class="title"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5615290">Minimum Wages and Employment</a></p>
-    <p class="meta">with Timothy J. Richards</p>
-    <p class="status">Under review</p>
-  </div>
+    <!-- ---------- Working papers ---------- -->
+    <div class="group">
+      <h3 class="subhead">Working papers</h3>
 
-  <div class="item">
-    <p class="title"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5278424">Cost Shocks and Price Pass-through</a></p>
-    <p class="status">Revise and resubmit, <em>Canadian Journal of Agricultural Economics</em></p>
-    <p class="talks">Presented at Arizona State University 2023, <a href="https://ujjwolpaudel.github.io/assets/MW_PT_Slides.pdf">AAEA 2026</a></p>
-  </div>
+      <div class="entry">
+        <div class="tag">Under Review</div>
+        <div class="entry-body">
+          <p class="title">Compensation Design and Labor Dynamics in Platform Logistics</p>
+          <p class="authors">with Stanley Lim</p>
+          <p class="presented"><span class="pres-label">Presentations</span>INFORMS Annual Meeting 2026</p>
+        </div>
+      </div>
 
-  <h3>Publications</h3>
+      <div class="entry">
+        <div class="tag">Under Review</div>
+        <div class="entry-body">
+          <p class="title">Distribution Channel and Vertical Bargaining</p>
+          <p class="authors">with Elliot Rabinovich, Timothy J. Richards, and Lina Wang</p>
+          <p class="presented"><span class="pres-label">Presentations</span>POMS College of SCM 2025 &middot; Decision Sciences Institute 2025 &middot; ASU 2026 &middot; Texas Tech University 2026 &middot; University of Minnesota 2026 &middot; POMS Annual Conference 2026 &middot; AAEA 2026</p>
+        </div>
+      </div>
 
-  <div class="item">
-    <p class="title"><a href="https://link.springer.com/article/10.1007/s11151-026-10060-6">Concentration and Wages in Retailing</a></p>
-    <p class="meta">with Timothy J. Richards and Keenan Marchesi</p>
-    <p class="status"><em>Review of Industrial Organization</em>, 2026</p>
-  </div>
+      <div class="entry">
+        <div class="tag">Under Review</div>
+        <div class="entry-body">
+          <p class="title">Store Format and Return to Labor in Food Retailing</p>
+          <p class="authors">with Elliot Rabinovich and Timothy J. Richards</p>
+          <p class="presented"><span class="pres-label">Presentations</span>ASU 2024 &middot; PhD EVS 2024 &middot; AEA-ASSA 2025 &middot; Cornerstone Research 2025 &middot; POMS Annual Conference 2026</p>
+        </div>
+      </div>
 
-  <div class="item">
-    <p class="title"><a href="https://onlinelibrary.wiley.com/doi/10.1002/aepp.13526">Farmworker Bargaining in US Agricultural Labor Markets</a></p>
-    <p class="meta">with Timothy J. Richards</p>
-    <p class="status"><em>Applied Economic Perspectives and Policy</em>, 2025</p>
-    <p class="award">2026 AEPP Outstanding Article Award &mdash; <button class="toggle" aria-expanded="false" aria-controls="award-photo">photo</button></p>
-    <figure id="award-photo" hidden>
-      <img src="https://ujjwolpaudel.github.io/images/aepp_award.JPG" alt="Ujjwol Paudel accepting the 2026 AEPP Outstanding Article Award" loading="lazy" decoding="async">
-      <figcaption>2026 AEPP Outstanding Article Award</figcaption>
-    </figure>
-    <p class="talks">Presented at <a href="https://ujjwolpaudel.github.io/assets/AgLabor_ETHZ_2024.pdf">ETH Z&uuml;rich 2024</a>, AAEA 2024</p>
-  </div>
+      <div class="entry">
+        <div class="tag">Under Review</div>
+        <div class="entry-body">
+          <p class="title"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5454114" target="_blank" rel="noopener">Cross-Platform Merger Effects</a></p>
+          <p class="authors">with Timothy J. Richards</p>
+          <p class="presented"><span class="pres-label">Presentations</span>INFORMS Marketing Science 2023 &middot; AAEA 2023</p>
+        </div>
+      </div>
 
-  <div class="item">
-    <p class="title"><a href="https://onlinelibrary.wiley.com/doi/10.1111/ajae.12554">Minimum Wages and Pass-Through</a></p>
-    <p class="meta">with Timothy J. Richards</p>
-    <p class="status"><em>American Journal of Agricultural Economics</em>, 2025</p>
-    <p class="talks">Presented at <a href="https://ujjwolpaudel.github.io/assets/MinWage_EARIE_2024.pdf">EARIE 2024</a>, AAEA 2024</p>
-  </div>
+      <div class="entry">
+        <div class="tag">Under Review</div>
+        <div class="entry-body">
+          <p class="title"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5615290" target="_blank" rel="noopener">Minimum Wages and Employment</a></p>
+          <p class="authors">with Timothy J. Richards</p>
+        </div>
+      </div>
 
-  <div class="item">
-    <p class="title"><a href="https://onlinelibrary.wiley.com/doi/10.1111/agec.70072">Weight Loss and Food Spending</a></p>
-    <p class="meta">with Justin Bina</p>
-    <p class="status"><em>Agricultural Economics</em>, 2025</p>
-  </div>
-</section>
+      <div class="entry">
+        <div class="tag">R&amp;R</div>
+        <div class="entry-body">
+          <p class="title"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5278424" target="_blank" rel="noopener">Cost Shocks and Price Pass-through</a></p>
+          <p class="venue">Revise &amp; resubmit &middot; <em>Canadian Journal of Agricultural Economics</em></p>
+          <p class="presented"><span class="pres-label">Presentations</span>Arizona State University 2023 &middot; <a href="https://ujjwolpaudel.github.io/assets/MW_PT_Slides.pdf" target="_blank" rel="noopener">AAEA 2026</a></p>
+        </div>
+      </div>
+    </div>
 
-<section id="teaching">
-  <h2>Teaching</h2>
-  <div class="item">
-    <p class="title">Mathematical Economics (PhD)</p>
-    <p class="meta">Texas Tech University, Fall 2026</p>
-  </div>
-  <div class="item">
-    <p class="title">Food Supply Networks (undergraduate)</p>
-    <p class="meta">Arizona State University, Spring 2024</p>
-  </div>
-</section>
+    <!-- ---------- Publications ---------- -->
+    <div class="group">
+      <h3 class="subhead">Publications</h3>
 
-<section id="education">
-  <h2>Education</h2>
-  <div class="item">
-    <p class="title">PhD, Business Administration, <a href="https://wpcarey.asu.edu/agribusiness-degrees">Arizona State University</a></p>
-    <p class="meta">Advisor: <a href="https://scholar.google.com/citations?hl=en&user=XOAzQkEAAAAJ&view_op=list_works&sortby=pubdate">Timothy J. Richards</a></p>
-  </div>
-  <div class="item">
-    <p class="title">MS, Mathematics, <a href="https://math.ethz.ch">ETH Z&uuml;rich</a></p>
-    <p class="meta">Advisor: <a href="https://people.math.ethz.ch/~felder/">Giovanni Felder</a></p>
-  </div>
-  <div class="item">
-    <p class="title">BS, Mathematics, <a href="http://math.jacobs-university.de">Jacobs University Bremen</a></p>
-    <p class="meta">Advisor: <a href="https://en.wikipedia.org/wiki/Alan_Huckleberry">Alan Huckleberry</a></p>
-  </div>
-</section>
+      <div class="entry">
+        <div class="tag year">2026</div>
+        <div class="entry-body">
+          <p class="title"><a href="https://link.springer.com/article/10.1007/s11151-026-10060-6" target="_blank" rel="noopener">Concentration and Wages in Retailing</a></p>
+          <p class="authors">with Timothy J. Richards and Keenan Marchesi</p>
+          <p class="venue"><em>Review of Industrial Organization</em>, 2026</p>
+        </div>
+      </div>
 
-<p class="origin">From <a href="https://en.wikipedia.org/wiki/Budhabare,_Jhapa">south-eastern Nepal</a>.</p>
+      <div class="entry">
+        <div class="tag year">2025</div>
+        <div class="entry-body">
+          <p class="title"><a href="https://onlinelibrary.wiley.com/doi/10.1002/aepp.13526" target="_blank" rel="noopener">Farmworker Bargaining in US Agricultural Labor Markets</a></p>
+          <p class="authors">with Timothy J. Richards</p>
+          <p class="venue"><em>Applied Economic Perspectives and Policy</em>, 2025</p>
+          <p class="award">2026 AEPP Outstanding Article Award<span class="sep" aria-hidden="true">&middot;</span><button class="toggle" aria-expanded="false" aria-controls="pic-1">A Photo</button></p>
+          <div class="panel" id="pic-1"><div class="panel-inner"><figure class="shot"><img src="https://ujjwolpaudel.github.io/images/aepp_award.JPG" alt="Ujjwol Paudel accepting the 2026 AEPP Outstanding Article Award" loading="lazy" decoding="async"><figcaption>2026 AEPP Outstanding Article Award</figcaption></figure></div></div>
+          <p class="presented"><span class="pres-label">Presentations</span><a href="https://ujjwolpaudel.github.io/assets/AgLabor_ETHZ_2024.pdf" target="_blank" rel="noopener">ETH Z&uuml;rich 2024</a> &middot; AAEA 2024</p>
+        </div>
+      </div>
+
+      <div class="entry">
+        <div class="tag year">2025</div>
+        <div class="entry-body">
+          <p class="title"><a href="https://onlinelibrary.wiley.com/doi/10.1111/ajae.12554" target="_blank" rel="noopener">Minimum Wages and Pass-Through</a></p>
+          <p class="authors">with Timothy J. Richards</p>
+          <p class="venue"><em>American Journal of Agricultural Economics</em>, 2025</p>
+          <p class="presented"><span class="pres-label">Presentations</span><a href="https://ujjwolpaudel.github.io/assets/MinWage_EARIE_2024.pdf" target="_blank" rel="noopener">EARIE 2024</a> &middot; AAEA 2024</p>
+        </div>
+      </div>
+
+      <div class="entry">
+        <div class="tag year">2025</div>
+        <div class="entry-body">
+          <p class="title"><a href="https://onlinelibrary.wiley.com/doi/10.1111/agec.70072" target="_blank" rel="noopener">Weight Loss and Food Spending</a></p>
+          <p class="authors">with Justin Bina</p>
+          <p class="venue"><em>Agricultural Economics</em>, 2025</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TEACHING ===================== -->
+  <section id="teaching">
+    <h2 class="eyebrow">Teaching</h2>
+
+    <div class="group">
+      <h3 class="subhead">Texas Tech University</h3>
+      <div class="entry">
+        <div class="tag">Fall 2026</div>
+        <div class="entry-body">
+          <p class="line">Mathematical Economics (PhD)</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="group">
+      <h3 class="subhead">Arizona State University</h3>
+      <div class="entry">
+        <div class="tag">Spring 2024</div>
+        <div class="entry-body">
+          <p class="line">Food Supply Networks (undergrad)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== EDUCATION ===================== -->
+  <section id="education">
+    <h2 class="eyebrow">Education</h2>
+    <div class="group">
+      <div class="entry">
+        <div class="tag">PhD</div>
+        <div class="entry-body">
+          <p class="line">Business Administration, <a href="https://wpcarey.asu.edu/agribusiness-degrees" target="_blank" rel="noopener">Arizona State University</a></p>
+          <p class="line-sub">Advisor: <a href="https://scholar.google.com/citations?hl=en&user=XOAzQkEAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" rel="noopener">Timothy J. Richards</a></p>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="tag">MS</div>
+        <div class="entry-body">
+          <p class="line">Mathematics, <a href="https://math.ethz.ch" target="_blank" rel="noopener">ETH Z&uuml;rich</a></p>
+          <p class="line-sub">Advisor: <a href="https://people.math.ethz.ch/~felder/" target="_blank" rel="noopener">Giovanni Felder</a></p>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="tag">BS</div>
+        <div class="entry-body">
+          <p class="line">Mathematics, <a href="http://math.jacobs-university.de" target="_blank" rel="noopener">Jacobs University Bremen</a></p>
+          <p class="line-sub">Advisor: <a href="https://en.wikipedia.org/wiki/Alan_Huckleberry" target="_blank" rel="noopener">Alan Huckleberry</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <p class="origin reveal" style="--i:4">From <a href="https://en.wikipedia.org/wiki/Budhabare,_Jhapa" target="_blank" rel="noopener">south-eastern Nepal.</a></p>
+
+</main>
 
 <footer>
-  <span>&copy; 2026 Ujjwol Paudel</span>
-  <a href="https://ujjwolpaudel.github.io/dashboard/">Dashboard</a>
+  <div class="foot-inner">
+    <span>&copy; 2026 Ujjwol Paudel</span>
+    <a href="https://ujjwolpaudel.github.io/dashboard/" target="_blank" rel="noopener">Dashboard &#8599;</a>
+  </div>
 </footer>
 
 <script>
+  // Expand / collapse the award photo
   document.querySelectorAll('.toggle').forEach(function(btn){
     btn.addEventListener('click', function(){
       var panel = document.getElementById(btn.getAttribute('aria-controls'));
       if(!panel) return;
       var open = btn.getAttribute('aria-expanded') === 'true';
       btn.setAttribute('aria-expanded', String(!open));
-      panel.hidden = open;
+      panel.classList.toggle('open', !open);
     });
   });
+
+  // Hairline under nav once the page scrolls
+  var nav = document.getElementById('nav');
+  var onScroll = function(){ nav.classList.toggle('scrolled', window.scrollY > 8); };
+  onScroll();
+  window.addEventListener('scroll', onScroll, { passive:true });
 </script>
 
 </body>
