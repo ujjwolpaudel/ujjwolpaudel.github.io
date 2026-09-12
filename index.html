@@ -35,6 +35,11 @@
     --box:#f3f1ea;
     --journal:#990033;
 
+    /* left-column tags (Under Review, R&R, years) */
+    --tag-ink:#413f39;
+    /* "Presentations" label */
+    --pres-blue:#6d95bd;
+
     --serif:'Newsreader', Georgia, 'Times New Roman', serif;
     --mono:'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, monospace;
 
@@ -162,7 +167,7 @@
   .group .entry:first-of-type{ border-top:none; padding-top:.2rem; }
   .tag{
     font-family:var(--mono); font-size:.7rem; letter-spacing:.07em;
-    line-height:1.35; color:var(--label); padding-top:.28rem;
+    line-height:1.35; color:var(--tag-ink); padding-top:.28rem;
     text-transform:uppercase;
   }
   .tag.year{ letter-spacing:.04em; }
@@ -228,7 +233,7 @@
   .presented a:hover{ color:var(--accent); text-decoration-color:var(--accent); }
   .presented .pres-label{
     font-family:var(--mono); font-size:.62rem; letter-spacing:.14em; text-transform:uppercase;
-    color:var(--ink-faint); margin-right:.55rem;
+    color:var(--pres-blue); margin-right:.55rem;
   }
 
   /* ---------- Footer ---------- */
