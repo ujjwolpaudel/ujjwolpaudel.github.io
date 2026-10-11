@@ -3,7 +3,7 @@ main:
     url: /
 
   - title: "Research"
-    url: /research/
-
+    url: /#research
+    
   - title: "Dashboard"
     url: /dashboard/
