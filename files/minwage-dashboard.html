@@ -3,214 +3,232 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>U.S. Minimum Wage History · 1980–2022</title>
+<title>U.S. Minimum Wage, 1980–2022</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Literata:ital,opsz,wght@0,7..72,300;0,7..72,400;1,7..72,300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
 :root{
-  --bg:#F3EFE6;--text:#1B2D47;--muted:#607080;--accent:#C96A2A;
-  --green:#3A7057;--card:#FDFAF4;--border:#D9D2C2;
+  --paper:#faf9f5; --ink:#1b1a17; --ink-soft:#54524b; --label:#6f6d64;
+  --faint:#9c9a8f; --rule:#e8e5dc; --rule-soft:#f0ede4;
+  --navy:#1f3b57; --navy-soft:#34597d; --maroon:#990033; --tan:#cbbfa9;
+  --serif:'Newsreader', Georgia, 'Times New Roman', serif;
+  --mono:'IBM Plex Mono', ui-monospace, Menlo, monospace;
+  --maxw:1080px;
 }
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-body{font-family:'Literata',Georgia,serif;background:var(--bg);color:var(--text);min-height:100vh}
+html{-webkit-text-size-adjust:100%}
+body{font-family:var(--serif);background:var(--paper);color:var(--ink);line-height:1.55;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
 
-header{background:var(--text);color:var(--bg);padding:3rem 2rem 2.5rem;position:relative;overflow:hidden}
-header::before{content:'';position:absolute;top:-80px;right:-60px;width:360px;height:360px;border-radius:50%;border:90px solid rgba(255,255,255,.03);pointer-events:none}
-header::after{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--accent),#7BA7BC 50%,var(--green))}
-.hdr{max-width:1200px;margin:0 auto;display:flex;justify-content:space-between;align-items:flex-end;gap:2rem;flex-wrap:wrap}
-.eyebrow{font-family:'Syne',sans-serif;font-size:.63rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);margin-bottom:.8rem}
-h1{font-family:'Syne',sans-serif;font-size:clamp(2rem,5vw,3.4rem);font-weight:800;line-height:1.05;letter-spacing:-.025em;margin-bottom:.75rem}
-.subtitle{font-size:.93rem;color:#8EA8C0;line-height:1.65;max-width:54ch;font-style:italic;font-weight:300}
-.hdr-badges{display:flex;gap:.6rem;flex-shrink:0}
-.badge{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);border-radius:4px;padding:.8rem 1.1rem;text-align:center;min-width:110px}
-.badge-v{font-family:'Syne',sans-serif;font-size:1.9rem;font-weight:800;color:var(--accent);line-height:1}
-.badge-l{font-family:'Syne',sans-serif;font-size:.58rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#8EA8C0;margin-top:.3rem}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 clamp(1.1rem,4vw,2rem)}
 
-.stat-strip{background:var(--card);border-bottom:1px solid var(--border)}
-.stat-inner{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr)}
-.stat{padding:1.1rem 1.4rem;border-right:1px solid var(--border)}
-.stat:last-child{border-right:none}
-.stat-l{font-family:'Syne',sans-serif;font-size:.6rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:.3rem}
-.stat-v{font-family:'Syne',sans-serif;font-size:1.75rem;font-weight:800;color:var(--text);line-height:1}
-.stat-s{font-size:.73rem;color:var(--muted);margin-top:.2rem;font-style:italic}
+/* ---------- Masthead ---------- */
+.masthead{padding:2.4rem 0 1.4rem}
+.kicker{font-family:var(--mono);font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--maroon);margin-bottom:.7rem}
+h1{font-weight:500;font-size:clamp(1.8rem,4.2vw,2.7rem);line-height:1.08;letter-spacing:-.012em;margin-bottom:.6rem}
+.lede{color:var(--ink-soft);font-size:clamp(1rem,1.1vw+.9rem,1.1rem);max-width:60ch}
 
-.nav-wrap{background:var(--card);border-bottom:2px solid var(--border);position:sticky;top:0;z-index:100;box-shadow:0 2px 10px rgba(0,0,0,.06)}
-.nav-inner{max-width:1200px;margin:0 auto;padding:0 2rem;display:flex;gap:0;overflow-x:auto}
-.tab{font-family:'Syne',sans-serif;font-size:.71rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:.85rem 1.35rem;border:none;background:transparent;color:var(--muted);cursor:pointer;position:relative;transition:color .18s;white-space:nowrap}
-.tab::after{content:'';position:absolute;bottom:-2px;left:0;right:0;height:2px;background:var(--accent);transform:scaleX(0);transform-origin:left;transition:transform .22s}
-.tab.active{color:var(--text)}.tab.active::after{transform:scaleX(1)}.tab:hover{color:var(--text)}
+/* ---------- Figure row (key numbers, restrained) ---------- */
+.figrow{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--rule);border-block:1px solid var(--rule);margin-top:1.8rem}
+.fig{background:var(--paper);padding:1rem 1.1rem}
+.fig-l{font-family:var(--mono);font-size:.63rem;letter-spacing:.07em;text-transform:uppercase;color:var(--label);margin-bottom:.4rem}
+.fig-v{font-size:1.5rem;font-weight:500;line-height:1;letter-spacing:-.01em}
+.fig-s{font-size:.8rem;color:var(--faint);margin-top:.35rem}
 
-main{max-width:1200px;margin:0 auto;padding:2rem 2rem 5rem}
-.panel{display:none}.panel.active{display:block}
+/* ---------- Tabs ---------- */
+.tabs{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--paper) 90%,transparent);backdrop-filter:blur(6px);border-bottom:1px solid var(--rule);margin-top:1.6rem}
+.tabs-inner{max-width:var(--maxw);margin:0 auto;padding:0 clamp(1.1rem,4vw,2rem);display:flex;gap:1.6rem;overflow-x:auto}
+@media(max-width:640px){.tabs-inner{flex-wrap:wrap;gap:.5rem 1.1rem;overflow-x:visible}}
+.tab{font-family:var(--mono);font-size:.74rem;letter-spacing:.03em;padding:.85rem .1rem;background:none;border:none;color:var(--label);cursor:pointer;position:relative;white-space:nowrap;transition:color .15s}
+.tab::after{content:'';position:absolute;left:0;right:0;bottom:-1px;height:2px;background:var(--navy);transform:scaleX(0);transition:transform .2s}
+.tab:hover{color:var(--ink)}
+.tab.active{color:var(--ink)}
+.tab.active::after{transform:scaleX(1)}
 
-.ctrls{display:flex;align-items:center;gap:1.5rem;margin-bottom:1.2rem;flex-wrap:wrap}
-.ctrl-g{display:flex;align-items:center;gap:.75rem}
-.ctrl-l{font-family:'Syne',sans-serif;font-size:.63rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
-input[type=range]{-webkit-appearance:none;height:3px;background:var(--border);border-radius:2px;outline:none;cursor:pointer;width:220px}
-input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:15px;height:15px;background:var(--accent);border-radius:50%;box-shadow:0 1px 4px rgba(0,0,0,.2)}
-.yr{font-family:'Syne',sans-serif;font-size:1.5rem;font-weight:800;color:var(--text);min-width:3rem}
+/* ---------- Panels ---------- */
+main{padding:1.8rem 0 3.5rem}
+.panel{display:none}
+.panel.active{display:block}
+.panel-head{margin-bottom:1.1rem}
+.panel-note{color:var(--ink-soft);font-size:.92rem;max-width:62ch;margin-top:.15rem}
 
-.card{background:var(--card);border:1px solid var(--border);border-radius:3px;padding:1.25rem}
+/* ---------- Controls ---------- */
+.ctrls{display:flex;align-items:center;gap:1.3rem;flex-wrap:wrap;margin-bottom:1rem}
+.ctrl{display:flex;align-items:center;gap:.7rem}
+.ctrl-l{font-family:var(--mono);font-size:.66rem;letter-spacing:.06em;text-transform:uppercase;color:var(--label)}
+input[type=range]{-webkit-appearance:none;appearance:none;width:min(260px,52vw);height:2px;background:var(--rule);outline:none;cursor:pointer}
+input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:15px;height:15px;border-radius:50%;background:var(--navy);cursor:pointer}
+input[type=range]::-moz-range-thumb{width:15px;height:15px;border:none;border-radius:50%;background:var(--navy);cursor:pointer}
+.yr{font-family:var(--mono);font-size:1.15rem;font-weight:500;min-width:3.2rem;color:var(--ink)}
+.hint{font-size:.85rem;color:var(--faint);font-style:italic}
 
+.frame{border:1px solid var(--rule);background:#fffdf8;border-radius:2px;padding:1.1rem}
+
+/* ---------- Map ---------- */
 #map-svg{width:100%;height:auto;display:block}
-.state-path{stroke:#fff;stroke-width:.4;cursor:pointer;transition:opacity .15s}
-.state-path:hover{opacity:.72;stroke:var(--text);stroke-width:.9}
-.leg-wrap{display:flex;align-items:center;gap:.5rem;margin-top:.75rem}
-.leg-l{font-family:'Syne',sans-serif;font-size:.63rem;color:var(--muted)}
+.state-path{stroke:var(--paper);stroke-width:.5;transition:opacity .12s}
+.state-path:hover{opacity:.78;stroke:var(--ink);stroke-width:1}
+.legend{display:flex;align-items:center;gap:.6rem;margin-top:.9rem}
+.legend-l{font-family:var(--mono);font-size:.68rem;color:var(--label)}
+.legend-bar{height:9px;flex:1;max-width:260px;border-radius:2px;background:linear-gradient(90deg,#e2e8ef,#9db3c9,#4f7399,#2b4e71,#16314a)}
 
-.tt{position:fixed;background:var(--text);color:var(--bg);padding:.6rem .9rem;border-radius:3px;font-family:'Syne',sans-serif;pointer-events:none;z-index:999;opacity:0;transition:opacity .12s;min-width:160px}
-.tt.on{opacity:1}
-.tt-name{font-size:.74rem;font-weight:700;margin-bottom:.15rem}
-.tt-wage{font-size:1.15rem;font-weight:800;color:var(--accent);line-height:1}
-.tt-delta{font-size:.67rem;color:#8EA8C0;margin-top:.2rem}
+/* ---------- Chart wrappers (responsive, no sideways scroll) ---------- */
+.chart-box{position:relative;width:100%;height:460px}
+.chart-box.tall{height:auto}
+@media(max-width:640px){.chart-box{height:360px}}
 
+/* ---------- Chips (trends) ---------- */
 .chips{display:flex;flex-wrap:wrap;gap:.3rem;margin-bottom:.9rem}
-.chip{font-family:'Syne',sans-serif;font-size:.61rem;font-weight:700;letter-spacing:.05em;padding:.28rem .55rem;border:1px solid var(--border);border-radius:2px;cursor:pointer;background:transparent;color:var(--muted);transition:all .15s}
-.chip:hover{border-color:var(--muted);color:var(--text)}
-.chip.on{background:var(--text);color:var(--bg);border-color:var(--text)}
+.chip{font-family:var(--mono);font-size:.68rem;padding:.28rem .5rem;border:1px solid var(--rule);background:none;color:var(--label);border-radius:2px;cursor:pointer;transition:all .12s}
+.chip:hover{border-color:var(--faint);color:var(--ink)}
+.chip.on{background:var(--navy);color:var(--paper);border-color:var(--navy)}
 
-table{width:100%;border-collapse:collapse;font-size:.88rem}
-th{font-family:'Syne',sans-serif;font-size:.6rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:left;padding:.7rem 1rem;border-bottom:2px solid var(--border);cursor:pointer;user-select:none;white-space:nowrap}
-th:hover{color:var(--text)}.th-sorted{color:var(--text)!important}
-td{padding:.58rem 1rem;border-bottom:1px solid var(--border);vertical-align:middle}
-tr:last-child td{border-bottom:none}tr:hover td{background:rgba(0,0,0,.016)}
-.rn{font-family:'Syne',sans-serif;font-weight:800;color:var(--muted);font-size:.78rem}
-.wv{font-family:'Syne',sans-serif;font-weight:700;font-size:.98rem}
-.dp{font-family:'Syne',sans-serif;font-size:.8rem;font-weight:600;color:var(--green)}
-.dz{font-family:'Syne',sans-serif;font-size:.8rem;color:var(--muted)}
-.gb-bg{height:5px;background:var(--border);border-radius:3px;min-width:80px;overflow:hidden;flex:1}
-.gb-fill{height:100%;background:var(--accent);border-radius:3px}
-.gb-v{font-family:'Syne',sans-serif;font-size:.69rem;color:var(--muted);min-width:42px}
+/* ---------- Snapshot legend ---------- */
+.swatch-row{display:flex;align-items:center;gap:.4rem;flex-wrap:wrap}
+.sw{width:11px;height:11px;border-radius:2px;display:inline-block}
+.sw-l{font-family:var(--mono);font-size:.68rem;color:var(--label);margin-right:.7rem}
 
-.source{margin-top:2rem;padding-top:1rem;border-top:1px solid var(--border);font-size:.74rem;color:var(--muted);line-height:1.7}
-.source a{color:var(--muted)}
+/* ---------- Rankings table (fixed layout -> always fits) ---------- */
+table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:.9rem}
+th{font-family:var(--mono);font-size:.63rem;letter-spacing:.05em;text-transform:uppercase;color:var(--label);text-align:left;padding:.65rem .6rem;border-bottom:1.5px solid var(--rule);cursor:pointer;user-select:none}
+th:hover{color:var(--ink)}
+th.sorted{color:var(--ink)}
+col.c-rank{width:8%}col.c-name{width:32%}col.c-wage{width:17%}col.c-delta{width:16%}col.c-growth{width:27%}
+td{padding:.5rem .6rem;border-bottom:1px solid var(--rule-soft);vertical-align:middle;overflow:hidden;text-overflow:ellipsis}
+tr:last-child td{border-bottom:none}
+tr:hover td{background:rgba(31,59,87,.03)}
+.rn{font-family:var(--mono);font-size:.82rem;color:var(--faint)}
+.wv{font-family:var(--mono);font-weight:500}
+.dp{font-family:var(--mono);font-size:.82rem;color:var(--navy-soft)}
+.dz{font-family:var(--mono);font-size:.82rem;color:var(--faint)}
+.gb{display:flex;align-items:center;gap:.5rem}
+.gb-track{flex:1;height:4px;background:var(--rule);border-radius:2px;overflow:hidden;min-width:0}
+.gb-fill{height:100%;background:var(--navy);border-radius:2px}
+.gb-v{font-family:var(--mono);font-size:.72rem;color:var(--label);white-space:nowrap}
+@media(max-width:640px){
+  col.c-name{width:40%}col.c-growth{width:0}
+  th.hide-sm,td.hide-sm{display:none}
+}
 
-@media(max-width:700px){
-  .stat-inner{grid-template-columns:repeat(2,1fr)}
-  .hdr{flex-direction:column;align-items:flex-start}
-  header{padding:2rem 1rem 1.5rem}
-  main{padding:1rem 1rem 4rem}
-  input[type=range]{width:160px}
+/* ---------- Tooltip ---------- */
+.tt{position:fixed;background:var(--ink);color:var(--paper);padding:.55rem .75rem;border-radius:3px;font-family:var(--mono);pointer-events:none;z-index:999;opacity:0;transition:opacity .1s;min-width:150px}
+.tt.on{opacity:1}
+.tt-n{font-size:.72rem;margin-bottom:.2rem}
+.tt-w{font-size:1.05rem;font-weight:500;color:#e8c98f}
+.tt-d{font-size:.66rem;color:#aeb8c2;margin-top:.2rem}
+
+.source{margin-top:2.2rem;padding-top:1rem;border-top:1px solid var(--rule);font-size:.76rem;color:var(--faint);line-height:1.7}
+.source a{color:var(--label)}
+
+@media(max-width:640px){
+  .figrow{grid-template-columns:repeat(2,1fr)}
+  .masthead{padding:1.8rem 0 1.2rem}
 }
 </style>
 </head>
 <body>
 
-<header>
-  <div class="hdr">
-    <div>
-      <div class="eyebrow">Labor Policy Dashboard </div>
-      <h1>U.S. Minimum Wage<br>History, 1980–2022</h1>
-      <p class="subtitle">Four decades of state and federal minimum wage policy across all 51 jurisdictions. Effective wage = the higher of state law or the federal floor.</p>
-    </div>
-    <div class="hdr-badges">
-      <div class="badge"><div class="badge-v">$7.25</div><div class="badge-l">Federal Floor</div></div>
-      <div class="badge"><div class="badge-v">$16.10</div><div class="badge-l">Highest 2022<br><span style="font-size:.53rem">(D.C.)</span></div></div>
-    </div>
-  </div>
-</header>
+<div class="wrap">
+  <header class="masthead">
+    <div class="kicker">Labor markets · 51 jurisdictions</div>
+    <h1>U.S. Minimum Wage, 1980–2022</h1>
+    <p class="lede">State and federal hourly minimums over four decades. The effective minimum is the higher of a state's own law or the federal floor, so states without a binding law of their own track the federal line.</p>
+  </header>
+</div>
 
-<div class="stat-strip">
-  <div class="stat-inner">
-    <div class="stat"><div class="stat-l">Federal Floor 2022</div><div class="stat-v">$7.25</div><div class="stat-s">Unchanged since July 2009</div></div>
-    <div class="stat"><div class="stat-l">States Above Federal</div><div class="stat-v" id="s-above">—</div><div class="stat-s">of 51 jurisdictions, 2022</div></div>
-    <div class="stat"><div class="stat-l">Median Eff. Wage 2022</div><div class="stat-v" id="s-med">—</div><div class="stat-s">Across all 51 jurisdictions</div></div>
-    <div class="stat"><div class="stat-l">Federal Increase 1980–2022</div><div class="stat-v">+$4.15</div><div class="stat-s">$3.10 → $7.25</div></div>
+<div class="wrap">
+  <div class="figrow">
+    <div class="fig"><div class="fig-l">Federal floor, 2022</div><div class="fig-v">$7.25</div><div class="fig-s">Unchanged since 2009</div></div>
+    <div class="fig"><div class="fig-l">Above the floor, 2022</div><div class="fig-v" id="f-above">—</div><div class="fig-s">of 51 jurisdictions</div></div>
+    <div class="fig"><div class="fig-l">Median effective, 2022</div><div class="fig-v" id="f-med">—</div><div class="fig-s">Across all jurisdictions</div></div>
+    <div class="fig"><div class="fig-l">Federal change, 1980–2022</div><div class="fig-v">+$4.15</div><div class="fig-s">$3.10 → $7.25</div></div>
   </div>
 </div>
 
-<div class="nav-wrap">
-  <div class="nav-inner">
-    <button class="tab active" data-tab="map">Map View</button>
-    <button class="tab" data-tab="trends">State Trends</button>
-    <button class="tab" data-tab="snap">Year Snapshot</button>
-    <button class="tab" data-tab="rank">2022 Rankings</button>
+<nav class="tabs">
+  <div class="tabs-inner">
+    <button class="tab active" data-tab="map">Map</button>
+    <button class="tab" data-tab="trends">Trends over time</button>
+    <button class="tab" data-tab="snap">Year snapshot</button>
+    <button class="tab" data-tab="rank">2022 ranking</button>
   </div>
-</div>
+</nav>
 
-<main>
+<main class="wrap">
 
-<div class="panel active" id="panel-map">
-  <div class="ctrls">
-    <div class="ctrl-g">
-      <span class="ctrl-l">Year</span>
-      <input type="range" id="map-sl" min="1980" max="2022" value="2022">
-      <span class="yr" id="map-yr">2022</span>
+  <!-- MAP -->
+  <section class="panel active" id="panel-map">
+    <div class="panel-head">
+      <p class="panel-note">Effective minimum wage by state. Drag the year to watch coastal and Western states pull away from the federal floor after 2014.</p>
     </div>
-    <span style="font-family:'Syne',sans-serif;font-size:.68rem;color:var(--muted);font-style:italic">Hover states for details</span>
-  </div>
-  <div class="card">
-    <svg id="map-svg" viewBox="0 0 960 600"></svg>
-    <div class="leg-wrap">
-      <span class="leg-l">$3.00</span>
-      <canvas id="leg-canvas" width="240" height="10" style="border-radius:2px"></canvas>
-      <span class="leg-l">$17.00</span>
+    <div class="ctrls">
+      <div class="ctrl"><span class="ctrl-l">Year</span><input type="range" id="map-sl" min="1980" max="2022" value="2022"><span class="yr" id="map-yr">2022</span></div>
+      <span class="hint">Hover a state for its wage</span>
     </div>
-  </div>
-</div>
+    <div class="frame">
+      <svg id="map-svg" viewBox="0 0 960 600" preserveAspectRatio="xMidYMid meet"></svg>
+      <div class="legend"><span class="legend-l">$3</span><div class="legend-bar"></div><span class="legend-l">$17</span></div>
+    </div>
+  </section>
 
-<div class="panel" id="panel-trends">
-  <div style="margin-bottom:.75rem">
-    <div class="ctrl-l" style="margin-bottom:.4rem;display:block">Select up to 6 states — federal shown as dashed reference</div>
+  <!-- TRENDS -->
+  <section class="panel" id="panel-trends">
+    <div class="panel-head">
+      <p class="panel-note">Pick up to six states to compare their effective minimum over time. The federal floor is the dashed reference line.</p>
+    </div>
     <div class="chips" id="chips"></div>
-  </div>
-  <div class="card"><canvas id="tc" height="420"></canvas></div>
-</div>
+    <div class="frame"><div class="chart-box"><canvas id="tc"></canvas></div></div>
+  </section>
 
-<div class="panel" id="panel-snap">
-  <div class="ctrls">
-    <div class="ctrl-g">
-      <span class="ctrl-l">Year</span>
-      <input type="range" id="snap-sl" min="1980" max="2022" value="2022">
-      <span class="yr" id="snap-yr">2022</span>
+  <!-- SNAPSHOT -->
+  <section class="panel" id="panel-snap">
+    <div class="panel-head">
+      <p class="panel-note">Every jurisdiction for one year, ranked high to low. Bars at the floor (tan) sit exactly at the federal minimum.</p>
     </div>
-    <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap">
-      <span style="width:11px;height:11px;background:#1B2D47;border-radius:1px;display:inline-block"></span>
-      <span style="font-family:'Syne',sans-serif;font-size:.66rem;color:var(--muted)">Above federal</span>
-      <span style="width:11px;height:11px;background:#C2BAB0;border-radius:1px;display:inline-block;margin-left:.4rem"></span>
-      <span style="font-family:'Syne',sans-serif;font-size:.66rem;color:var(--muted)">At federal floor</span>
+    <div class="ctrls">
+      <div class="ctrl"><span class="ctrl-l">Year</span><input type="range" id="snap-sl" min="1980" max="2022" value="2022"><span class="yr" id="snap-yr">2022</span></div>
+      <div class="swatch-row">
+        <span class="sw" style="background:var(--navy)"></span><span class="sw-l">Above federal</span>
+        <span class="sw" style="background:var(--tan)"></span><span class="sw-l">At the floor</span>
+      </div>
     </div>
-  </div>
-  <div class="card" style="overflow-x:auto">
-    <div id="snap-wrap" style="position:relative"><canvas id="sc"></canvas></div>
-  </div>
-</div>
+    <div class="frame"><div class="chart-box tall" id="snap-box"><canvas id="sc"></canvas></div></div>
+  </section>
 
-<div class="panel" id="panel-rank">
-  <div class="card" style="overflow-x:auto">
-    <table id="rt">
-      <thead><tr>
-        <th data-col="rank"># <span>↓</span></th>
-        <th data-col="name">State <span>↕</span></th>
-        <th data-col="wage">2022 Wage <span>↕</span></th>
-        <th data-col="delta">vs. Federal <span>↕</span></th>
-        <th data-col="growth" style="min-width:190px">Growth since 1980 <span>↕</span></th>
-      </tr></thead>
-      <tbody></tbody>
-    </table>
-  </div>
-</div>
+  <!-- RANKING -->
+  <section class="panel" id="panel-rank">
+    <div class="panel-head">
+      <p class="panel-note">All 51 jurisdictions in 2022. Click a column to re-sort.</p>
+    </div>
+    <div class="frame" style="padding:.4rem .6rem">
+      <table id="rt">
+        <colgroup><col class="c-rank"><col class="c-name"><col class="c-wage"><col class="c-delta"><col class="c-growth"></colgroup>
+        <thead><tr>
+          <th data-col="rank">#</th>
+          <th data-col="name">State</th>
+          <th data-col="wage">2022</th>
+          <th data-col="delta">vs. fed</th>
+          <th data-col="growth" class="hide-sm">Since 1980</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
 
-<div class="source">
-  <strong>Source:</strong> Vaghul, K. and Zipperer, B. (2022). "Historical State and Sub-state Minimum Wages," Version 1.4.0.
-  <a href="https://github.com/benzipperer/historicalminwage/releases/tag/v1.4.0" target="_blank">github.com/benzipperer/historicalminwage</a>.
-  Effective minimum wage = max(state law, federal floor), annual (January 1 of each year).
-  States without their own wage law above the federal floor appear at the federal rate.
-</div>
+  <div class="source">
+    <strong>Source:</strong> Vaghul, K. &amp; Zipperer, B. (2022). “Historical State and Sub-state Minimum Wages,” v1.4.0.
+    <a href="https://github.com/benzipperer/historicalminwage/releases/tag/v1.4.0" target="_blank" rel="noopener">github.com/benzipperer/historicalminwage</a>.
+    Effective minimum = max(state law, federal floor), measured January 1 each year. Jurisdictions without a state law above the federal floor appear at the federal rate.
+  </div>
 </main>
 
-<div class="tt" id="tt">
-  <div class="tt-name" id="tt-n"></div>
-  <div class="tt-wage" id="tt-w"></div>
-  <div class="tt-delta" id="tt-d"></div>
-</div>
+<div class="tt" id="tt"><div class="tt-n" id="tt-n"></div><div class="tt-w" id="tt-w"></div><div class="tt-d" id="tt-d"></div></div>
 
 <script>
-// ── DATA ──────────────────────────────────────
+// ── DATA (verbatim: Vaghul & Zipperer v1.4.0) ──────────────
 const YEARS=Array.from({length:43},(_,i)=>1980+i);
 const FED={
   1980:3.10,1981:3.35,1982:3.35,1983:3.35,1984:3.35,1985:3.35,1986:3.35,
@@ -278,15 +296,30 @@ const FIPS={
   '55':'WI','56':'WY'
 };
 const CODES=Object.keys(NM);
-function eff(c,y){return Math.max(SL[c]?.[y]??0, FED[y]);}
+const eff=(c,y)=>Math.max(SL[c]?.[y]??0, FED[y]);
 
-// Stats
+// shared palette / fonts
+const PAL=['#2b66a6','#c07d12','#0d8263','#6b4aa0','#c2213f','#159fb8'];
+const INK='#1b1a17', SOFT='#54524b', LABEL='#6f6d64', GRID='#e8e5dc', NAVY='#1f3b57', TAN='#cbbfa9', FEDCLR='#8a847a';
+const FONT="'IBM Plex Mono', monospace";
+if(typeof Chart!=='undefined'){Chart.defaults.font.family=FONT;Chart.defaults.color=LABEL;}
+
+// headline figures
 const w22=CODES.map(c=>eff(c,2022)).sort((a,b)=>a-b);
-document.getElementById('s-above').textContent=w22.filter(w=>w>7.25).length;
-document.getElementById('s-med').textContent='$'+((w22[25]+w22[26])/2).toFixed(2);
+document.getElementById('f-above').textContent=w22.filter(w=>w>7.25).length;
+document.getElementById('f-med').textContent='$'+((w22[25]+w22[26])/2).toFixed(2);
 
-// ── TABS ──────────────────────────────────────
-const inited={trends:false,snap:false,rank:false};
+const tt=document.getElementById('tt'),ttN=document.getElementById('tt-n'),ttW=document.getElementById('tt-w'),ttD=document.getElementById('tt-d');
+function showTT(x,y,name,wage,fed){
+  const d=wage-fed;
+  ttN.textContent=name;ttW.textContent='$'+wage.toFixed(2)+'/hr';
+  ttD.textContent=d>0.01?'+$'+d.toFixed(2)+' above federal':'At the federal floor ($'+fed.toFixed(2)+')';
+  tt.style.left=(x+14)+'px';tt.style.top=(y-8)+'px';tt.classList.add('on');
+}
+const hideTT=()=>tt.classList.remove('on');
+
+// ── TABS ──────────────────────────────────
+const inited={trends:0,snap:0,rank:0};
 document.querySelectorAll('.tab').forEach(b=>{
   b.addEventListener('click',()=>{
     document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
@@ -294,64 +327,53 @@ document.querySelectorAll('.tab').forEach(b=>{
     b.classList.add('active');
     const t=b.dataset.tab;
     document.getElementById('panel-'+t).classList.add('active');
-    if(t==='trends'&&!inited.trends){initTrends();inited.trends=true;}
-    if(t==='snap'&&!inited.snap){initSnap();inited.snap=true;}
-    if(t==='rank'&&!inited.rank){initRank();inited.rank=true;}
+    if(t==='trends'&&!inited.trends){initTrends();inited.trends=1;}
+    if(t==='snap'&&!inited.snap){initSnap();inited.snap=1;}
+    if(t==='rank'&&!inited.rank){initRank();inited.rank=1;}
   });
 });
 
-// ── MAP ──────────────────────────────────────
-const clr=d3.scaleSequential().domain([3,17]).interpolator(d3.interpolateBlues);
+// ── MAP ──────────────────────────────────
+const clr=d3.scaleSequential().domain([3,17])
+  .interpolator(d3.interpolateRgbBasis(['#e2e8ef','#9db3c9','#4f7399','#2b4e71','#16314a']));
 const mapSvg=d3.select('#map-svg');
 const proj=d3.geoAlbersUsa().scale(1260).translate([480,300]);
 const pathFn=d3.geoPath().projection(proj);
-const tt=document.getElementById('tt');
-
-// Legend
-(()=>{const lc=document.getElementById('leg-canvas'),ctx=lc.getContext('2d');
-  const g=ctx.createLinearGradient(0,0,240,0);
-  for(let i=0;i<=30;i++)g.addColorStop(i/30,clr(3+(i/30)*14));
-  ctx.fillStyle=g;ctx.fillRect(0,0,240,10);
-})();
-
 let mapYr=2022;
 async function initMap(){
   let us;
   try{us=await d3.json('https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json');}
   catch(e){
     mapSvg.append('text').attr('x',480).attr('y',300).attr('text-anchor','middle')
-      .attr('fill','#607080').attr('font-family',"'Syne',sans-serif").attr('font-size',14)
-      .text('Map requires internet connection. Other tabs work offline.');
+      .attr('fill',LABEL).attr('font-family',FONT).attr('font-size',14)
+      .text('Map needs an internet connection — the other tabs work offline.');
     return;
   }
   const states=topojson.feature(us,us.objects.states);
   mapSvg.selectAll('.state-path').data(states.features).join('path')
     .attr('class','state-path').attr('d',pathFn)
-    .attr('fill',d=>{const c=FIPS[String(d.id).padStart(2,'0')];return c?clr(eff(c,mapYr)):'#ccc';})
-    .on('mousemove',(ev,d)=>{
-      const c=FIPS[String(d.id).padStart(2,'0')];if(!c)return;
-      const w=eff(c,mapYr),f=FED[mapYr],delta=w-f;
-      document.getElementById('tt-n').textContent=NM[c]||c;
-      document.getElementById('tt-w').textContent='$'+w.toFixed(2)+'/hr';
-      document.getElementById('tt-d').textContent=delta>0.01?'+$'+delta.toFixed(2)+' above federal ($'+f.toFixed(2)+')':'At federal floor ($'+f.toFixed(2)+')';
-      tt.style.left=(ev.clientX+14)+'px';tt.style.top=(ev.clientY-8)+'px';tt.classList.add('on');
-    })
-    .on('mouseleave',()=>tt.classList.remove('on'));
+    .attr('fill',d=>{const c=FIPS[String(d.id).padStart(2,'0')];return c?clr(eff(c,mapYr)):'#ddd';})
+    .on('mousemove',(ev,d)=>{const c=FIPS[String(d.id).padStart(2,'0')];if(!c)return;showTT(ev.clientX,ev.clientY,NM[c],eff(c,mapYr),FED[mapYr]);})
+    .on('mouseleave',hideTT);
   renderMap();
 }
 function renderMap(){
-  mapSvg.selectAll('.state-path').transition().duration(280)
-    .attr('fill',d=>{const c=FIPS[String(d.id).padStart(2,'0')];return c?clr(eff(c,mapYr)):'#ccc';});
+  mapSvg.selectAll('.state-path').transition().duration(250)
+    .attr('fill',d=>{const c=FIPS[String(d.id).padStart(2,'0')];return c?clr(eff(c,mapYr)):'#ddd';});
 }
-const msl=document.getElementById('map-sl'),myrEl=document.getElementById('map-yr');
-msl.addEventListener('input',()=>{mapYr=+msl.value;myrEl.textContent=mapYr;renderMap();});
+const msl=document.getElementById('map-sl'),myr=document.getElementById('map-yr');
+msl.addEventListener('input',()=>{mapYr=+msl.value;myr.textContent=mapYr;renderMap();});
 initMap();
 
 // ── TRENDS ──────────────────────────────────
-const PAL=['#1B2D47','#C96A2A','#3A7057','#8B3B7A','#2565A8','#B08A20'];
 let tChart=null,selSt=['CA','NY','WA','TX','FL'];
+function tDS(){
+  const ds=[{label:'Federal floor',data:YEARS.map(y=>FED[y]),borderColor:FEDCLR,borderDash:[6,4],borderWidth:1.5,pointRadius:0,tension:.08,order:99}];
+  selSt.forEach((c,i)=>ds.push({label:NM[c],data:YEARS.map(y=>eff(c,y)),borderColor:PAL[i%PAL.length],borderWidth:2,pointRadius:0,pointHoverRadius:4,tension:.08,order:i}));
+  return ds;
+}
 function initTrends(){
-  const w=document.getElementById('chips');
+  const wrap=document.getElementById('chips');
   CODES.forEach(c=>{
     const b=document.createElement('button');
     b.className='chip'+(selSt.includes(c)?' on':'');
@@ -359,79 +381,94 @@ function initTrends(){
     b.addEventListener('click',()=>{
       if(selSt.includes(c)){selSt=selSt.filter(s=>s!==c);b.classList.remove('on');}
       else if(selSt.length<6){selSt.push(c);b.classList.add('on');}
-      rebuildT();
+      if(tChart){tChart.data.datasets=tDS();tChart.update();}
     });
-    w.appendChild(b);
+    wrap.appendChild(b);
   });
-  const hint=document.createElement('span');
-  hint.style.cssText='font-family:"Syne",sans-serif;font-size:.61rem;color:var(--muted);font-style:italic;padding:.3rem 0';
-  hint.textContent='(max 6 states)';w.appendChild(hint);
-  buildT();
+  tChart=new Chart(document.getElementById('tc'),{
+    type:'line',
+    data:{labels:YEARS,datasets:tDS()},
+    options:{
+      responsive:true,maintainAspectRatio:false,
+      interaction:{mode:'index',intersect:false},
+      plugins:{
+        legend:{labels:{boxWidth:20,boxHeight:2,padding:12,font:{size:11},color:INK,usePointStyle:false}},
+        tooltip:{backgroundColor:INK,titleFont:{size:11},bodyFont:{size:11},padding:9,
+          callbacks:{label:c=>`${c.dataset.label}: $${c.parsed.y.toFixed(2)}`}}
+      },
+      scales:{
+        x:{ticks:{maxTicksLimit:10,font:{size:10},color:LABEL},grid:{color:GRID,drawTicks:false},border:{color:GRID}},
+        y:{ticks:{font:{size:10},color:LABEL,callback:v=>'$'+v},grid:{color:GRID,drawTicks:false},border:{display:false}}
+      }
+    }
+  });
 }
-function tDS(){
-  const ds=[{label:'Federal',data:YEARS.map(y=>FED[y]),borderColor:'#3A7057',borderDash:[7,4],borderWidth:2,pointRadius:0,tension:.1}];
-  selSt.forEach((c,i)=>ds.push({label:NM[c],data:YEARS.map(y=>eff(c,y)),borderColor:PAL[i%PAL.length],borderWidth:2.5,pointRadius:0,tension:.1}));
-  return ds;
-}
-function buildT(){
-  const ctx=document.getElementById('tc').getContext('2d');
-  tChart=new Chart(ctx,{type:'line',data:{labels:YEARS,datasets:tDS()},options:{responsive:true,interaction:{mode:'index',intersect:false},plugins:{legend:{labels:{font:{family:"'Syne',sans-serif",size:11},color:'#1B2D47',boxWidth:22,boxHeight:3,padding:14}},tooltip:{callbacks:{label:c=>`${c.dataset.label}: $${c.parsed.y.toFixed(2)}`}}},scales:{x:{ticks:{font:{family:"'Syne',sans-serif",size:10},color:'#607080',maxTicksLimit:12},grid:{color:'#E0D9CE'}},y:{ticks:{font:{family:"'Syne',sans-serif",size:10},color:'#607080',callback:v=>'$'+v.toFixed(2)},grid:{color:'#E0D9CE'}}}}});
-}
-function rebuildT(){if(!tChart)return;tChart.data.datasets=tDS();tChart.update();}
 
-// ── SNAPSHOT ─────────────────────────────────
+// ── SNAPSHOT ──────────────────────────────────
 let sChart=null;
+// value labels at bar ends
+const barLabels={id:'barLabels',afterDatasetsDraw(c){
+  const {ctx}=c, meta=c.getDatasetMeta(0), ds=c.data.datasets[0].data;
+  ctx.save();ctx.font='500 10px '+FONT;ctx.fillStyle=SOFT;ctx.textBaseline='middle';
+  meta.data.forEach((bar,i)=>{ctx.fillText('$'+ds[i].toFixed(2), bar.x+6, bar.y);});
+  ctx.restore();
+}};
+function sData(y){return CODES.map(c=>({c,w:eff(c,y),fed:FED[y]})).sort((a,b)=>b.w-a.w);}
 function initSnap(){
-  buildS(2022);
+  const box=document.getElementById('snap-box');
+  box.style.height=(CODES.length*15+46)+'px';
+  const d=sData(2022);
+  sChart=new Chart(document.getElementById('sc'),{
+    type:'bar',
+    data:{labels:d.map(x=>x.c),datasets:[{data:d.map(x=>x.w),backgroundColor:d.map(x=>x.w>x.fed+.01?NAVY:TAN),borderWidth:0,borderRadius:2,barPercentage:.82}]},
+    options:{
+      indexAxis:'y',responsive:true,maintainAspectRatio:false,
+      layout:{padding:{right:46}},
+      plugins:{legend:{display:false},
+        tooltip:{backgroundColor:INK,padding:9,titleFont:{size:11},bodyFont:{size:11},
+          callbacks:{title:c=>NM[c[0].label]||c[0].label,label:c=>{const w=c.parsed.x,f=FED[+document.getElementById('snap-sl').value],dd=w-f;return '$'+w.toFixed(2)+'/hr'+(dd>.01?' (+$'+dd.toFixed(2)+')':' (at floor)');}}}},
+      scales:{
+        x:{min:0,ticks:{font:{size:10},color:LABEL,callback:v=>'$'+v},grid:{color:GRID,drawTicks:false},border:{display:false}},
+        y:{ticks:{font:{size:9},color:INK,autoSkip:false},grid:{display:false},border:{display:false}}
+      }
+    },
+    plugins:[barLabels]
+  });
   const sl=document.getElementById('snap-sl'),yl=document.getElementById('snap-yr');
-  sl.addEventListener('input',()=>{const y=+sl.value;yl.textContent=y;updS(y);});
-}
-function sData(yr){
-  return CODES.map(c=>({code:c,w:eff(c,yr),fed:FED[yr]})).sort((a,b)=>b.w-a.w);
-}
-function buildS(yr){
-  const data=sData(yr);
-  const wrap=document.getElementById('snap-wrap');
-  const h=data.length*18+80;
-  wrap.style.height=h+'px';
-  const canvas=document.getElementById('sc');
-  canvas.width=wrap.clientWidth||880;canvas.height=h;
-  const ctx=canvas.getContext('2d');
-  sChart=new Chart(ctx,{type:'bar',data:{labels:data.map(d=>d.code),datasets:[{data:data.map(d=>d.w),backgroundColor:data.map(d=>d.w>d.fed+.01?'#1B2D47':'#C2BAB0'),borderWidth:0,borderRadius:1}]},options:{indexAxis:'y',responsive:false,plugins:{legend:{display:false},tooltip:{callbacks:{title:c=>NM[c[0].label]||c[0].label,label:c=>{const w=c.parsed.x,f=FED[yr],d=w-f;return '$'+w.toFixed(2)+'/hr'+(d>.01?' (+$'+d.toFixed(2)+' above federal)':' (at federal floor)');} }}},scales:{x:{min:0,ticks:{font:{family:"'Syne',sans-serif",size:10},color:'#607080',callback:v=>'$'+v},grid:{color:'#E0D9CE'}},y:{ticks:{font:{family:"'Syne',sans-serif",size:9.5},color:'#1B2D47'},grid:{display:false}}}}});
-}
-function updS(yr){
-  if(!sChart)return;
-  const data=sData(yr);
-  sChart.data.labels=data.map(d=>d.code);
-  sChart.data.datasets[0].data=data.map(d=>d.w);
-  sChart.data.datasets[0].backgroundColor=data.map(d=>d.w>d.fed+.01?'#1B2D47':'#C2BAB0');
-  sChart.update();
+  sl.addEventListener('input',()=>{const y=+sl.value;yl.textContent=y;const dd=sData(y);
+    sChart.data.labels=dd.map(x=>x.c);
+    sChart.data.datasets[0].data=dd.map(x=>x.w);
+    sChart.data.datasets[0].backgroundColor=dd.map(x=>x.w>x.fed+.01?NAVY:TAN);
+    sChart.update();});
 }
 
-// ── RANKINGS ─────────────────────────────────
+// ── RANKING ──────────────────────────────────
 let rCol='rank',rDir=1;
-function initRank(){renderR();
+function initRank(){
+  renderR();
   document.querySelectorAll('#rt th').forEach(th=>{
     th.addEventListener('click',()=>{
-      document.querySelectorAll('#rt th').forEach(t=>{t.classList.remove('th-sorted');t.querySelector('span').textContent='↕';});
       const col=th.dataset.col;
       if(rCol===col)rDir*=-1;else{rCol=col;rDir=1;}
-      th.classList.add('th-sorted');th.querySelector('span').textContent=rDir===1?'↓':'↑';
+      document.querySelectorAll('#rt th').forEach(t=>t.classList.remove('sorted'));
+      th.classList.add('sorted');
       renderR();
     });
   });
-  document.querySelector('#rt th[data-col="rank"]').classList.add('th-sorted');
+  document.querySelector('#rt th[data-col="rank"]').classList.add('sorted');
 }
 function renderR(){
   let data=CODES.map(c=>{const w=eff(c,2022),w0=eff(c,1980);return{rank:0,code:c,name:NM[c],wage:w,delta:w-7.25,growth:w-w0};});
   data.sort((a,b)=>b.wage-a.wage);data.forEach((d,i)=>d.rank=i+1);
   if(rCol!=='rank'){data.sort((a,b)=>{const av=a[rCol],bv=b[rCol];return typeof av==='string'?av.localeCompare(bv)*rDir:(bv-av)*rDir;});}
-  else{if(rDir===-1)data.reverse();}
+  else if(rDir===-1)data.reverse();
   const mx=Math.max(...data.map(d=>d.growth));
   const tb=document.querySelector('#rt tbody');tb.innerHTML='';
   data.forEach(d=>{
     const tr=document.createElement('tr');
-    tr.innerHTML=`<td><span class="rn">${d.rank}</span></td><td>${d.name}</td><td class="wv">$${d.wage.toFixed(2)}</td><td>${d.delta>.01?`<span class="dp">+$${d.delta.toFixed(2)}</span>`:`<span class="dz">—</span>`}</td><td><div style="display:flex;align-items:center;gap:.5rem"><div class="gb-bg"><div class="gb-fill" style="width:${(d.growth/mx*100).toFixed(1)}%"></div></div><span class="gb-v">+$${d.growth.toFixed(2)}</span></div></td>`;
+    tr.innerHTML=`<td><span class="rn">${d.rank}</span></td><td>${d.name}</td><td class="wv">$${d.wage.toFixed(2)}</td>`+
+      `<td>${d.delta>.01?`<span class="dp">+$${d.delta.toFixed(2)}</span>`:`<span class="dz">—</span>`}</td>`+
+      `<td class="hide-sm"><div class="gb"><div class="gb-track"><div class="gb-fill" style="width:${(d.growth/mx*100).toFixed(1)}%"></div></div><span class="gb-v">+$${d.growth.toFixed(2)}</span></div></td>`;
     tb.appendChild(tr);
   });
 }
